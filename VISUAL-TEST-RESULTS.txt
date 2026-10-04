@@ -1,0 +1,17 @@
+Claims / death / controller swap; original character data unchanged
+Target fan-in <= 3 (baseline 14)
+Reachable enemy chosen over 50 enclosed enemies
+Terrain / additions / ending / exact replay: [{"n":50,"steps":1526,"battleSeconds":50.87,"cpuMs":351,"result":"TEAM A WIN","attacks":946,"obstacleIntrusions":0},{"n":100,"steps":1263,"battleSeconds":42.1,"cpuMs":480,"result":"TEAM A WIN","attacks":1851,"obstacleIntrusions":0},{"n":300,"steps":1706,"battleSeconds":56.87,"cpuMs":2109,"result":"TEAM A WIN","attacks":5840,"obstacleIntrusions":0}]
+Real renderer submission count: flat=3, hill=4 for 50/100/300 (API double; no GPU measurement)
+Actual pointer handlers: tap places; fast drag / pinch / mode change / camera mode do not; live placement and exit pass (DOM double)
+PWA cache version / all cached assets / relative paths valid
+50 vs 50: exact original combat state preserved after 30 simulated seconds
+100 vs 100: exact original combat state preserved after 30 simulated seconds
+300 vs 300: exact original combat state preserved after 30 simulated seconds
+Anticipation / release / recovery and 55ms pose-only hitstop pass
+{"n":50,"version":"old","medianRenderCPUms":0.36,"p95RenderCPUms":0.69,"drawCalls":2,"parts":643}
+{"n":50,"version":"new","medianRenderCPUms":0.41,"p95RenderCPUms":0.91,"drawCalls":3,"parts":802}
+{"n":100,"version":"old","medianRenderCPUms":0.56,"p95RenderCPUms":0.75,"drawCalls":2,"parts":1243}
+{"n":100,"version":"new","medianRenderCPUms":0.66,"p95RenderCPUms":0.99,"drawCalls":3,"parts":1502}
+{"n":300,"version":"old","medianRenderCPUms":1.53,"p95RenderCPUms":1.86,"drawCalls":2,"parts":3643}
+{"n":300,"version":"new","medianRenderCPUms":1.85,"p95RenderCPUms":2.3,"drawCalls":3,"parts":4302}
