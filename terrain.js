@@ -51,7 +51,15 @@ export class Terrain {
   if(this.grids.has(key))return this.grids.get(key);
   const cells=new Uint8Array(this.cols*this.rows);
   for(let i=0;i<cells.length;i++){const p=this.center(i);cells[i]=this.canOccupy(p.x,p.z,key+.18)?1:0;}
-  const grid={cells,radius:key};this.grids.set(key,grid);return grid;
+  // Label connected walkable regions once per body size, shared by all AI queries.
+  const components=new Int16Array(cells.length),queue=new Int32Array(cells.length);let component=0;
+  for(let start=0;start<cells.length;start++){if(!cells[start]||components[start])continue;component++;let head=0,tail=1;queue[0]=start;components[start]=component;
+   while(head<tail){const i=queue[head++],x=i%this.cols,z=Math.floor(i/this.cols);
+    for(const n of [x>0?i-1:-1,x+1<this.cols?i+1:-1,z>0?i-this.cols:-1,z+1<this.rows?i+this.cols:-1])
+     if(n>=0&&cells[n]&&!components[n]){components[n]=component;queue[tail++]=n;}
+   }
+  }
+  const grid={cells,components,radius:key};this.grids.set(key,grid);return grid;
  }
  nearestOpen(index,cells){
   if(cells[index])return index;
@@ -68,7 +76,9 @@ export class Terrain {
   const grid=this.grid(radius),target=this.index(tx,tz);
   // Units pursuing nearby targets share one field. Direct steering resumes near the target.
   const col=Math.floor(target%this.cols/3)*3+1,row=Math.floor(Math.floor(target/this.cols)/3)*3+1;
-  const goal=this.nearestOpen(clamp(row,0,this.rows-1)*this.cols+clamp(col,0,this.cols-1),grid.cells);
+  let goal=this.nearestOpen(clamp(row,0,this.rows-1)*this.cols+clamp(col,0,this.cols-1),grid.cells);
+  // A coarse shared goal must stay on the target's side of an obstacle.
+  if(goal>=0){const p=this.center(goal);if(!this.lineClear(p.x,p.z,tx,tz,radius))goal=this.anchorAt(tx,tz,grid,radius);}
   const key=`${grid.radius}:${goal}`;
   if(this.flows.has(key)){const f=this.flows.get(key);this.flows.delete(key);this.flows.set(key,f);return f;}
   const dist=new Int16Array(grid.cells.length);dist.fill(-1);
@@ -81,6 +91,23 @@ export class Terrain {
   const field={dist,grid,goal};this.flows.set(key,field);
   if(this.flows.size>64)this.flows.delete(this.flows.keys().next().value);
   return field;
+ }
+ anchorAt(x,z,grid,radius){
+  const i=this.index(x,z),p=this.center(i);
+  if(grid.components[i]&&this.lineClear(x,z,p.x,p.z,radius))return i;
+  const cx=i%this.cols,cz=Math.floor(i/this.cols);
+  for(let r=1;r<=2;r++)for(let oz=-r;oz<=r;oz++)for(let ox=-r;ox<=r;ox++){
+   if(Math.abs(ox)!==r&&Math.abs(oz)!==r)continue;const nx=cx+ox,nz=cz+oz;if(nx<0||nx>=this.cols||nz<0||nz>=this.rows)continue;
+   const n=nz*this.cols+nx;if(!grid.components[n])continue;const q=this.center(n);if(this.lineClear(x,z,q.x,q.z,radius))return n;
+  }return -1;
+ }
+ componentAt(x,z,grid,radius){const i=this.anchorAt(x,z,grid,radius);return i<0?0:grid.components[i];}
+ reachable(x,z,tx,tz,radius=.4){
+  if(!this.obstacles.length)return true;
+  const grid=this.grid(radius),a=this.componentAt(x,z,grid,radius),b=this.componentAt(tx,tz,grid,radius);
+  if(a&&a===b)return true;
+  // Keep direct routes through narrow gaps that the coarse grid cannot represent.
+  return this.lineClear(x,z,tx,tz,radius);
  }
  direction(x,z,tx,tz,radius=.4){
   const dx=tx-x,dz=tz-z,len=Math.hypot(dx,dz);
