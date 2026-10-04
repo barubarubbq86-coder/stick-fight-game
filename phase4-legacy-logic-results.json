@@ -1,0 +1,85 @@
+{
+  "checks": [
+    "only cost/role added; all combat stats preserved",
+    "6 maps × 6 team presets × 4 teams = 144 placement cases",
+    "TEAM C preset exact count",
+    "only target TEAM replaced; terrain/multipliers/other armies and atomic undo preserved",
+    "custom team same-name update",
+    "custom saved formation recall across all TEAMs",
+    "B-origin custom formation mirrors to A",
+    "damage is actual HP loss, overkill/duplicate kill excluded",
+    "stats retained after corpse pruned",
+    "all-team attack credits exact kills and damage",
+    "team report survivors/kills",
+    "final report frozen after ending animation",
+    "source pruned before projectile resolves",
+    "posthumous projectile kill remains credited",
+    "reinforcement and MVP report",
+    "immune draw with no false MVP",
+    "follow smoothing uses live transform",
+    "free camera pose restored after follow",
+    "follow target death auto-releases",
+    "rule boundary: batch cost, allowed characters, team areas",
+    "Sandbox does not enforce cost",
+    "reinforcements obey injected cost rule",
+    "victory policy/time metadata delegated to rule",
+    "50/100/300 vs same: fixed-seed Phase2/3 identical winner, time, attacks, survivors; kills reconcile",
+    "four-way preset battle with gigant"
+  ],
+  "benchmarks": [
+    {
+      "version": "v8",
+      "scenario": "50vs50",
+      "meanMs": 0.14756124766355147,
+      "p95Ms": 0.4503670000000284,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.10742228563084211,
+      "p95Ms": 0.31829100000004473,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v8",
+      "scenario": "100vs100",
+      "meanMs": 0.21837057544288338,
+      "p95Ms": 0.5286929999999757,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.23031919670128503,
+      "p95Ms": 0.5927770000000692,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v8",
+      "scenario": "300vs300",
+      "meanMs": 0.868002473260498,
+      "p95Ms": 2.1525060000001304,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 0.8831932788959201,
+      "p95Ms": 2.318561999999929,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    }
+  ]
+}

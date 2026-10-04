@@ -1,0 +1,810 @@
+[
+  {
+    "scenario": "corners",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "corners",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "corners",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 1,
+    "contacts": {
+      "1-3": 1.633333333333335,
+      "0-2": 1.7333333333333354,
+      "2-3": 1.9666666666666694,
+      "0-1": 2.066666666666669,
+      "0-3": 3.899999999999996,
+      "1-2": 4.56666666666666
+    },
+    "firstExtinction": null,
+    "early": [
+      "1-3",
+      "0-2",
+      "2-3",
+      "0-1",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 42,
+    "contacts": {
+      "0-2": 1.6000000000000016,
+      "1-3": 1.633333333333335,
+      "2-3": 1.9666666666666694,
+      "0-1": 2.066666666666669,
+      "1-2": 4.133333333333328,
+      "0-3": 4.199999999999995
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "2-3",
+      "0-1",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 97,
+    "contacts": {
+      "1-3": 1.5666666666666682,
+      "0-2": 1.8666666666666691,
+      "2-3": 2.0000000000000027,
+      "0-1": 2.066666666666669,
+      "0-3": 4.433333333333327,
+      "1-2": 4.699999999999993
+    },
+    "firstExtinction": 29.366666666667285,
+    "early": [
+      "1-3",
+      "0-2",
+      "2-3",
+      "0-1",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 1,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.59999999999998,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": 29.433333333333955,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 42,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.566666666666647,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 97,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.59999999999998,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  }
+]
+✔ phase4/test-results/phase35-mix.mjs (8096.004147ms)
+{
+  "checks": [
+    "all combat values + metadata unchanged",
+    "shock hits both teams only within radius",
+    "shock radial launch and vertical impulse",
+    "immune god HP preserved but shock can move it",
+    "cooldown blocks repeat without damage/count",
+    "independent real-second cooldown resets",
+    "TEAM-only healing",
+    "all-team healing capped at max HP",
+    "healing aggregate HP agrees with unit HP",
+    "lightning uses current positions, all teams, immune HP",
+    "lightning effect emitted",
+    "area damage applied atomically before win decision",
+    "god kills counted separately from character MVP",
+    "post-result cast blocked and report frozen",
+    "mixed gigant reinforcement group uses existing addCharacter",
+    "reinforcement intervention units tracked",
+    "reinforcements do not overlap others",
+    "all god abilities prohibited via rules",
+    "per-ability limits/cooldown/disable through BattleRules",
+    "failed reinforcement rule validation changes neither units nor cooldown/counters",
+    "no-space group fails atomically",
+    "50/100/300 vs same: two-team seeded combat identical to Phase3",
+    "600-unit shock bounded CPU cost",
+    "mixed four-team combat and target claims remain valid"
+  ],
+  "benchmarks": [
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.1502290175233639,
+      "p95Ms": 0.48171299999998496,
+      "result": "TEAM A WIN",
+      "time": 57.06666666666599,
+      "events": 1013
+    },
+    {
+      "version": "v10",
+      "scenario": "50vs50",
+      "meanMs": 0.14702038843457949,
+      "p95Ms": 0.49238900000000285,
+      "result": "TEAM A WIN",
+      "time": 57.06666666666599,
+      "events": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.2260628350641412,
+      "p95Ms": 0.5768640000000005,
+      "result": "TEAM A WIN",
+      "time": 54.56666666666613,
+      "events": 2002
+    },
+    {
+      "version": "v10",
+      "scenario": "100vs100",
+      "meanMs": 0.2467772541233933,
+      "p95Ms": 0.6689699999999448,
+      "result": "TEAM A WIN",
+      "time": 54.56666666666613,
+      "events": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 0.9281789626221875,
+      "p95Ms": 2.2480289999998604,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "events": 6019
+    },
+    {
+      "version": "v10",
+      "scenario": "300vs300",
+      "meanMs": 0.9167660931569795,
+      "p95Ms": 2.5148229999999785,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "events": 6019
+    },
+    {
+      "scenario": "shock 600 units",
+      "meanMs": 0.07219527999983257,
+      "p95Ms": 0.13987699999961478
+    },
+    {
+      "scenario": "four-team mixed 208",
+      "meanMs": 0.4297236688888916,
+      "p95Ms": 1.1538080000000264
+    }
+  ]
+}
+✔ phase4/test-results/phase4-god.mjs (4999.378335ms)
+{
+  "checks": [
+    "only cost/role added; all combat stats preserved",
+    "6 maps × 6 team presets × 4 teams = 144 placement cases",
+    "TEAM C preset exact count",
+    "only target TEAM replaced; terrain/multipliers/other armies and atomic undo preserved",
+    "custom team same-name update",
+    "custom saved formation recall across all TEAMs",
+    "B-origin custom formation mirrors to A",
+    "damage is actual HP loss, overkill/duplicate kill excluded",
+    "stats retained after corpse pruned",
+    "all-team attack credits exact kills and damage",
+    "team report survivors/kills",
+    "final report frozen after ending animation",
+    "source pruned before projectile resolves",
+    "posthumous projectile kill remains credited",
+    "reinforcement and MVP report",
+    "immune draw with no false MVP",
+    "follow smoothing uses live transform",
+    "free camera pose restored after follow",
+    "follow target death auto-releases",
+    "rule boundary: batch cost, allowed characters, team areas",
+    "Sandbox does not enforce cost",
+    "reinforcements obey injected cost rule",
+    "victory policy/time metadata delegated to rule",
+    "50/100/300 vs same: fixed-seed Phase2/3 identical winner, time, attacks, survivors; kills reconcile",
+    "four-way preset battle with gigant"
+  ],
+  "benchmarks": [
+    {
+      "version": "v8",
+      "scenario": "50vs50",
+      "meanMs": 0.13446368983644888,
+      "p95Ms": 0.4100569999999948,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.14670663843457887,
+      "p95Ms": 0.4346830000000068,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v8",
+      "scenario": "100vs100",
+      "meanMs": 0.21665099877825145,
+      "p95Ms": 0.5488329999999451,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.22729256933415054,
+      "p95Ms": 0.5788569999999709,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v8",
+      "scenario": "300vs300",
+      "meanMs": 0.9106111943645748,
+      "p95Ms": 2.3451219999999466,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 0.9020651437607927,
+      "p95Ms": 2.359022999999979,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    }
+  ]
+}
+✔ phase4/test-results/phase4-legacy-logic.mjs (4880.375373ms)
+{
+  "results": [
+    {
+      "scenario": "corners",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-3": 5.733333333333323
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        42,
+        42,
+        42,
+        42
+      ]
+    },
+    {
+      "scenario": "corners",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.799999999999989,
+        "1-3": 5.866666666666656,
+        "0-1": 9.166666666666645,
+        "2-3": 9.366666666666644,
+        "1-2": 11.699999999999969,
+        "0-3": 12.099999999999968
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1124,
+      "aliveAt20": [
+        43,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "scenario": "outer-corners",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 8.199999999999982,
+        "1-3": 8.199999999999982
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        48,
+        48,
+        49,
+        46
+      ]
+    },
+    {
+      "scenario": "outer-corners",
+      "version": "v10",
+      "firstContact": {
+        "1-3": 8.39999999999998,
+        "0-2": 8.39999999999998,
+        "2-3": 9.866666666666642,
+        "0-1": 10.299999999999974,
+        "1-2": 15.833333333333288,
+        "0-3": 16.199999999999964
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 842,
+      "aliveAt20": [
+        49,
+        49,
+        48,
+        50
+      ]
+    },
+    {
+      "scenario": "center",
+      "version": "v9",
+      "firstContact": {
+        "1-3": 1.4333333333333345,
+        "0-2": 1.5333333333333348,
+        "0-1": 1.9666666666666694,
+        "2-3": 2.0000000000000027,
+        "0-3": 14.033333333333294,
+        "1-2": 16.96666666666667
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1560,
+      "aliveAt20": [
+        26,
+        23,
+        21,
+        19
+      ]
+    },
+    {
+      "scenario": "center",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 1.6000000000000016,
+        "1-3": 1.633333333333335,
+        "2-3": 1.9666666666666694,
+        "0-1": 2.066666666666669,
+        "1-2": 4.133333333333328,
+        "0-3": 4.199999999999995
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 2412,
+      "aliveAt20": [
+        24,
+        28,
+        25,
+        23
+      ]
+    },
+    {
+      "scenario": "strong",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-3": 5.733333333333323
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        50,
+        41,
+        0,
+        42
+      ]
+    },
+    {
+      "scenario": "strong",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.799999999999989,
+        "1-3": 5.866666666666656,
+        "0-1": 9.166666666666645,
+        "2-3": 9.366666666666644,
+        "1-2": 11.699999999999969,
+        "0-3": 12.099999999999968
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1101,
+      "aliveAt20": [
+        50,
+        34,
+        21,
+        43
+      ]
+    },
+    {
+      "scenario": "three",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-2": 15.466666666666622,
+        "0-1": 15.899999999999954
+      },
+      "last5OpponentCounts": [
+        2,
+        2,
+        2
+      ],
+      "localMixSamples": 411,
+      "aliveAt20": [
+        30,
+        50,
+        36,
+        0
+      ]
+    },
+    {
+      "scenario": "three",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.933333333333322,
+        "0-1": 7.799999999999982,
+        "1-2": 10.133333333333308
+      },
+      "last5OpponentCounts": [
+        2,
+        2,
+        2
+      ],
+      "localMixSamples": 528,
+      "aliveAt20": [
+        17,
+        50,
+        43,
+        0
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "map": "plain",
+      "attacks": 983,
+      "result": "TEAM A WIN",
+      "time": 39.166666666667005,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "0-1",
+        "2-3",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "canyon",
+      "attacks": 968,
+      "result": "TEAM D WIN",
+      "time": 57.59999999999929,
+      "pairs": [
+        "1-3",
+        "0-2",
+        "1-2",
+        "2-3",
+        "0-1",
+        "0-3"
+      ]
+    },
+    {
+      "map": "arena",
+      "attacks": 1010,
+      "result": "TEAM A WIN",
+      "time": 42.166666666666835,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "2-3",
+        "0-1",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "castle",
+      "attacks": 881,
+      "result": "TEAM A WIN",
+      "time": 34.80000000000059,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "2-3",
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    },
+    {
+      "map": "hills",
+      "attacks": 961,
+      "result": "TEAM B WIN",
+      "time": 39.133333333333674,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "0-1",
+        "2-3",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "rocks",
+      "attacks": 981,
+      "result": "TEAM D WIN",
+      "time": 41.10000000000023,
+      "pairs": [
+        "1-3",
+        "0-2",
+        "2-3",
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    }
+  ]
+}
+✔ phase4/test-results/phase4-mix-detail.mjs (8232.569607ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8246.764203

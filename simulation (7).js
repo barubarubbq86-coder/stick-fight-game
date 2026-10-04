@@ -1,7 +1,3 @@
-import {Interventions} from './interventions.js';
-import {planGroup} from './placement.js';
-import {referenceCost} from './rules.js';
-import {MultiFront} from './multifront.js';
 import {SandboxMode,assertPlacementAllowed} from './rules.js';
 import {BattleStats} from './battle-stats.js';
 import {teamIds,teamData,normalizeMultipliers} from './teams.js';
@@ -19,7 +15,7 @@ export class Character{
  const cmd=this.command;let len=Math.hypot(cmd.x,cmd.z);if(len>0){const step=this.data.speed*this.multipliers.speed*dt;const nx=this.x+cmd.x/len*step,nz=this.z+cmd.z/len*step;const pos=battle.terrain.move(this.x,this.z,nx,nz,this.data.radius);this.x=pos.x;this.z=pos.z;this.yaw=Math.atan2(cmd.x,cmd.z);}this.x=Math.max(-49,Math.min(49,this.x));this.z=Math.max(-34,Math.min(34,this.z));this.y=grounded?battle.terrain.heightAt(this.x,this.z):Math.max(battle.terrain.heightAt(this.x,this.z),this.y);
  if(cmd.target&&cmd.target.hp>0){this.yaw=Math.atan2(cmd.target.x-this.x,cmd.target.z-this.z);if(cmd.attack&&this.cooldown<=0&&distance(this,cmd.target)<=this.data.range+1){this.attack={target:cmd.target,time:0,fired:false};this.cooldown=this.data.interval+this.data.windup;}}
  }
- receiveDamage(amount,source,kind,battle){if(battle.result||this.hp<=0||this.data.immune)return;let loss=Math.min(this.hp,amount);this.hp-=loss;battle.hp[this.team]-=loss;battle.stats.recordDamage(source,this,loss,this.hp<=0);this.flash=.18;if(source&&Number.isInteger(source.team))this.lastThreat={id:source.id,time:battle.time};this.visualHit++;source.visualHit=(source.visualHit||0)+1;let dx=this.x-source.x,dz=this.z-source.z,len=Math.hypot(dx,dz)||1;let force=['hammer','muscle','gigant','water','fire','lightning','dumbbell'].includes(kind)?7:2;this.vx=dx/len*force;this.vz=dz/len*force;this.vy=force*.45;this.stun=kind==='water'?1.3:.15;if(this.hp<=0){this.controller.releaseTarget?.();battle.alive[this.team]--;this.attack=null;this.deadTime=.01;this.vy=Math.max(this.vy,3);battle.checkResult();}}
+ receiveDamage(amount,source,kind,battle){if(battle.result||this.hp<=0||this.data.immune)return;let loss=Math.min(this.hp,amount);this.hp-=loss;battle.hp[this.team]-=loss;battle.stats.recordDamage(source,this,loss,this.hp<=0);this.flash=.18;this.visualHit++;source.visualHit=(source.visualHit||0)+1;let dx=this.x-source.x,dz=this.z-source.z,len=Math.hypot(dx,dz)||1;let force=['hammer','muscle','gigant','water','fire','lightning','dumbbell'].includes(kind)?7:2;this.vx=dx/len*force;this.vz=dz/len*force;this.vy=force*.45;this.stun=kind==='water'?1.3:.15;if(this.hp<=0){this.controller.releaseTarget?.();battle.alive[this.team]--;this.attack=null;this.deadTime=.01;this.vy=Math.max(this.vy,3);battle.checkResult();}}
 }
 export class SpatialGrid{
  constructor(cell=4){this.cell=cell;this.cells=new Map();this.pool=[];}
@@ -29,8 +25,8 @@ export class SpatialGrid{
 }
 export class AIController{
  constructor(){this.target=null;this.claimedTarget=null;this.nextThink=0;this.nextPath=0;this.stuckTime=0;}
- releaseTarget(){if(this.claimedTarget)this.claimedTarget.targeters=Math.max(0,this.claimedTarget.targeters-1);if(this.claimedBattle)this.claimedBattle.fronts.claim(this.ownerTeam,this.claimedTarget.team,-1);this.claimedBattle=null;this.claimedTarget=null;this.target=null;}
- setTarget(target,battle=null,team=null){if(this.claimedTarget===target){this.target=target;return;}this.releaseTarget();this.target=target;this.claimedTarget=target;if(target){target.targeters++;if(battle){this.claimedBattle=battle;this.ownerTeam=team;battle.fronts.claim(team,target.team,1);}}this.pathDir=null;}
+ releaseTarget(){if(this.claimedTarget)this.claimedTarget.targeters=Math.max(0,this.claimedTarget.targeters-1);this.claimedTarget=null;this.target=null;}
+ setTarget(target){if(this.claimedTarget===target){this.target=target;return;}this.releaseTarget();this.target=target;this.claimedTarget=target;if(target)target.targeters++;this.pathDir=null;}
  update(u,b,dt){
   if(b.time>=this.nextThink||!this.target||this.target.hp<=0){
    const elapsed=Math.min(1,b.time-(this.lastThink??b.time)),moved=Math.hypot(u.x-(this.lastX??u.x),u.z-(this.lastZ??u.z));
@@ -38,7 +34,7 @@ export class AIController{
    this.stuckTime=b.terrain.obstacles.length&&pursuing&&moved<.08?this.stuckTime+elapsed:0;
    const avoid=this.stuckTime>1.2?this.target:null;
    this.lastX=u.x;this.lastZ=u.z;this.lastThink=b.time;this.nextThink=b.time+.25+(u.id%7)*.025;
-   this.setTarget(b.findEnemy(u,this.target,avoid),b,u.team);if(avoid){this.stuckTime=0;this.nextPath=0;}
+   this.setTarget(b.findEnemy(u,this.target,avoid));if(avoid){this.stuckTime=0;this.nextPath=0;}
   }
   const v=this.target;if(!v){u.command={x:0,z:0,target:null,attack:false};return;}
   const dx=v.x-u.x,dz=v.z-u.z,d=Math.hypot(dx,dz)||1,r=u.data.range;
@@ -46,7 +42,6 @@ export class AIController{
   // Nearby melee units approach distinct positions around a target, rather than its center.
   if(u.data.aiType==='melee'&&d<5){const angle=u.id*2.3999632297,ring=r*.78;let x=v.x+Math.cos(angle)*ring,z=v.z+Math.sin(angle)*ring;
    if(b.terrain.canOccupy(x,z,u.data.radius)&&(!b.terrain.obstacles.length||b.terrain.reachable(u.x,u.z,x,z,u.data.radius))){gx=x;gz=z;move=Math.hypot(gx-u.x,gz-u.z)>.22?1:0;}}
-  const route=b.fronts.route(u,v);if(route){gx=route.x;gz=route.z;move=1;}
   let vx=gx-u.x,vz=gz-u.z,len=Math.hypot(vx,vz)||1,dir={x:vx/len,z:vz/len};
   if(b.terrain.obstacles.length&&move>0){const cell=b.terrain.index(u.x,u.z);
    if(!this.pathDir||b.time>=this.nextPath||this.pathCell!==cell||Math.hypot(gx-this.pathX,gz-this.pathZ)>1){this.pathDir=b.terrain.direction(u.x,u.z,gx,gz,u.data.radius);this.nextPath=b.time+.25;this.pathCell=cell;this.pathX=gx;this.pathZ=gz;}
@@ -59,15 +54,12 @@ export class Battle{
  constructor(config,stage=null,mode=new SandboxMode()){this.mode=mode;this.rules=mode.rules;this.report=null;this.units=[];this.multipliers=normalizeMultipliers(stage?.multipliers);this.teams=teamIds.map(()=>[]);this.initial=teamIds.map(()=>0);this.hp=teamIds.map(()=>0);this.alive=teamIds.map(()=>0);this.effects=[];this.effectPool=[];this.projectiles=[];this.projectilePool=[];this.grid=new SpatialGrid();this.time=0;this.result=null;this.endingTime=0;this.terrain=new Terrain(stage?.terrain||[]);this.count=config.flat().reduce((a,b)=>a+b,0);this.events=0;this.nextPrune=2;let id=0;
  if(!stage)config.forEach((counts,t)=>counts.forEach((n,k)=>{for(let j=0;j<n;j++){// Three battlefronts with depth and space between individuals.
  let lane=id%3,z=(lane-1)*20+(Math.random()-.5)*12,x=(t%2?1:-1)*(7+Math.random()*29);if(t>=2)z=(t===2?-1:1)*(16+Math.random()*14);let u=new Character(id++,t,k,x,z,this.multipliers[t]);this.units.push(u);this.teams[t].push(u);this.initial[t]+=u.hp;this.alive[t]++;}}));if(stage){for(const rec of stage.units){let u=new Character(rec.id,rec.team,rec.type,rec.x,rec.z,this.multipliers[rec.team]);u.yaw=rec.yaw;u.y=this.terrain.heightAt(u.x,u.z);this.units.push(u);this.teams[u.team].push(u);this.initial[u.team]+=u.hp;this.alive[u.team]++;id=Math.max(id,u.id+1);}this.count=stage.units.length;}this.nextId=id;this.hp=[...this.initial];this.grid.rebuild(this.units);this.stats=new BattleStats();
- if(!this.rules.unrestricted)for(const team of teamIds)assertPlacementAllowed(this.rules,{units:[]},team,this.teams[team]);for(const u of this.units)this.stats.register(u);this.fronts=new MultiFront(this);this.interventions=new Interventions(this);this.resultDepth=0;
+ if(!this.rules.unrestricted)for(const team of teamIds)assertPlacementAllowed(this.rules,{units:[]},team,this.teams[team]);for(const u of this.units)this.stats.register(u);
  }
  addCharacter(team,type,x,z){if(this.result||!teamIds.includes(team)||!Number.isInteger(type)||!characterData[type]||!Number.isFinite(x)||!Number.isFinite(z)||!this.terrain.canOccupy(x,z,characterData[type].radius))return null;
  if(!this.rules.canPlace({team,type,x,z,totalCost:this.stats.teams[team].cost+characterData[type].cost}))return null;
  const u=new Character(this.nextId++,team,type,x,z,this.multipliers[team]);this.stats.register(u,true);u.y=this.terrain.heightAt(x,z);u.spawnDelay=.35;this.units.push(u);this.teams[team].push(u);this.initial[team]+=u.hp;this.hp[team]+=u.hp;this.alive[team]++;this.count++;this.grid.insert(u);this.fx('spawn',x,z,team,1.2);return u;}
- planReinforcements(team,types,x,z,formation='square',density='normal'){if(!teamIds.includes(team)||!Array.isArray(types)||!types.length)throw Error('TEAMとキャラ・軍団を選んでください。');if(this.result)throw Error('決着後は増援できません。');const stage={terrain:this.terrain.objects,units:this.units.filter(u=>u.hp>0)},plan=planGroup(stage,types,x,z,formation,density);const totalCost=this.stats.teams[team].cost+referenceCost(plan.units);for(const u of plan.units)if(!this.rules.canPlace({...u,team,totalCost}))throw Error('現在のルールではこの増援を使用できません。');return plan;}
- deferResult(fn){this.resultDepth++;try{return fn();}finally{this.resultDepth--;this.checkResult();}}
  findEnemy(u,current=null,avoid=null){
-  if(this.fronts.active)return this.fronts.findEnemy(u,current,avoid);
   for(const r of [5,12,28,100]){let best=null,score=Infinity;
    this.grid.visit(u.x,u.z,r,a=>{for(let j=0;j<Math.min(a.length,16);j++){
     const v=a[(u.id*13+j)%a.length];if(v.team===u.team||v.hp<=0||v===avoid)continue;
@@ -104,8 +96,8 @@ export class Battle{
   dx+=x/d*(r-d);dz+=z/d*(r-d);
  }});if(dx||dz){let scale=Math.min(.5,dt*10),length=Math.hypot(dx,dz);if(length*scale>.4)scale=.4/length;
  const p=this.terrain.move(u.x,u.z,u.x+dx*scale,u.z+dz*scale,u.data.radius);u.x=p.x;u.z=p.z;}}}
- checkResult(){if(this.result||this.resultDepth>0)return;const result=this.rules.evaluate(this);if(result){this.result=result;this.report=this.stats.summary(result,this.time,this.alive);this.report.interventions=this.interventions.summary();}}
- step(dt){if(this.result){this.endingTime+=dt;for(const u of this.units)u.update(dt,this);for(let i=this.projectiles.length-1;i>=0;i--){let p=this.projectiles[i];p.time+=dt;if(p.time>=p.duration){this.fx(p.kind,p.tx,p.tz,p.source.team,p.area||1);this.projectilePool.push(p);this.projectiles.splice(i,1);}}for(let i=this.effects.length-1;i>=0;i--){let e=this.effects[i];e.time+=dt;if(e.time>e.duration){this.effectPool.push(e);this.effects.splice(i,1);}}return;}this.time+=dt;this.fronts.update();this.grid.rebuild(this.units);for(const u of this.units){if(!this.result&&u.hp>0&&u.stun<=0&&u.spawnDelay<=0&&!u.attack)u.controller.update(u,this,dt);u.update(dt,this);}this.separate(dt);
+ checkResult(){if(this.result)return;const result=this.rules.evaluate(this);if(result){this.result=result;this.report=this.stats.summary(result,this.time,this.alive);}}
+ step(dt){if(this.result){this.endingTime+=dt;for(const u of this.units)u.update(dt,this);for(let i=this.projectiles.length-1;i>=0;i--){let p=this.projectiles[i];p.time+=dt;if(p.time>=p.duration){this.fx(p.kind,p.tx,p.tz,p.source.team,p.area||1);this.projectilePool.push(p);this.projectiles.splice(i,1);}}for(let i=this.effects.length-1;i>=0;i--){let e=this.effects[i];e.time+=dt;if(e.time>e.duration){this.effectPool.push(e);this.effects.splice(i,1);}}return;}this.time+=dt;this.grid.rebuild(this.units);for(const u of this.units){if(!this.result&&u.hp>0&&u.stun<=0&&u.spawnDelay<=0&&!u.attack)u.controller.update(u,this,dt);u.update(dt,this);}this.separate(dt);
  for(let i=this.projectiles.length-1;i>=0;i--){let p=this.projectiles[i];p.time+=dt;if(p.time>=p.duration){if(p.all)this.resolve(p.source,p.target,[p.damage],p.kind,0,true,p.tx,p.tz);else if(p.area)this.resolve(p.source,p.target,[p.damage],p.kind,p.area,false,p.tx,p.tz);else if(p.target.hp>0&&Math.hypot(p.target.x-p.tx,p.target.z-p.tz)<3)p.target.receiveDamage(p.damage,p.source,p.kind,this);this.fx(p.kind,p.tx,p.tz,p.source.team,p.area||1);this.projectilePool.push(p);this.projectiles[i]=this.projectiles.at(-1);this.projectiles.pop();}}
  for(let i=this.effects.length-1;i>=0;i--){let e=this.effects[i];e.time+=dt;if(e.time>e.duration){this.effectPool.push(e);this.effects[i]=this.effects.at(-1);this.effects.pop();}}
  if(this.time>=this.nextPrune){this.units=this.units.filter(u=>u.hp>0||u.deadTime<2);this.teams=this.teams.map(a=>a.filter(u=>u.hp>0||u.deadTime<2));this.nextPrune=this.time+2;}

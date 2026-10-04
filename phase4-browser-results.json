@@ -1,0 +1,47 @@
+{
+  "checks": [
+    "deployment wording shows TEAM, replacement and undo",
+    "default pure spectator tap selects without god action",
+    "god drag rotates camera and does not cast",
+    "shock all teams damage; cooldown blocks immediate tap",
+    "UI healing target filter and max HP cap",
+    "lightning effect and area damage",
+    "TEAM + mixed gigant army reinforcement stamp 30 units",
+    "390px god controls and reinforcement selectors no overflow",
+    "two-finger god pan/zoom does not cast",
+    "explicit return to spectator",
+    "simultaneous god elimination DRAW, intervention report, no fake MVP",
+    "replay restores conditions, clears cooldown and keeps god optional",
+    "PWA offline reload plus actual god ability",
+    "four-corner 200-unit battle renders central mixed fronts"
+  ],
+  "cache": {
+    "key": "stick-fight-%2F-3d-v10-phase4",
+    "urls": [
+      "/",
+      "/index.html",
+      "/style.css",
+      "/game.js",
+      "/data.js",
+      "/teams.js",
+      "/placement.js",
+      "/presets.js",
+      "/team-presets.js",
+      "/camera-rig.js",
+      "/battle-stats.js",
+      "/rules.js",
+      "/multifront.js",
+      "/god-abilities.js",
+      "/interventions.js",
+      "/editor.js",
+      "/terrain.js",
+      "/simulation.js",
+      "/render3d.js",
+      "/manifest.json",
+      "/icon.svg",
+      "/icon-192.png",
+      "/icon-512.png"
+    ]
+  },
+  "errors": []
+}

@@ -1,22 +1,18 @@
-import {godAbilities} from './god-abilities.js';
 import {teamIds,teamData} from './teams.js';
 import {characterData} from './data.js';
 /** Extension contract. Only Sandbox is a shipped game mode in Phase 3. */
 export class BattleRules{
- constructor({victoryCondition=null,timeLimit=null,costLimit=null,allowedCharacters=null,placementAreas=null,godAbilities:abilityRules=null}={}){
+ constructor({victoryCondition=null,timeLimit=null,costLimit=null,allowedCharacters=null,placementAreas=null}={}){
   if(victoryCondition!==null&&typeof victoryCondition!=='function')throw Error('勝利条件が不正です。');
   for(const v of [timeLimit,costLimit])if(v!==null&&(!Number.isFinite(v)||v<0))throw Error('ルールの上限が不正です。');
   if(allowedCharacters!==null&&(!Array.isArray(allowedCharacters)||allowedCharacters.some(t=>!Number.isInteger(t)||!characterData[t])))throw Error('使用可能キャラが不正です。');
   if(placementAreas!==null&&(!Array.isArray(placementAreas)||placementAreas.some(a=>![a.minX,a.maxX,a.minZ,a.maxZ].every(Number.isFinite)||a.minX>a.maxX||a.minZ>a.maxZ||a.team!==undefined&&!teamIds.includes(a.team))))throw Error('配置エリアが不正です。');
-  if(abilityRules!==null&&abilityRules!==false&&(typeof abilityRules!=='object'||Array.isArray(abilityRules)||Object.keys(abilityRules).some(k=>!godAbilities[k])))throw Error('神能力ルールが不正です。');
-  this.abilityRules={};for(const key of Object.keys(godAbilities)){const r=abilityRules===false?{enabled:false}:abilityRules?.[key]??{};if(typeof r!=='object'||Array.isArray(r)||Object.keys(r).some(k=>!['enabled','maxUses','cooldown'].includes(k))||r.enabled!==undefined&&typeof r.enabled!=='boolean'||r.maxUses!==undefined&&r.maxUses!==null&&(!Number.isInteger(r.maxUses)||r.maxUses<0)||r.cooldown!==undefined&&(!Number.isFinite(r.cooldown)||r.cooldown<0))throw Error('神能力の回数・時間が不正です。');this.abilityRules[key]={enabled:true,maxUses:null,cooldown:godAbilities[key].cooldown,...r};}
   this.victoryCondition=victoryCondition;this.timeLimit=timeLimit;this.costLimit=costLimit;this.allowedCharacters=allowedCharacters?new Set(allowedCharacters):null;this.placementAreas=placementAreas;
   this.unrestricted=costLimit===null&&allowedCharacters===null&&placementAreas===null;
  }
  canPlace({team,type,x,z,totalCost=0}){if(this.allowedCharacters&&!this.allowedCharacters.has(type))return false;if(this.costLimit!==null&&totalCost>this.costLimit)return false;
   if(this.placementAreas&&!this.placementAreas.some(a=>(a.team===undefined||a.team===team)&&x-characterData[type].radius>=a.minX&&x+characterData[type].radius<=a.maxX&&z-characterData[type].radius>=a.minZ&&z+characterData[type].radius<=a.maxZ))return false;return true;
  }
- godAbility(key){return this.abilityRules[key]||{enabled:false,maxUses:0,cooldown:0};}
  evaluate(battle){return this.victoryCondition?.(battle)??null;}
 }
 export class SandboxRules extends BattleRules{

@@ -1,0 +1,52 @@
+{
+  "checks": [
+    "50-unit tap and one-click undo",
+    "100-unit tap",
+    "four teams 50-unit tap each",
+    "map button preserves four armies",
+    "arena + muscle/demon/chick/gigant four armies",
+    "placement selection always visible over canvas and preview",
+    "full field saved with all troop types and map",
+    "field save/load UI restores four armies",
+    "custom army UI captures team composition, formation, density",
+    "5-unit brush drag and entire stroke undo",
+    "drag in stamp mode does not accidentally stamp",
+    "mobile touch 100-unit stamp",
+    "390px mobile no horizontal overflow",
+    "two-finger brush gesture pans/zooms without adding troops",
+    "custom army recall applies saved settings",
+    "UI-built 300vs300 starts and renders",
+    "PWA offline reload, new modules and saved custom army placement",
+    "failed stamp shows reason on arena, no partial placement"
+  ],
+  "pwa": {
+    "cache": "stick-fight-%2F-3d-v10-phase4",
+    "files": [
+      "/",
+      "/index.html",
+      "/style.css",
+      "/game.js",
+      "/data.js",
+      "/teams.js",
+      "/placement.js",
+      "/presets.js",
+      "/team-presets.js",
+      "/camera-rig.js",
+      "/battle-stats.js",
+      "/rules.js",
+      "/multifront.js",
+      "/god-abilities.js",
+      "/interventions.js",
+      "/editor.js",
+      "/terrain.js",
+      "/simulation.js",
+      "/render3d.js",
+      "/manifest.json",
+      "/icon.svg",
+      "/icon-192.png",
+      "/icon-512.png"
+    ]
+  },
+  "errors": [],
+  "brushCount": 60
+}
