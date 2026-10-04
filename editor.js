@@ -1,3 +1,5 @@
+import {SandboxMode,assertPlacementAllowed} from './rules.js';
+import {planTeam} from './team-presets.js';
 import {planGroup,PlacementSpace} from './placement.js';
 import {mapPresets} from './presets.js';
 import {teamIds,normalizeMultipliers} from './teams.js';
@@ -5,16 +7,17 @@ import {characterData} from './data.js';
 import {Terrain,terrainData} from './terrain.js';
 const copy=s=>JSON.parse(JSON.stringify(s));
 export class FieldEditor{
- constructor(stage={units:[],terrain:[]}){this.stage=copy(stage);this.stage.multipliers=normalizeMultipliers(stage.multipliers);this.history=[];this.nextId=1;this.reindex();}
+ constructor(stage={units:[],terrain:[]},mode=new SandboxMode()){this.mode=mode;this.rules=mode.rules;this.stage=copy(stage);this.stage.multipliers=normalizeMultipliers(stage.multipliers);this.history=[];this.nextId=1;this.reindex();}
  reindex(){this.nextId=1;for(const list of [this.stage.units,this.stage.terrain])for(const o of list)this.nextId=Math.max(this.nextId,(o.id||0)+1);}
  checkpoint(){this.history.push(copy(this.stage));if(this.history.length>30)this.history.shift();}
  undo(){if(!this.history.length)return false;this.stage=this.history.pop();this.reindex();return true;}
  replace(stage){this.checkpoint();this.stage=copy(stage);this.reindex();}
- placeUnit(team,type,x,z){const terrain=new Terrain(this.stage.terrain);if(!teamIds.includes(team)||!Number.isInteger(type)||!characterData[type]||!terrain.canOccupy(x,z,characterData[type].radius))throw Error('岩・壁のない戦場内へ置いてください。');this.checkpoint();let unit={id:this.nextId++,team,type,x,z,yaw:team?-Math.PI/2:Math.PI/2};this.stage.units.push(unit);return unit.id;}
+ placeUnit(team,type,x,z){const terrain=new Terrain(this.stage.terrain);if(!teamIds.includes(team)||!Number.isInteger(type)||!characterData[type]||!terrain.canOccupy(x,z,characterData[type].radius))throw Error('岩・壁のない戦場内へ置いてください。');assertPlacementAllowed(this.rules,this.stage,team,[{type,x,z}]);this.checkpoint();let unit={id:this.nextId++,team,type,x,z,yaw:team?-Math.PI/2:Math.PI/2};this.stage.units.push(unit);return unit.id;}
  placeGroup(team,types,x,z,formation='square',density='normal'){
-  if(!teamIds.includes(team))throw Error('TEAMを選んでください。');const plan=planGroup(this.stage,types,x,z,formation,density);this.checkpoint();
+  if(!teamIds.includes(team))throw Error('TEAMを選んでください。');const plan=planGroup(this.stage,types,x,z,formation,density);assertPlacementAllowed(this.rules,this.stage,team,plan.units);this.checkpoint();
   const units=plan.units.map(u=>({...u,id:this.nextId++,team,yaw:team%2?-Math.PI/2:Math.PI/2}));this.stage.units.push(...units);return {...plan,units};
  }
+ applyTeamPreset(team,preset){const plan=planTeam(this.stage,team,preset,this.rules);this.checkpoint();const units=plan.units.map(u=>({...u,id:this.nextId++}));this.stage.units=this.stage.units.filter(u=>u.team!==team);this.stage.units.push(...units);return {...plan,units};}
  applyMap(id){const preset=mapPresets.find(p=>p.id===id);if(!preset)throw Error('マップを選んでください。');const next=copy(this.stage);next.terrain=copy(preset.terrain);let nextId=this.nextId;
   for(const o of next.terrain)o.id=nextId++;const space=new PlacementSpace(new Terrain(next.terrain));let moved=0;
   for(const u of next.units){const pos=space.nearest(u.x,u.z,u.type);if(!pos)throw Error('このマップに全員を置けません。人数を減らしてください。');if(Math.hypot(pos.x-u.x,pos.z-u.z)>.01)moved++;Object.assign(u,pos);space.insert(u);}

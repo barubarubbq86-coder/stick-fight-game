@@ -18,8 +18,3 @@ export const characterData=[
 ];
 
 characterData.forEach(c=>{c.range=Number.isFinite(c.range)?c.range/25:Infinity;c.interval=Math.max(1.2,c.interval*1.7);c.speed=c.weapon==='gigant'?1.4:c.weapon==='muscle'?2.2:2.8;c.radius=c.radius||.28;c.size=c.size||1;c.modelType=c.modelType||'stick';c.aiType=c.range>4?'ranged':'melee';c.windup=c.weapon==='god'?1.4:c.range===Infinity?1.1:.45;});
-
-// Future challenge metadata only. Sandbox placement is unlimited.
-const costs=[10,25,45,30,55,60,12,15,90,160,25,45,65,85,105,400,800,100000,150,2000];
-const roles=['melee','melee','melee','melee','melee','melee','melee','melee','ranged','ranged','ranged','ranged','ranged','ranged','ranged','elite','elite','cheat','elite','boss'];
-characterData.forEach((c,i)=>{c.cost=costs[i];c.role=roles[i];});
