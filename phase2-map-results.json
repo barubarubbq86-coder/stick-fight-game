@@ -1,0 +1,80 @@
+[
+  {
+    "map": "🌱 大平原",
+    "simSeconds": 34.266666666667284,
+    "attacks": 970,
+    "result": "TEAM B WIN",
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "wallTimeMs": 368.49025400000005
+  },
+  {
+    "map": "🏞️ 峡谷",
+    "simSeconds": 42.93333333333346,
+    "attacks": 1007,
+    "result": "TEAM B WIN",
+    "alive": [
+      0,
+      3,
+      0,
+      0
+    ],
+    "wallTimeMs": 522.363329
+  },
+  {
+    "map": "🏟️ 円形闘技場",
+    "simSeconds": 40.46666666666693,
+    "attacks": 990,
+    "result": "TEAM A WIN",
+    "alive": [
+      10,
+      0,
+      0,
+      0
+    ],
+    "wallTimeMs": 599.8279910000001
+  },
+  {
+    "map": "🏰 城壁防衛戦",
+    "simSeconds": 41.30000000000022,
+    "attacks": 997,
+    "result": "TEAM A WIN",
+    "alive": [
+      11,
+      0,
+      0,
+      0
+    ],
+    "wallTimeMs": 552.4704609999999
+  },
+  {
+    "map": "⛰️ 丘陵",
+    "simSeconds": 41.700000000000195,
+    "attacks": 992,
+    "result": "TEAM A WIN",
+    "alive": [
+      7,
+      0,
+      0,
+      0
+    ],
+    "wallTimeMs": 455.9686550000001
+  },
+  {
+    "map": "🪨 岩だらけの戦場",
+    "simSeconds": 36.76666666666714,
+    "attacks": 981,
+    "result": "TEAM A WIN",
+    "alive": [
+      13,
+      0,
+      0,
+      0
+    ],
+    "wallTimeMs": 504.3611460000002
+  }
+]

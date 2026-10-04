@@ -1,3 +1,5 @@
+import {planGroup,PlacementSpace} from './placement.js';
+import {mapPresets} from './presets.js';
 import {teamIds,normalizeMultipliers} from './teams.js';
 import {characterData} from './data.js';
 import {Terrain,terrainData} from './terrain.js';
@@ -9,11 +11,21 @@ export class FieldEditor{
  undo(){if(!this.history.length)return false;this.stage=this.history.pop();this.reindex();return true;}
  replace(stage){this.checkpoint();this.stage=copy(stage);this.reindex();}
  placeUnit(team,type,x,z){const terrain=new Terrain(this.stage.terrain);if(!teamIds.includes(team)||!Number.isInteger(type)||!characterData[type]||!terrain.canOccupy(x,z,characterData[type].radius))throw Error('岩・壁のない戦場内へ置いてください。');this.checkpoint();let unit={id:this.nextId++,team,type,x,z,yaw:team?-Math.PI/2:Math.PI/2};this.stage.units.push(unit);return unit.id;}
- placeTerrain(type,x,z,yaw=0,scale=1){if(!terrainData[type]||Math.abs(x)>44||Math.abs(z)>29)throw Error('地形は戦場の端から少し内側へ置いてください。');let o={id:this.nextId,type,x,z,yaw,scale};const terrain=new Terrain([...this.stage.terrain,o]);if(this.stage.units.some(u=>!terrain.canOccupy(u.x,u.z,characterData[u.type].radius)))throw Error('キャラと重なる岩・壁は置けません。先にキャラを移動してください。');this.checkpoint();this.nextId++;this.stage.terrain.push(o);return o.id;}
- move(kind,id,x,z){let list=kind==='unit'?this.stage.units:this.stage.terrain,o=list.find(o=>o.id===id);if(!o)return;let next=copy(this.stage),target=(kind==='unit'?next.units:next.terrain).find(o=>o.id===id);target.x=x;target.z=z;let terrain=new Terrain(next.terrain);if(Math.abs(x)>48||Math.abs(z)>33||next.units.some(u=>!terrain.canOccupy(u.x,u.z,characterData[u.type].radius)))throw Error('戦場内の、キャラと障害物が重ならない場所を選んでください。');this.checkpoint();this.stage=next;}
- remove(kind,id){this.checkpoint();let key=kind==='unit'?'units':'terrain';this.stage[key]=this.stage[key].filter(o=>o.id!==id);}
- rotate(kind,id){let o=(kind==='unit'?this.stage.units:this.stage.terrain).find(o=>o.id===id);if(!o)return;let next=copy(this.stage),target=(kind==='unit'?next.units:next.terrain).find(o=>o.id===id);target.yaw+=Math.PI/4;const terrain=new Terrain(next.terrain);if(next.units.some(u=>!terrain.canOccupy(u.x,u.z,characterData[u.type].radius)))throw Error('回転するとキャラと重なります。');this.checkpoint();this.stage=next;}
- clear(which){this.checkpoint();if(which==='all')this.stage={units:[],terrain:[],multipliers:normalizeMultipliers(this.stage.multipliers)};else if(which==='terrain')this.stage.terrain=[];else this.stage.units=this.stage.units.filter(u=>u.team!==Number(which));}
+ placeGroup(team,types,x,z,formation='square',density='normal'){
+  if(!teamIds.includes(team))throw Error('TEAMを選んでください。');const plan=planGroup(this.stage,types,x,z,formation,density);this.checkpoint();
+  const units=plan.units.map(u=>({...u,id:this.nextId++,team,yaw:team%2?-Math.PI/2:Math.PI/2}));this.stage.units.push(...units);return {...plan,units};
+ }
+ applyMap(id){const preset=mapPresets.find(p=>p.id===id);if(!preset)throw Error('マップを選んでください。');const next=copy(this.stage);next.terrain=copy(preset.terrain);let nextId=this.nextId;
+  for(const o of next.terrain)o.id=nextId++;const space=new PlacementSpace(new Terrain(next.terrain));let moved=0;
+  for(const u of next.units){const pos=space.nearest(u.x,u.z,u.type);if(!pos)throw Error('このマップに全員を置けません。人数を減らしてください。');if(Math.hypot(pos.x-u.x,pos.z-u.z)>.01)moved++;Object.assign(u,pos);space.insert(u);}
+  next.mapId=id;this.checkpoint();this.stage=next;this.reindex();return {name:preset.name,moved};
+ }
+ clearUnits(){this.checkpoint();this.stage.units=[];this.reindex();}
+ placeTerrain(type,x,z,yaw=0,scale=1){if(!terrainData[type]||Math.abs(x)>44||Math.abs(z)>29)throw Error('地形は戦場の端から少し内側へ置いてください。');let o={id:this.nextId,type,x,z,yaw,scale};const terrain=new Terrain([...this.stage.terrain,o]);if(this.stage.units.some(u=>!terrain.canOccupy(u.x,u.z,characterData[u.type].radius)))throw Error('キャラと重なる岩・壁は置けません。先にキャラを移動してください。');this.checkpoint();this.nextId++;this.stage.terrain.push(o);this.stage.mapId=null;return o.id;}
+ move(kind,id,x,z){let list=kind==='unit'?this.stage.units:this.stage.terrain,o=list.find(o=>o.id===id);if(!o)return;let next=copy(this.stage),target=(kind==='unit'?next.units:next.terrain).find(o=>o.id===id);target.x=x;target.z=z;let terrain=new Terrain(next.terrain);if(Math.abs(x)>48||Math.abs(z)>33||next.units.some(u=>!terrain.canOccupy(u.x,u.z,characterData[u.type].radius)))throw Error('戦場内の、キャラと障害物が重ならない場所を選んでください。');this.checkpoint();this.stage=next;if(kind==='terrain')this.stage.mapId=null;}
+ remove(kind,id){this.checkpoint();let key=kind==='unit'?'units':'terrain';this.stage[key]=this.stage[key].filter(o=>o.id!==id);if(kind==='terrain')this.stage.mapId=null;}
+ rotate(kind,id){let o=(kind==='unit'?this.stage.units:this.stage.terrain).find(o=>o.id===id);if(!o)return;let next=copy(this.stage),target=(kind==='unit'?next.units:next.terrain).find(o=>o.id===id);target.yaw+=Math.PI/4;const terrain=new Terrain(next.terrain);if(next.units.some(u=>!terrain.canOccupy(u.x,u.z,characterData[u.type].radius)))throw Error('回転するとキャラと重なります。');this.checkpoint();this.stage=next;if(kind==='terrain')this.stage.mapId=null;}
+ clear(which){this.checkpoint();if(which==='all')this.stage={units:[],terrain:[],multipliers:normalizeMultipliers(this.stage.multipliers)};else if(which==='terrain'){this.stage.terrain=[];this.stage.mapId=null;}else this.stage.units=this.stage.units.filter(u=>u.team!==Number(which));}
  snapshot(){return copy(this.stage);}
  counts(){return teamIds.map(t=>characterData.map((c,k)=>this.stage.units.filter(u=>u.team===t&&u.type===k).length));}
  presets(){try{const data=JSON.parse(localStorage.getItem('stick-fight-presets-v1')||'[]');if(!Array.isArray(data))throw Error();return data;}catch(e){throw Error('保存データを読み込めません。端末の保存設定を確認してください。');}}
