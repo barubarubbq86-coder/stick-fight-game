@@ -1,0 +1,99 @@
+{
+  "checks": [
+    "legacy two-team config",
+    "two-team winner",
+    "B eliminated: C/D continue",
+    "A/B eliminated: C/D continue",
+    "C wins",
+    "global attack across three enemy teams type 15",
+    "global attack across three enemy teams type 16",
+    "global attack across three enemy teams type 17",
+    "HP multiplier",
+    "melee attack multiplier",
+    "speed multiplier",
+    "reinforcement inherits multipliers",
+    "D enters ongoing battle",
+    "invalid team rejected",
+    "all-spear projectile multiplier",
+    "gigant stats and size",
+    "gigant area attack: no friendly fire/outside range",
+    "terrain move/rotate/undo",
+    "save/load four teams, gigant, terrain, multipliers",
+    "clear preserves settings",
+    "clear undo",
+    "legacy preset defaults",
+    "50vs50 finite simulation and combat",
+    "50vs50 HP bookkeeping team 0",
+    "50vs50 HP bookkeeping team 1",
+    "50vs50 HP bookkeeping team 2",
+    "50vs50 HP bookkeeping team 3",
+    "100vs100 finite simulation and combat",
+    "100vs100 HP bookkeeping team 0",
+    "100vs100 HP bookkeeping team 1",
+    "100vs100 HP bookkeeping team 2",
+    "100vs100 HP bookkeeping team 3",
+    "300vs300 finite simulation and combat",
+    "300vs300 HP bookkeeping team 0",
+    "300vs300 HP bookkeeping team 1",
+    "300vs300 HP bookkeeping team 2",
+    "300vs300 HP bookkeeping team 3",
+    "four-way 150 each combat"
+  ],
+  "bench": [
+    {
+      "scenario": "50vs50",
+      "simulatedSeconds": 42.36666666666682,
+      "meanMs": 0.16569630212438485,
+      "p95Ms": 0.5,
+      "elapsedMs": 211.10000000009313,
+      "attacks": 954
+    },
+    {
+      "scenario": "100vs100",
+      "simulatedSeconds": 57.033333333332656,
+      "meanMs": 0.26335476329637236,
+      "p95Ms": 0.6000000000931323,
+      "elapsedMs": 451.30000000004657,
+      "attacks": 2018
+    },
+    {
+      "scenario": "300vs300",
+      "simulatedSeconds": 47.13333333333322,
+      "meanMs": 1.1706506364924183,
+      "p95Ms": 2.5,
+      "elapsedMs": 1656,
+      "attacks": 5902
+    }
+  ],
+  "renderedRuns": [
+    {
+      "scenario": "50vs50",
+      "display": "100 人編成 · 48 FPS · 3D",
+      "detail": ""
+    },
+    {
+      "scenario": "100vs100",
+      "display": "200 人編成 · 38 FPS · 3D",
+      "detail": ""
+    },
+    {
+      "scenario": "300vs300",
+      "display": "600 人編成 · 31 FPS · 3D",
+      "detail": ""
+    }
+  ],
+  "pwa": {
+    "cache": [
+      "stick-fight-%2F-3d-v7-phase1"
+    ],
+    "teamsCached": true
+  },
+  "errors": [],
+  "ui": [
+    "WebGL render",
+    "multiplier change/return",
+    "four-team quick setup/battle",
+    "mobile 390px no overflow",
+    "offline reload"
+  ]
+}

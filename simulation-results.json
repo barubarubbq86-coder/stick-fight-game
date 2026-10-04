@@ -1,0 +1,68 @@
+{
+  "checks": [
+    "legacy two-team config",
+    "two-team winner",
+    "B eliminated: C/D continue",
+    "A/B eliminated: C/D continue",
+    "C wins",
+    "global attack across three enemy teams type 15",
+    "global attack across three enemy teams type 16",
+    "global attack across three enemy teams type 17",
+    "HP multiplier",
+    "melee attack multiplier",
+    "speed multiplier",
+    "reinforcement inherits multipliers",
+    "D enters ongoing battle",
+    "invalid team rejected",
+    "all-spear projectile multiplier",
+    "gigant stats and size",
+    "gigant area attack: no friendly fire/outside range",
+    "terrain move/rotate/undo",
+    "save/load four teams, gigant, terrain, multipliers",
+    "clear preserves settings",
+    "clear undo",
+    "legacy preset defaults",
+    "50vs50 finite simulation and combat",
+    "50vs50 HP bookkeeping team 0",
+    "50vs50 HP bookkeeping team 1",
+    "50vs50 HP bookkeeping team 2",
+    "50vs50 HP bookkeeping team 3",
+    "100vs100 finite simulation and combat",
+    "100vs100 HP bookkeeping team 0",
+    "100vs100 HP bookkeeping team 1",
+    "100vs100 HP bookkeeping team 2",
+    "100vs100 HP bookkeeping team 3",
+    "300vs300 finite simulation and combat",
+    "300vs300 HP bookkeeping team 0",
+    "300vs300 HP bookkeeping team 1",
+    "300vs300 HP bookkeeping team 2",
+    "300vs300 HP bookkeeping team 3",
+    "four-way 150 each combat"
+  ],
+  "bench": [
+    {
+      "scenario": "50vs50",
+      "simulatedSeconds": 53.69999999999951,
+      "meanMs": 0.11845044630664198,
+      "p95Ms": 0.3601449999999886,
+      "elapsedMs": 191.86255,
+      "attacks": 985
+    },
+    {
+      "scenario": "100vs100",
+      "simulatedSeconds": 54.466666666666136,
+      "meanMs": 0.20635939290085684,
+      "p95Ms": 0.5574219999999741,
+      "elapsedMs": 337.99662900000004,
+      "attacks": 2007
+    },
+    {
+      "scenario": "300vs300",
+      "simulatedSeconds": 59.999999999999154,
+      "meanMs": 0.8144289983333368,
+      "p95Ms": 2.0643010000000004,
+      "elapsedMs": 1466.921394,
+      "attacks": 6040
+    }
+  ]
+}

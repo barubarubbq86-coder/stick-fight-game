@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "initial editor loads",
+    "C initially empty",
+    "undo synchronizes multiplier UI",
+    "battle HP UI uses multiplier",
+    "canvas battle placement: D gigant",
+    "return restores original stage and multiplier",
+    "four team automatic placement",
+    "four team battle HUD",
+    "same conditions restart",
+    "save UI includes multipliers",
+    "invalid multiplier UI rejects/reverts"
+  ],
+  "limitations": [
+    "DOM and WebGL API stubs; not a real browser screenshot or GPU test"
+  ]
+}

@@ -14,6 +14,7 @@ export const characterData=[
 {name:'刀',hp:100,damage:[540],weapon:'katana',range:Infinity,interval:1.5},
 {name:'神',hp:100,damage:[540,3680,1320],weapon:'god',range:Infinity,interval:2,immune:true},
 {name:'マッスル',hp:300,damage:[50],weapon:'muscle',range:55,interval:1.8,modelType:'muscle',size:1.65,radius:.65}
+,{name:'ギガント',hp:3000,damage:[120],weapon:'gigant',range:110,interval:2.2,modelType:'muscle',size:3.6,radius:1.35}
 ];
 
-characterData.forEach(c=>{c.range=Number.isFinite(c.range)?c.range/25:Infinity;c.interval=Math.max(1.2,c.interval*1.7);c.speed=c.weapon==='muscle'?2.2:2.8;c.radius=c.radius||.28;c.size=c.size||1;c.modelType=c.modelType||'stick';c.aiType=c.range>4?'ranged':'melee';c.windup=c.weapon==='god'?1.4:c.range===Infinity?1.1:.45;});
+characterData.forEach(c=>{c.range=Number.isFinite(c.range)?c.range/25:Infinity;c.interval=Math.max(1.2,c.interval*1.7);c.speed=c.weapon==='gigant'?1.4:c.weapon==='muscle'?2.2:2.8;c.radius=c.radius||.28;c.size=c.size||1;c.modelType=c.modelType||'stick';c.aiType=c.range>4?'ranged':'melee';c.windup=c.weapon==='god'?1.4:c.range===Infinity?1.1:.45;});
