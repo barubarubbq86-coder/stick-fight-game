@@ -1,0 +1,992 @@
+[
+  {
+    "name": "ノーマル中心",
+    "x": -27,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 16.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "ノーマル中心",
+    "x": -27,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 16.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "ノーマル中心",
+    "x": -27,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 16.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "ノーマル中心",
+    "x": -13,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 13.23,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "ノーマル中心",
+    "x": -13,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 13.23,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "ノーマル中心",
+    "x": -13,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 13.23,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "近接中心",
+    "x": -27,
+    "seed": 1,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 10.6,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "近接中心",
+    "x": -27,
+    "seed": 42,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 10.6,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "近接中心",
+    "x": -27,
+    "seed": 97,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 10.6,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "近接中心",
+    "x": -13,
+    "seed": 1,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 9.67,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2860
+  },
+  {
+    "name": "近接中心",
+    "x": -13,
+    "seed": 42,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 9.67,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2860
+  },
+  {
+    "name": "近接中心",
+    "x": -13,
+    "seed": 97,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 9.67,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2860
+  },
+  {
+    "name": "遠距離中心",
+    "x": -27,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 18.13,
+    "alive": [
+      36,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "遠距離中心",
+    "x": -27,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 18.13,
+    "alive": [
+      36,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "遠距離中心",
+    "x": -27,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 18.13,
+    "alive": [
+      36,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "遠距離中心",
+    "x": -13,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 14.4,
+    "alive": [
+      36,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "遠距離中心",
+    "x": -13,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 14.4,
+    "alive": [
+      36,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "遠距離中心",
+    "x": -13,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 14.4,
+    "alive": [
+      36,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "マッスル中心",
+    "x": -27,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 17.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2850
+  },
+  {
+    "name": "マッスル中心",
+    "x": -27,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 17.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2850
+  },
+  {
+    "name": "マッスル中心",
+    "x": -27,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 17.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2850
+  },
+  {
+    "name": "マッスル中心",
+    "x": -13,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 14.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2850
+  },
+  {
+    "name": "マッスル中心",
+    "x": -13,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 14.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2850
+  },
+  {
+    "name": "マッスル中心",
+    "x": -13,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 14.33,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 2850
+  },
+  {
+    "name": "混成軍",
+    "x": -27,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 31.9,
+    "alive": [
+      0,
+      12,
+      0,
+      0
+    ],
+    "giantHp": 725
+  },
+  {
+    "name": "混成軍",
+    "x": -27,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 31.9,
+    "alive": [
+      0,
+      12,
+      0,
+      0
+    ],
+    "giantHp": 725
+  },
+  {
+    "name": "混成軍",
+    "x": -27,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 31.9,
+    "alive": [
+      0,
+      12,
+      0,
+      0
+    ],
+    "giantHp": 725
+  },
+  {
+    "name": "混成軍",
+    "x": -13,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 14.23,
+    "alive": [
+      0,
+      11,
+      0,
+      0
+    ],
+    "giantHp": 1950
+  },
+  {
+    "name": "混成軍",
+    "x": -13,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 14.23,
+    "alive": [
+      0,
+      11,
+      0,
+      0
+    ],
+    "giantHp": 1950
+  },
+  {
+    "name": "混成軍",
+    "x": -13,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE LOSE",
+    "time": 14.23,
+    "alive": [
+      0,
+      11,
+      0,
+      0
+    ],
+    "giantHp": 1950
+  },
+  {
+    "name": "混成・槍と前衛",
+    "x": -27,
+    "seed": 1,
+    "cost": 950,
+    "result": "CHALLENGE WIN",
+    "time": 21.73,
+    "alive": [
+      29,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "混成・槍と前衛",
+    "x": -27,
+    "seed": 42,
+    "cost": 950,
+    "result": "CHALLENGE WIN",
+    "time": 21.73,
+    "alive": [
+      29,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "混成・槍と前衛",
+    "x": -27,
+    "seed": 97,
+    "cost": 950,
+    "result": "CHALLENGE WIN",
+    "time": 21.73,
+    "alive": [
+      29,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "混成・槍と前衛",
+    "x": -13,
+    "seed": 1,
+    "cost": 950,
+    "result": "CHALLENGE LOSE",
+    "time": 14.87,
+    "alive": [
+      0,
+      8,
+      0,
+      0
+    ],
+    "giantHp": 935
+  },
+  {
+    "name": "混成・槍と前衛",
+    "x": -13,
+    "seed": 42,
+    "cost": 950,
+    "result": "CHALLENGE LOSE",
+    "time": 14.87,
+    "alive": [
+      0,
+      8,
+      0,
+      0
+    ],
+    "giantHp": 935
+  },
+  {
+    "name": "混成・槍と前衛",
+    "x": -13,
+    "seed": 97,
+    "cost": 950,
+    "result": "CHALLENGE LOSE",
+    "time": 14.87,
+    "alive": [
+      0,
+      8,
+      0,
+      0
+    ],
+    "giantHp": 935
+  },
+  {
+    "name": "混成・マッスルと槍",
+    "x": -27,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 33.4,
+    "alive": [
+      8,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "混成・マッスルと槍",
+    "x": -27,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 33.4,
+    "alive": [
+      8,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "混成・マッスルと槍",
+    "x": -27,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 33.4,
+    "alive": [
+      8,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "混成・マッスルと槍",
+    "x": -13,
+    "seed": 1,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 24,
+    "alive": [
+      17,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "混成・マッスルと槍",
+    "x": -13,
+    "seed": 42,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 24,
+    "alive": [
+      17,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "混成・マッスルと槍",
+    "x": -13,
+    "seed": 97,
+    "cost": 1000,
+    "result": "CHALLENGE WIN",
+    "time": 24,
+    "alive": [
+      17,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "少数ノーマル",
+    "x": -27,
+    "seed": 1,
+    "cost": 100,
+    "result": "CHALLENGE LOSE",
+    "time": 9.23,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "少数ノーマル",
+    "x": -27,
+    "seed": 42,
+    "cost": 100,
+    "result": "CHALLENGE LOSE",
+    "time": 9.23,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "少数ノーマル",
+    "x": -27,
+    "seed": 97,
+    "cost": 100,
+    "result": "CHALLENGE LOSE",
+    "time": 9.23,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "少数ノーマル",
+    "x": -13,
+    "seed": 1,
+    "cost": 100,
+    "result": "CHALLENGE LOSE",
+    "time": 5.8,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "少数ノーマル",
+    "x": -13,
+    "seed": 42,
+    "cost": 100,
+    "result": "CHALLENGE LOSE",
+    "time": 5.8,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "少数ノーマル",
+    "x": -13,
+    "seed": 97,
+    "cost": 100,
+    "result": "CHALLENGE LOSE",
+    "time": 5.8,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "火能力中心",
+    "x": -27,
+    "seed": 1,
+    "cost": 960,
+    "result": "CHALLENGE WIN",
+    "time": 17.67,
+    "alive": [
+      5,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "火能力中心",
+    "x": -27,
+    "seed": 42,
+    "cost": 960,
+    "result": "CHALLENGE WIN",
+    "time": 20.17,
+    "alive": [
+      5,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "火能力中心",
+    "x": -27,
+    "seed": 97,
+    "cost": 960,
+    "result": "CHALLENGE WIN",
+    "time": 14.1,
+    "alive": [
+      5,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "火能力中心",
+    "x": -13,
+    "seed": 1,
+    "cost": 960,
+    "result": "CHALLENGE WIN",
+    "time": 14.07,
+    "alive": [
+      6,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "火能力中心",
+    "x": -13,
+    "seed": 42,
+    "cost": 960,
+    "result": "CHALLENGE WIN",
+    "time": 14.07,
+    "alive": [
+      6,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "火能力中心",
+    "x": -13,
+    "seed": 97,
+    "cost": 960,
+    "result": "CHALLENGE WIN",
+    "time": 8.33,
+    "alive": [
+      6,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "二刀流中心",
+    "x": -27,
+    "seed": 1,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 9.27,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "二刀流中心",
+    "x": -27,
+    "seed": 42,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 9.27,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "二刀流中心",
+    "x": -27,
+    "seed": 97,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 9.27,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "二刀流中心",
+    "x": -13,
+    "seed": 1,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 5.43,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "二刀流中心",
+    "x": -13,
+    "seed": 42,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 5.43,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "二刀流中心",
+    "x": -13,
+    "seed": 97,
+    "cost": 990,
+    "result": "CHALLENGE LOSE",
+    "time": 5.43,
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "giantHp": 3000
+  },
+  {
+    "name": "槍2つ中心",
+    "x": -27,
+    "seed": 1,
+    "cost": 990,
+    "result": "CHALLENGE WIN",
+    "time": 21.07,
+    "alive": [
+      11,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "槍2つ中心",
+    "x": -27,
+    "seed": 42,
+    "cost": 990,
+    "result": "CHALLENGE WIN",
+    "time": 21.07,
+    "alive": [
+      11,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "槍2つ中心",
+    "x": -27,
+    "seed": 97,
+    "cost": 990,
+    "result": "CHALLENGE WIN",
+    "time": 21.07,
+    "alive": [
+      11,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "槍2つ中心",
+    "x": -13,
+    "seed": 1,
+    "cost": 990,
+    "result": "CHALLENGE WIN",
+    "time": 16.67,
+    "alive": [
+      16,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "槍2つ中心",
+    "x": -13,
+    "seed": 42,
+    "cost": 990,
+    "result": "CHALLENGE WIN",
+    "time": 16.67,
+    "alive": [
+      16,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  },
+  {
+    "name": "槍2つ中心",
+    "x": -13,
+    "seed": 97,
+    "cost": 990,
+    "result": "CHALLENGE WIN",
+    "time": 16.67,
+    "alive": [
+      16,
+      0,
+      0,
+      0
+    ],
+    "giantHp": 0
+  }
+]

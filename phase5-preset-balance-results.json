@@ -1,0 +1,110 @@
+[
+  {
+    "name": "⚖️ 前衛と槍の軍",
+    "seed": 1,
+    "result": "CHALLENGE LOSE",
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "time": 22.2
+  },
+  {
+    "name": "⚖️ 前衛と槍の軍",
+    "seed": 42,
+    "result": "CHALLENGE LOSE",
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "time": 22.2
+  },
+  {
+    "name": "⚖️ 前衛と槍の軍",
+    "seed": 97,
+    "result": "CHALLENGE LOSE",
+    "alive": [
+      0,
+      16,
+      0,
+      0
+    ],
+    "time": 22.2
+  },
+  {
+    "name": "🔱 槍を守る軍",
+    "seed": 1,
+    "result": "CHALLENGE WIN",
+    "alive": [
+      23,
+      0,
+      0,
+      0
+    ],
+    "time": 24.8
+  },
+  {
+    "name": "🔱 槍を守る軍",
+    "seed": 42,
+    "result": "CHALLENGE WIN",
+    "alive": [
+      23,
+      0,
+      0,
+      0
+    ],
+    "time": 24.8
+  },
+  {
+    "name": "🔱 槍を守る軍",
+    "seed": 97,
+    "result": "CHALLENGE WIN",
+    "alive": [
+      23,
+      0,
+      0,
+      0
+    ],
+    "time": 24.8
+  },
+  {
+    "name": "💪 マッスルと護衛",
+    "seed": 1,
+    "result": "CHALLENGE WIN",
+    "alive": [
+      20,
+      0,
+      0,
+      0
+    ],
+    "time": 26.57
+  },
+  {
+    "name": "💪 マッスルと護衛",
+    "seed": 42,
+    "result": "CHALLENGE WIN",
+    "alive": [
+      20,
+      0,
+      0,
+      0
+    ],
+    "time": 26.57
+  },
+  {
+    "name": "💪 マッスルと護衛",
+    "seed": 97,
+    "result": "CHALLENGE WIN",
+    "alive": [
+      20,
+      0,
+      0,
+      0
+    ],
+    "time": 26.57
+  }
+]

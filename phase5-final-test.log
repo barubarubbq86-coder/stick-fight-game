@@ -1,0 +1,1065 @@
+[
+  {
+    "scenario": "corners",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "corners",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "corners",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 1,
+    "contacts": {
+      "1-3": 1.633333333333335,
+      "0-2": 1.7333333333333354,
+      "2-3": 1.9666666666666694,
+      "0-1": 2.066666666666669,
+      "0-3": 3.899999999999996,
+      "1-2": 4.56666666666666
+    },
+    "firstExtinction": null,
+    "early": [
+      "1-3",
+      "0-2",
+      "2-3",
+      "0-1",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 42,
+    "contacts": {
+      "0-2": 1.6000000000000016,
+      "1-3": 1.633333333333335,
+      "2-3": 1.9666666666666694,
+      "0-1": 2.066666666666669,
+      "1-2": 4.133333333333328,
+      "0-3": 4.199999999999995
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "2-3",
+      "0-1",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 97,
+    "contacts": {
+      "1-3": 1.5666666666666682,
+      "0-2": 1.8666666666666691,
+      "2-3": 2.0000000000000027,
+      "0-1": 2.066666666666669,
+      "0-3": 4.433333333333327,
+      "1-2": 4.699999999999993
+    },
+    "firstExtinction": 29.366666666667285,
+    "early": [
+      "1-3",
+      "0-2",
+      "2-3",
+      "0-1",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 1,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.59999999999998,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": 29.433333333333955,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 42,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.566666666666647,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 97,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.59999999999998,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  }
+]
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase35-mix.mjs (8712.540909ms)
+{
+  "checks": [
+    "all combat values + metadata unchanged",
+    "shock hits both teams only within radius",
+    "shock radial launch and vertical impulse",
+    "immune god HP preserved but shock can move it",
+    "cooldown blocks repeat without damage/count",
+    "independent real-second cooldown resets",
+    "TEAM-only healing",
+    "all-team healing capped at max HP",
+    "healing aggregate HP agrees with unit HP",
+    "lightning uses current positions, all teams, immune HP",
+    "lightning effect emitted",
+    "area damage applied atomically before win decision",
+    "god kills counted separately from character MVP",
+    "post-result cast blocked and report frozen",
+    "mixed gigant reinforcement group uses existing addCharacter",
+    "reinforcement intervention units tracked",
+    "reinforcements do not overlap others",
+    "all god abilities prohibited via rules",
+    "per-ability limits/cooldown/disable through BattleRules",
+    "failed reinforcement rule validation changes neither units nor cooldown/counters",
+    "no-space group fails atomically",
+    "50/100/300 vs same: two-team seeded combat identical to Phase3",
+    "600-unit shock bounded CPU cost",
+    "mixed four-team combat and target claims remain valid"
+  ],
+  "benchmarks": [
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.18519881366822383,
+      "p95Ms": 0.5482470000000035,
+      "result": "TEAM A WIN",
+      "time": 57.06666666666599,
+      "events": 1013
+    },
+    {
+      "version": "v10",
+      "scenario": "50vs50",
+      "meanMs": 0.1558631688084121,
+      "p95Ms": 0.40694500000000744,
+      "result": "TEAM A WIN",
+      "time": 57.06666666666599,
+      "events": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.2455269554062324,
+      "p95Ms": 0.6023989999999912,
+      "result": "TEAM A WIN",
+      "time": 54.56666666666613,
+      "events": 2002
+    },
+    {
+      "version": "v10",
+      "scenario": "100vs100",
+      "meanMs": 0.2880112419059267,
+      "p95Ms": 0.6959410000001753,
+      "result": "TEAM A WIN",
+      "time": 54.56666666666613,
+      "events": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 1.0464187372052856,
+      "p95Ms": 2.7053039999996145,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "events": 6019
+    },
+    {
+      "version": "v10",
+      "scenario": "300vs300",
+      "meanMs": 0.9928261541115481,
+      "p95Ms": 2.859596000000238,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "events": 6019
+    },
+    {
+      "scenario": "shock 600 units",
+      "meanMs": 0.20667423999999301,
+      "p95Ms": 0.12386599999990722
+    },
+    {
+      "scenario": "four-team mixed 208",
+      "meanMs": 0.36884598333332985,
+      "p95Ms": 1.0636960000001636
+    }
+  ]
+}
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase4-god.mjs (5468.152373ms)
+{
+  "checks": [
+    "only cost/role added; all combat stats preserved",
+    "6 maps × 6 team presets × 4 teams = 144 placement cases",
+    "TEAM C preset exact count",
+    "only target TEAM replaced; terrain/multipliers/other armies and atomic undo preserved",
+    "custom team same-name update",
+    "custom saved formation recall across all TEAMs",
+    "B-origin custom formation mirrors to A",
+    "damage is actual HP loss, overkill/duplicate kill excluded",
+    "stats retained after corpse pruned",
+    "all-team attack credits exact kills and damage",
+    "team report survivors/kills",
+    "final report frozen after ending animation",
+    "source pruned before projectile resolves",
+    "posthumous projectile kill remains credited",
+    "reinforcement and MVP report",
+    "immune draw with no false MVP",
+    "follow smoothing uses live transform",
+    "free camera pose restored after follow",
+    "follow target death auto-releases",
+    "rule boundary: batch cost, allowed characters, team areas",
+    "Sandbox does not enforce cost",
+    "reinforcements obey injected cost rule",
+    "victory policy/time metadata delegated to rule",
+    "50/100/300 vs same: fixed-seed Phase2/3 identical winner, time, attacks, survivors; kills reconcile",
+    "four-way preset battle with gigant"
+  ],
+  "benchmarks": [
+    {
+      "version": "v8",
+      "scenario": "50vs50",
+      "meanMs": 0.1778918849299064,
+      "p95Ms": 0.5842920000000049,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.1342157231308405,
+      "p95Ms": 0.38662299999998595,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v8",
+      "scenario": "100vs100",
+      "meanMs": 0.23659439523518397,
+      "p95Ms": 0.5649019999998472,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.28052397923030253,
+      "p95Ms": 0.7115440000000035,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v8",
+      "scenario": "300vs300",
+      "meanMs": 1.0546395238642865,
+      "p95Ms": 2.6084470000000692,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 0.9521817947095854,
+      "p95Ms": 2.4719209999993836,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    }
+  ]
+}
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase4-legacy-logic.mjs (5505.255888ms)
+{
+  "results": [
+    {
+      "scenario": "corners",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-3": 5.733333333333323
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        42,
+        42,
+        42,
+        42
+      ]
+    },
+    {
+      "scenario": "corners",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.799999999999989,
+        "1-3": 5.866666666666656,
+        "0-1": 9.166666666666645,
+        "2-3": 9.366666666666644,
+        "1-2": 11.699999999999969,
+        "0-3": 12.099999999999968
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1124,
+      "aliveAt20": [
+        43,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "scenario": "outer-corners",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 8.199999999999982,
+        "1-3": 8.199999999999982
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        48,
+        48,
+        49,
+        46
+      ]
+    },
+    {
+      "scenario": "outer-corners",
+      "version": "v10",
+      "firstContact": {
+        "1-3": 8.39999999999998,
+        "0-2": 8.39999999999998,
+        "2-3": 9.866666666666642,
+        "0-1": 10.299999999999974,
+        "1-2": 15.833333333333288,
+        "0-3": 16.199999999999964
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 842,
+      "aliveAt20": [
+        49,
+        49,
+        48,
+        50
+      ]
+    },
+    {
+      "scenario": "center",
+      "version": "v9",
+      "firstContact": {
+        "1-3": 1.4333333333333345,
+        "0-2": 1.5333333333333348,
+        "0-1": 1.9666666666666694,
+        "2-3": 2.0000000000000027,
+        "0-3": 14.033333333333294,
+        "1-2": 16.96666666666667
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1560,
+      "aliveAt20": [
+        26,
+        23,
+        21,
+        19
+      ]
+    },
+    {
+      "scenario": "center",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 1.6000000000000016,
+        "1-3": 1.633333333333335,
+        "2-3": 1.9666666666666694,
+        "0-1": 2.066666666666669,
+        "1-2": 4.133333333333328,
+        "0-3": 4.199999999999995
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 2412,
+      "aliveAt20": [
+        24,
+        28,
+        25,
+        23
+      ]
+    },
+    {
+      "scenario": "strong",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-3": 5.733333333333323
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        50,
+        41,
+        0,
+        42
+      ]
+    },
+    {
+      "scenario": "strong",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.799999999999989,
+        "1-3": 5.866666666666656,
+        "0-1": 9.166666666666645,
+        "2-3": 9.366666666666644,
+        "1-2": 11.699999999999969,
+        "0-3": 12.099999999999968
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1101,
+      "aliveAt20": [
+        50,
+        34,
+        21,
+        43
+      ]
+    },
+    {
+      "scenario": "three",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-2": 15.466666666666622,
+        "0-1": 15.899999999999954
+      },
+      "last5OpponentCounts": [
+        2,
+        2,
+        2
+      ],
+      "localMixSamples": 411,
+      "aliveAt20": [
+        30,
+        50,
+        36,
+        0
+      ]
+    },
+    {
+      "scenario": "three",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.933333333333322,
+        "0-1": 7.799999999999982,
+        "1-2": 10.133333333333308
+      },
+      "last5OpponentCounts": [
+        2,
+        2,
+        2
+      ],
+      "localMixSamples": 528,
+      "aliveAt20": [
+        17,
+        50,
+        43,
+        0
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "map": "plain",
+      "attacks": 983,
+      "result": "TEAM A WIN",
+      "time": 39.166666666667005,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "0-1",
+        "2-3",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "canyon",
+      "attacks": 968,
+      "result": "TEAM D WIN",
+      "time": 57.59999999999929,
+      "pairs": [
+        "1-3",
+        "0-2",
+        "1-2",
+        "2-3",
+        "0-1",
+        "0-3"
+      ]
+    },
+    {
+      "map": "arena",
+      "attacks": 1010,
+      "result": "TEAM A WIN",
+      "time": 42.166666666666835,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "2-3",
+        "0-1",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "castle",
+      "attacks": 881,
+      "result": "TEAM A WIN",
+      "time": 34.80000000000059,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "2-3",
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    },
+    {
+      "map": "hills",
+      "attacks": 961,
+      "result": "TEAM B WIN",
+      "time": 39.133333333333674,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "0-1",
+        "2-3",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "rocks",
+      "attacks": 981,
+      "result": "TEAM D WIN",
+      "time": 41.10000000000023,
+      "pairs": [
+        "1-3",
+        "0-2",
+        "2-3",
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    }
+  ]
+}
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase4-mix-detail.mjs (8966.758025ms)
+{
+  "checks": [
+    "PC 1体タップ選択",
+    "PC 選択直後のドラッグ移動・一回確定",
+    "PC UI Undo",
+    "PC 10体ドラッグ範囲選択",
+    "PC 10体移動・陣形維持・選択操作中カメラ不変",
+    "PC 50体ドラッグ範囲選択",
+    "PC 50体移動・陣形維持・選択操作中カメラ不変",
+    "PC TEAM全選択ボタン",
+    "PC 移動途中の2本指パン・ピンチで移動取消／選択保持",
+    "PC pointercancelで無変更",
+    "PC モード変更で移動取消",
+    "PC カメラ回転・選択保持",
+    "PC 選択解除・数表示",
+    "PC Shift追加選択",
+    "PC 明示的移動ボタン・地面タップでも陣形保持",
+    "PC 無効移動は無変更・Undo消費なし",
+    "PC 範囲選択途中の2本指で選択取消",
+    "PC Escape選択解除",
+    "PC 移動後の保存・読込と選択状態リセット",
+    "PC 戦闘開始で編集ジェスチャー分離",
+    "Android相当イベント 1体タップ選択",
+    "Android相当イベント 選択直後のドラッグ移動・一回確定",
+    "Android相当イベント UI Undo",
+    "Android相当イベント 10体ドラッグ範囲選択",
+    "Android相当イベント 10体移動・陣形維持・選択操作中カメラ不変",
+    "Android相当イベント 50体ドラッグ範囲選択",
+    "Android相当イベント 50体移動・陣形維持・選択操作中カメラ不変",
+    "Android相当イベント TEAM全選択ボタン",
+    "Android相当イベント 移動途中の2本指パン・ピンチで移動取消／選択保持",
+    "Android相当イベント pointercancelで無変更",
+    "Android相当イベント モード変更で移動取消",
+    "Android相当イベント カメラ回転・選択保持",
+    "Android相当イベント 選択解除・数表示",
+    "Android相当イベント Shift追加選択",
+    "Android相当イベント 明示的移動ボタン・地面タップでも陣形保持",
+    "Android相当イベント 無効移動は無変更・Undo消費なし",
+    "Android相当イベント 範囲選択途中の2本指で選択取消",
+    "Android相当イベント Escape選択解除",
+    "Android相当イベント 移動後の保存・読込と選択状態リセット",
+    "Android相当イベント 戦闘開始で編集ジェスチャー分離",
+    "300体選択ハイライト：既存インスタンス描画に1500パーツ追加・Draw Call増加0（WebGLアダプター）"
+  ]
+}
+(node:27) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase45-input.mjs (329.089624ms)
+{
+  "checks": [
+    "v11→v12更新・同じ公開サブパスだけ旧キャッシュ削除",
+    "PWA26アセット（新エントリー・選択モジュール含む）の一括保存",
+    "ネットワーク遮断相当：新画面・入力・選択・編集コードをキャッシュから返す",
+    "全相対import参照先が存在しPWA保存対象",
+    "重複DOM IDなし・外部通信不要・既存CSP維持"
+  ]
+}
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase45-pwa.mjs (85.059421ms)
+{
+  "checks": [
+    "1体の範囲選択・相対位置維持・一回Undo",
+    "10体の範囲選択・相対位置維持・一回Undo",
+    "50体の範囲選択・相対位置維持・一回Undo",
+    "300体の範囲選択・相対位置維持・一回Undo",
+    "TEAM A/B/C/D全選択",
+    "追加選択・トグル・解除・範囲追加",
+    "端・他兵士への無効移動は全体無変更・Undo消費なし",
+    "壁への移動は陣形を変えず拒否",
+    "プレビュー無変更・古い操作の拒否",
+    "集団45°回転・向き・中心距離・Undo",
+    "選択集団削除・残存ID整理・Undo",
+    "既存配置ルールを集団移動にも適用・コスト二重加算なし"
+  ]
+}
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase45-selection.mjs (112.551056ms)
+ノーマル中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+近接中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+遠距離中心 [
+  [ -27, 1, 'CHALLENGE WIN', 36 ],
+  [ -27, 42, 'CHALLENGE WIN', 36 ],
+  [ -27, 97, 'CHALLENGE WIN', 36 ],
+  [ -13, 1, 'CHALLENGE WIN', 36 ],
+  [ -13, 42, 'CHALLENGE WIN', 36 ],
+  [ -13, 97, 'CHALLENGE WIN', 36 ]
+]
+マッスル中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成軍 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成・槍と前衛 [
+  [ -27, 1, 'CHALLENGE WIN', 29 ],
+  [ -27, 42, 'CHALLENGE WIN', 29 ],
+  [ -27, 97, 'CHALLENGE WIN', 29 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成・マッスルと槍 [
+  [ -27, 1, 'CHALLENGE WIN', 8 ],
+  [ -27, 42, 'CHALLENGE WIN', 8 ],
+  [ -27, 97, 'CHALLENGE WIN', 8 ],
+  [ -13, 1, 'CHALLENGE WIN', 17 ],
+  [ -13, 42, 'CHALLENGE WIN', 17 ],
+  [ -13, 97, 'CHALLENGE WIN', 17 ]
+]
+少数ノーマル [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+火能力中心 [
+  [ -27, 1, 'CHALLENGE WIN', 5 ],
+  [ -27, 42, 'CHALLENGE WIN', 5 ],
+  [ -27, 97, 'CHALLENGE WIN', 5 ],
+  [ -13, 1, 'CHALLENGE WIN', 6 ],
+  [ -13, 42, 'CHALLENGE WIN', 6 ],
+  [ -13, 97, 'CHALLENGE WIN', 6 ]
+]
+二刀流中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+槍2つ中心 [
+  [ -27, 1, 'CHALLENGE WIN', 11 ],
+  [ -27, 42, 'CHALLENGE WIN', 11 ],
+  [ -27, 97, 'CHALLENGE WIN', 11 ],
+  [ -13, 1, 'CHALLENGE WIN', 16 ],
+  [ -13, 42, 'CHALLENGE WIN', 16 ],
+  [ -13, 97, 'CHALLENGE WIN', 16 ]
+]
+Challengeプリセット [
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 1,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 42,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 97,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 1,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 42,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 97,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 1,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 42,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 97,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  }
+]
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase5-balance.mjs (7113.795399ms)
+[
+  "過剰100体・禁止キャラ・敵編集・地形・倍率・配置エリア外移動を無変更で拒否",
+  "残り70で100体配置を原子的に拒否",
+  "自軍全消去・Undoで固定敵保持",
+  "Challenge用3チームプリセット・置換コスト・エリア検証",
+  "保存データ改変・戦闘増援・全神能力を拒否",
+  "日本語モード選択→固定敵16体・コスト常時表示",
+  "1000px 編成→実戦→結果→同編成再戦→編成復元を3周",
+  "1000px 敗北時の残存数・HP表示と編成復元",
+  "1000px 実ポインタ配置処理で超過拒否と短いフィードバック",
+  "1000px ブラシ5体単位で予算確認・不足スタンプ無変更・Undo",
+  "1000px タップ・範囲選択で敵を編集対象にしない",
+  "1000px Challenge保存・読込で編成と固定敵復元",
+  "1000px Sandboxの4陣営・ギガント・地形倍率・神増援が復帰／編成独立保持",
+  "日本語モード選択→固定敵16体・コスト常時表示",
+  "370px 編成→実戦→結果→同編成再戦→編成復元を3周",
+  "370px 敗北時の残存数・HP表示と編成復元",
+  "370px 実ポインタ配置処理で超過拒否と短いフィードバック",
+  "370px ブラシ5体単位で予算確認・不足スタンプ無変更・Undo",
+  "370px タップ・範囲選択で敵を編集対象にしない",
+  "370px Challenge保存・読込で編成と固定敵復元",
+  "370px Sandboxの4陣営・ギガント・地形倍率・神増援が復帰／編成独立保持"
+]
+(node:75) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ stick-fight-doodle-3d-v12-phase5/test-results/phase5-challenge.mjs (8473.853568ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8985.044501

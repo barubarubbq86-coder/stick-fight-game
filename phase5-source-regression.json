@@ -1,0 +1,23 @@
+{
+  "byte_identical_to_phase45": [
+    "data.js",
+    "multifront.js",
+    "god-abilities.js",
+    "interventions.js",
+    "battle-stats.js",
+    "teams.js",
+    "team-presets.js",
+    "presets.js",
+    "placement.js",
+    "camera-rig.js",
+    "selection.js",
+    "terrain.js"
+  ],
+  "extended": [
+    "rules.js",
+    "editor.js",
+    "simulation.js",
+    "render3d.js"
+  ],
+  "entry": "game-v12.js"
+}

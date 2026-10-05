@@ -1,10 +1,10 @@
 {
   "method": "Node VM service-worker/cache simulation, no actual browser install",
-  "key": "stick-fight-%2Ffight%2F-3d-v11-phase45",
-  "assetCount": 24,
+  "key": "stick-fight-%2Ffight%2F-3d-v12-phase5",
+  "assetCount": 26,
   "checks": [
-    "v10→v11更新・同じ公開サブパスだけ旧キャッシュ削除",
-    "PWA24アセット（新エントリー・選択モジュール含む）の一括保存",
+    "v11→v12更新・同じ公開サブパスだけ旧キャッシュ削除",
+    "PWA26アセット（新エントリー・選択モジュール含む）の一括保存",
     "ネットワーク遮断相当：新画面・入力・選択・編集コードをキャッシュから返す",
     "全相対import参照先が存在しPWA保存対象",
     "重複DOM IDなし・外部通信不要・既存CSP維持"
@@ -15,6 +15,38 @@
       "./teams.js"
     ],
     [
+      "challenge-mode.js",
+      "./rules.js"
+    ],
+    [
+      "challenge-mode.js",
+      "./data.js"
+    ],
+    [
+      "challenge-mode.js",
+      "./terrain.js"
+    ],
+    [
+      "challenge-mode.js",
+      "./teams.js"
+    ],
+    [
+      "challenge-mode.js",
+      "./challenges.js"
+    ],
+    [
+      "challenges.js",
+      "./data.js"
+    ],
+    [
+      "challenges.js",
+      "./placement.js"
+    ],
+    [
+      "challenges.js",
+      "./teams.js"
+    ],
+    [
       "editor.js",
       "./rules.js"
     ],
@@ -43,55 +75,63 @@
       "./terrain.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./selection.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./god-abilities.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./team-presets.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./camera-rig.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
+      "./challenges.js"
+    ],
+    [
+      "game-v12.js",
+      "./challenge-mode.js"
+    ],
+    [
+      "game-v12.js",
       "./rules.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./placement.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./presets.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./teams.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./data.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./editor.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./terrain.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./simulation.js"
     ],
     [
-      "game-v11.js",
+      "game-v12.js",
       "./render3d.js"
     ],
     [

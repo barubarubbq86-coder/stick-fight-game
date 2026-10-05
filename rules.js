@@ -1,7 +1,7 @@
 import {godAbilities} from './god-abilities.js';
 import {teamIds,teamData} from './teams.js';
 import {characterData} from './data.js';
-/** Extension contract. Only Sandbox is a shipped game mode in Phase 3. */
+/** Extension contract. Sandbox defaults remain unrestricted; modes extend validation and outcomes. */
 export class BattleRules{
  constructor({victoryCondition=null,timeLimit=null,costLimit=null,allowedCharacters=null,placementAreas=null,godAbilities:abilityRules=null}={}){
   if(victoryCondition!==null&&typeof victoryCondition!=='function')throw Error('勝利条件が不正です。');
@@ -16,6 +16,13 @@ export class BattleRules{
  canPlace({team,type,x,z,totalCost=0}){if(this.allowedCharacters&&!this.allowedCharacters.has(type))return false;if(this.costLimit!==null&&totalCost>this.costLimit)return false;
   if(this.placementAreas&&!this.placementAreas.some(a=>(a.team===undefined||a.team===team)&&x-characterData[type].radius>=a.minX&&x+characterData[type].radius<=a.maxX&&z-characterData[type].radius>=a.minZ&&z+characterData[type].radius<=a.maxZ))return false;return true;
  }
+ canEditTeam(team){return teamIds.includes(team);}
+ assertEditableTeam(team){if(!this.canEditTeam(team))throw Error('このTEAMは編集できません。');}
+ assertTerrainEditing(){}
+ assertMultipliersEditing(){}
+ canReinforce(){return true;}
+ validateStage(stage){}
+ validateInitialBattle(stage){if(!this.unrestricted)for(const team of teamIds)assertPlacementAllowed(this,{units:[]},team,stage.units.filter(u=>u.team===team));}
  godAbility(key){return this.abilityRules[key]||{enabled:false,maxUses:0,cooldown:0};}
  evaluate(battle){return this.victoryCondition?.(battle)??null;}
 }
@@ -29,7 +36,8 @@ export class SandboxMode extends GameMode{constructor(){super('sandbox',new Sand
 export const referenceCost=units=>units.reduce((n,u)=>n+(characterData[u.type]?.cost||0),0);
 export function assertPlacementAllowed(rules,stage,team,records){if(rules.unrestricted)return;
  const totalCost=referenceCost(stage.units.filter(u=>u.team===team))+referenceCost(records);
- for(const u of records)if(!rules.canPlace({...u,team,totalCost}))throw Error('現在のルールではこの配置を使用できません。');
+ if(rules.costLimit!==null&&totalCost>rules.costLimit)throw Error('コストが足りません');
+ for(const u of records)if(!rules.canPlace({...u,team,totalCost}))throw Error(rules.definition?rules.canEditTeam(team)?rules.allowedCharacters&&!records.every(r=>rules.allowedCharacters.has(r.type))?'このキャラは使用できません':'青い自軍配置エリアに置いてください':'敵軍は固定されています。TEAM Aを編成してください。':'現在のルールではこの配置を使用できません。');
 }
 // timeLimit is a configuration field: future modes must define timeout outcomes
-// through evaluate/victoryCondition. No challenge, defense or boss mode is shipped.
+// through evaluate/victoryCondition. Challenge implements elimination; defense and timeout modes are not shipped.
