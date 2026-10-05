@@ -1,0 +1,207 @@
+{
+  "method": "actual simulation; UI DOM/WebGL adapters, not real Android",
+  "checks": [
+    "3防衛プリセット×3seed：3分完走・3ウェーブ・敵88体・複数勝ち編成",
+    "少数軍は拠点破壊で敗北。兵士全滅だけでは終わらず拠点HPで判定",
+    "予約時刻まで敵出現なし・タイミング跨ぎ一度だけ出現・購入/自由増援なし",
+    "拠点定義・地形・配置エリアの改変を拒否",
+    "durationとwave時刻はデータで短縮可能、時間勝利判定",
+    "1000px 防衛編成→戦闘→結果→同編成再戦→再編集を2周、旗/敵/ウェーブ全初期化",
+    "1000px 攻撃・防衛・Sandboxの編成・制約を独立保持",
+    "370px 防衛編成→戦闘→結果→同編成再戦→再編集を2周、旗/敵/ウェーブ全初期化",
+    "370px 攻撃・防衛・Sandboxの編成・制約を独立保持"
+  ],
+  "results": [
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4870,
+      "wave": 3,
+      "alive": [
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        14,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4685,
+      "wave": 3,
+      "alive": [
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        67,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        69,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        66,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        19,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル1",
+      "cost": 10,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 62.46666666666568,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        68,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル10",
+      "cost": 100,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 64.36666666666558,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        68,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル50",
+      "cost": 500,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 98.56666666666364,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        24,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル150",
+      "cost": 1500,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 3650,
+      "wave": 3,
+      "alive": [
+        92,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

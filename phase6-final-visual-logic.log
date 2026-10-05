@@ -1,0 +1,193 @@
+{
+  "checks": [
+    "v12→v13更新・同じ公開サブパスだけ旧キャッシュ削除",
+    "PWA27アセット（新エントリー・選択モジュール含む）の一括保存",
+    "ネットワーク遮断相当：新画面・入力・選択・編集コードをキャッシュから返す",
+    "全相対import参照先が存在しPWA保存対象",
+    "重複DOM IDなし・外部通信不要・既存CSP維持"
+  ]
+}
+✔ stick-fight-doodle-3d-v13-phase6/test-results/phase45-pwa.mjs (86.905337ms)
+[
+  {
+    version: 'before',
+    count: 300,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 56.799999999999336,
+    alive: [ 0, 16, 0, 0 ],
+    events: 2989
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 56.799999999999336,
+    alive: [ 0, 16, 0, 0 ],
+    events: 2989
+  },
+  {
+    version: 'before',
+    count: 300,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 48.13333333333316,
+    alive: [ 0, 43, 0, 0 ],
+    events: 2903
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 48.13333333333316,
+    alive: [ 0, 43, 0, 0 ],
+    events: 2903
+  },
+  {
+    version: 'before',
+    count: 300,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 51.5666666666663,
+    alive: [ 0, 32, 0, 0 ],
+    events: 2928
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 51.5666666666663,
+    alive: [ 0, 32, 0, 0 ],
+    events: 2928
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 47.79999999999985,
+    alive: [ 0, 44, 0, 0 ],
+    events: 5879
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 47.79999999999985,
+    alive: [ 0, 44, 0, 0 ],
+    events: 5879
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 57.96666666666594,
+    alive: [ 0, 18, 0, 0 ],
+    events: 6019
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 57.96666666666594,
+    alive: [ 0, 18, 0, 0 ],
+    events: 6019
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 52.63333333333291,
+    alive: [ 0, 40, 0, 0 ],
+    events: 5944
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 52.63333333333291,
+    alive: [ 0, 40, 0, 0 ],
+    events: 5944
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 49.89999999999973,
+    alive: [ 0, 116, 0, 0 ],
+    events: 9666
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 49.89999999999973,
+    alive: [ 0, 116, 0, 0 ],
+    events: 9666
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 42,
+    result: 'TEAM A WIN',
+    time: 47.76666666666652,
+    alive: [ 89, 0, 0, 0 ],
+    events: 9774
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 42,
+    result: 'TEAM A WIN',
+    time: 47.76666666666652,
+    alive: [ 89, 0, 0, 0 ],
+    events: 9774
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 43.766666666666744,
+    alive: [ 0, 104, 0, 0 ],
+    events: 9710
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 43.766666666666744,
+    alive: [ 0, 104, 0, 0 ],
+    events: 9710
+  }
+]
+✔ stick-fight-doodle-3d-v13-phase6/test-results/phase55-outcomes.mjs (25239.848885ms)
+[
+  '1000px 5主要ボタン・4カテゴリ・単一シート・選択を戦場側に配置・閉じる/モード変更・神/一時停止・1000体UIを200msに間引く',
+  '1000px Challengeは敵TEAMと戦場設定を非表示、前モードの戦場タブを開かない',
+  '370px 5主要ボタン・4カテゴリ・単一シート・選択を戦場側に配置・閉じる/モード変更・神/一時停止・1000体UIを200msに間引く',
+  '370px Challengeは敵TEAMと戦場設定を非表示、前モードの戦場タブを開かない',
+  '静的構造：戦場を先に、設定は固定シート内スクロール。実ブラウザーのレイアウト測定は未実施'
+]
+(node:29) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ stick-fight-doodle-3d-v13-phase6/test-results/phase55-ui.mjs (10149.698426ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 35486.219899

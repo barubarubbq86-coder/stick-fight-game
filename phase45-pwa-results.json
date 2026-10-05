@@ -1,10 +1,10 @@
 {
   "method": "Node VM service-worker/cache simulation, no actual browser install",
-  "key": "stick-fight-%2Ffight%2F-3d-v12-phase5",
-  "assetCount": 26,
+  "key": "stick-fight-%2Ffight%2F-3d-v13-phase6",
+  "assetCount": 27,
   "checks": [
-    "v11→v12更新・同じ公開サブパスだけ旧キャッシュ削除",
-    "PWA26アセット（新エントリー・選択モジュール含む）の一括保存",
+    "v12→v13更新・同じ公開サブパスだけ旧キャッシュ削除",
+    "PWA27アセット（新エントリー・選択モジュール含む）の一括保存",
     "ネットワーク遮断相当：新画面・入力・選択・編集コードをキャッシュから返す",
     "全相対import参照先が存在しPWA保存対象",
     "重複DOM IDなし・外部通信不要・既存CSP維持"
@@ -16,6 +16,10 @@
     ],
     [
       "challenge-mode.js",
+      "./defense.js"
+    ],
+    [
+      "challenge-mode.js",
       "./rules.js"
     ],
     [
@@ -47,6 +51,10 @@
       "./teams.js"
     ],
     [
+      "defense.js",
+      "./placement.js"
+    ],
+    [
       "editor.js",
       "./rules.js"
     ],
@@ -75,63 +83,63 @@
       "./terrain.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./selection.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./god-abilities.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./team-presets.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./camera-rig.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./challenges.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./challenge-mode.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./rules.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./placement.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./presets.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./teams.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./data.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./editor.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./terrain.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./simulation.js"
     ],
     [
-      "game-v12.js",
+      "game-v13.js",
       "./render3d.js"
     ],
     [

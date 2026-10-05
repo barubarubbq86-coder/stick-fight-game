@@ -1,0 +1,261 @@
+{
+  "checks": [
+    "300/600/1000体の3seedで勝敗・時間・攻撃数・生存数がv12と一致",
+    "1000体も結果一致、攻撃力・攻撃頻度・物理刻みは維持",
+    "300体のCPU生成Instancing行列がv12と誤差1e-5以内で一致"
+  ],
+  "results": [
+    {
+      "version": "before",
+      "count": 300,
+      "seed": 1,
+      "result": "TEAM B WIN",
+      "time": 56.799999999999336,
+      "alive": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "events": 2989
+    },
+    {
+      "version": "after",
+      "count": 300,
+      "seed": 1,
+      "result": "TEAM B WIN",
+      "time": 56.799999999999336,
+      "alive": [
+        0,
+        16,
+        0,
+        0
+      ],
+      "events": 2989
+    },
+    {
+      "version": "before",
+      "count": 300,
+      "seed": 42,
+      "result": "TEAM B WIN",
+      "time": 48.13333333333316,
+      "alive": [
+        0,
+        43,
+        0,
+        0
+      ],
+      "events": 2903
+    },
+    {
+      "version": "after",
+      "count": 300,
+      "seed": 42,
+      "result": "TEAM B WIN",
+      "time": 48.13333333333316,
+      "alive": [
+        0,
+        43,
+        0,
+        0
+      ],
+      "events": 2903
+    },
+    {
+      "version": "before",
+      "count": 300,
+      "seed": 97,
+      "result": "TEAM B WIN",
+      "time": 51.5666666666663,
+      "alive": [
+        0,
+        32,
+        0,
+        0
+      ],
+      "events": 2928
+    },
+    {
+      "version": "after",
+      "count": 300,
+      "seed": 97,
+      "result": "TEAM B WIN",
+      "time": 51.5666666666663,
+      "alive": [
+        0,
+        32,
+        0,
+        0
+      ],
+      "events": 2928
+    },
+    {
+      "version": "before",
+      "count": 600,
+      "seed": 1,
+      "result": "TEAM B WIN",
+      "time": 47.79999999999985,
+      "alive": [
+        0,
+        44,
+        0,
+        0
+      ],
+      "events": 5879
+    },
+    {
+      "version": "after",
+      "count": 600,
+      "seed": 1,
+      "result": "TEAM B WIN",
+      "time": 47.79999999999985,
+      "alive": [
+        0,
+        44,
+        0,
+        0
+      ],
+      "events": 5879
+    },
+    {
+      "version": "before",
+      "count": 600,
+      "seed": 42,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "alive": [
+        0,
+        18,
+        0,
+        0
+      ],
+      "events": 6019
+    },
+    {
+      "version": "after",
+      "count": 600,
+      "seed": 42,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "alive": [
+        0,
+        18,
+        0,
+        0
+      ],
+      "events": 6019
+    },
+    {
+      "version": "before",
+      "count": 600,
+      "seed": 97,
+      "result": "TEAM B WIN",
+      "time": 52.63333333333291,
+      "alive": [
+        0,
+        40,
+        0,
+        0
+      ],
+      "events": 5944
+    },
+    {
+      "version": "after",
+      "count": 600,
+      "seed": 97,
+      "result": "TEAM B WIN",
+      "time": 52.63333333333291,
+      "alive": [
+        0,
+        40,
+        0,
+        0
+      ],
+      "events": 5944
+    },
+    {
+      "version": "before",
+      "count": 1000,
+      "seed": 1,
+      "result": "TEAM B WIN",
+      "time": 49.89999999999973,
+      "alive": [
+        0,
+        116,
+        0,
+        0
+      ],
+      "events": 9666
+    },
+    {
+      "version": "after",
+      "count": 1000,
+      "seed": 1,
+      "result": "TEAM B WIN",
+      "time": 49.89999999999973,
+      "alive": [
+        0,
+        116,
+        0,
+        0
+      ],
+      "events": 9666
+    },
+    {
+      "version": "before",
+      "count": 1000,
+      "seed": 42,
+      "result": "TEAM A WIN",
+      "time": 47.76666666666652,
+      "alive": [
+        89,
+        0,
+        0,
+        0
+      ],
+      "events": 9774
+    },
+    {
+      "version": "after",
+      "count": 1000,
+      "seed": 42,
+      "result": "TEAM A WIN",
+      "time": 47.76666666666652,
+      "alive": [
+        89,
+        0,
+        0,
+        0
+      ],
+      "events": 9774
+    },
+    {
+      "version": "before",
+      "count": 1000,
+      "seed": 97,
+      "result": "TEAM B WIN",
+      "time": 43.766666666666744,
+      "alive": [
+        0,
+        104,
+        0,
+        0
+      ],
+      "events": 9710
+    },
+    {
+      "version": "after",
+      "count": 1000,
+      "seed": 97,
+      "result": "TEAM B WIN",
+      "time": 43.766666666666744,
+      "alive": [
+        0,
+        104,
+        0,
+        0
+      ],
+      "events": 9710
+    }
+  ]
+}

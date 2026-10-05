@@ -1,5 +1,5 @@
 {
-  "method": "Node VM + actual game-v12.js + mock DOM/WebGL; not real Android/browser",
+  "method": "Node VM + actual game-v13.js + mock DOM/WebGL; not real Android/browser",
   "checks": [
     "PC 1体タップ選択",
     "PC 選択直後のドラッグ移動・一回確定",

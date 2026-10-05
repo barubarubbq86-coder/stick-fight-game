@@ -1,0 +1,67 @@
+before 300 plain step 1.04 draw 1.83
+before 300 obstacles step 1.58 draw 1.70
+before 300 four step 0.92 draw 1.29
+before 300 ranged step 0.74 draw 1.32
+before 300 god step 0.87 draw 1.50
+before 600 plain step 2.14 draw 2.97
+before 600 obstacles step 3.20 draw 2.62
+before 600 four step 2.19 draw 2.13
+before 600 ranged step 1.79 draw 2.11
+before 600 god step 1.96 draw 2.52
+before 1000 plain step 4.10 draw 4.68
+before 1000 obstacles step 6.00 draw 4.42
+before 1000 four step 5.25 draw 3.55
+before 1000 ranged step 3.59 draw 3.64
+before 1000 god step 4.15 draw 4.30
+before 1500 plain step 7.17 draw 6.73
+before 1500 obstacles step 9.27 draw 5.98
+before 1500 four step 9.25 draw 5.22
+before 1500 ranged step 5.76 draw 5.49
+before 1500 god step 7.02 draw 6.14
+after 300 plain step 0.56 draw 0.77
+after 300 obstacles step 0.96 draw 0.88
+after 300 four step 0.57 draw 0.57
+after 300 ranged step 0.40 draw 0.58
+after 300 god step 0.46 draw 0.69
+after 600 plain step 1.13 draw 1.22
+after 600 obstacles step 2.10 draw 1.39
+after 600 four step 1.43 draw 0.99
+after 600 ranged step 1.01 draw 0.97
+after 600 god step 1.10 draw 1.26
+after 1000 plain step 2.38 draw 1.86
+after 1000 obstacles step 3.72 draw 1.64
+after 1000 four step 3.11 draw 1.37
+after 1000 ranged step 2.09 draw 1.50
+after 1000 god step 2.18 draw 1.71
+after 1500 plain step 3.66 draw 2.56
+after 1500 obstacles step 6.49 draw 2.68
+after 1500 four step 6.07 draw 2.11
+after 1500 ranged step 3.32 draw 2.37
+after 1500 god step 3.85 draw 2.63
+before {
+  rebuild: 17.060133000013593,
+  findEnemy: 421.6104100002776,
+  allySteering: 222.6860269998724,
+  updateAI: 704.882191999488,
+  updateCharacter: 77.29490800007625,
+  separate: 266.3311530000137,
+  recordDamage: 0.38645199999882607
+}
+after {
+  rebuild: 10.033208000051673,
+  findEnemy: 208.93318600072234,
+  allySteering: 125.27715000030003,
+  updateAI: 394.9405209989418,
+  updateCharacter: 78.41492299791571,
+  separate: 127.2814390000276,
+  recordDamage: 0.33943299999373266
+}
+✔ stick-fight-doodle-3d-v13-phase6/test-results/phase55-performance.mjs (56391.151289ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 56398.376557

@@ -9,7 +9,7 @@ const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
 export class Terrain {
  constructor(objects=[]) {
   this.objects=objects;this.obstacles=objects.filter(o=>terrainData[o.type]?.blocking);
-  this.shapes=new WeakMap();this.hills=objects.filter(o=>terrainData[o.type]&&!terrainData[o.type].blocking);
+  this.hills=objects.filter(o=>terrainData[o.type]&&!terrainData[o.type].blocking);
   this.cell=1.5;this.cols=66;this.rows=46;this.grids=new Map();this.flows=new Map();
  }
  heightAt(x,z) {
@@ -23,7 +23,7 @@ export class Terrain {
   if(!Number.isFinite(x)||!Number.isFinite(z)||x<-49+radius||x>49-radius||z<-34+radius||z>34-radius)return false;
   for(const o of this.obstacles){const d=terrainData[o.type],s=o.scale||1,dx=x-o.x,dz=z-o.z;
    if(o.type==='rock'){if(dx*dx+dz*dz<(d.radius*s+radius)**2)return false;}
-   else {let shape=this.shapes.get(o);if(!shape||shape.yaw!==(o.yaw||0)){shape={yaw:o.yaw||0,c:Math.cos(o.yaw||0),sn:Math.sin(o.yaw||0)};this.shapes.set(o,shape);}const c=shape.c,sn=shape.sn,lx=c*dx-sn*dz,lz=sn*dx+c*dz;
+   else {const c=Math.cos(o.yaw||0),sn=Math.sin(o.yaw||0),lx=c*dx-sn*dz,lz=sn*dx+c*dz;
     const qx=Math.max(0,Math.abs(lx)-d.width*s/2),qz=Math.max(0,Math.abs(lz)-d.depth*s/2);
     if(qx*qx+qz*qz<radius*radius || (!radius&&qx===0&&qz===0))return false;
    }
@@ -104,7 +104,7 @@ export class Terrain {
  componentAt(x,z,grid,radius){const i=this.anchorAt(x,z,grid,radius);return i<0?0:grid.components[i];}
  reachable(x,z,tx,tz,radius=.4){
   if(!this.obstacles.length)return true;
-  const grid=this.grid(radius);let cache=this.sourceAnchor;if(!cache||cache.x!==x||cache.z!==z||cache.grid!==grid||cache.radius!==radius)this.sourceAnchor=cache={x,z,grid,radius,a:this.componentAt(x,z,grid,radius)};const a=cache.a,b=this.componentAt(tx,tz,grid,radius);
+  const grid=this.grid(radius),a=this.componentAt(x,z,grid,radius),b=this.componentAt(tx,tz,grid,radius);
   if(a&&a===b)return true;
   // Keep direct routes through narrow gaps that the coarse grid cannot represent.
   return this.lineClear(x,z,tx,tz,radius);

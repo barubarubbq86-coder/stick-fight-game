@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "v12→v13更新・同じ公開サブパスだけ旧キャッシュ削除",
+    "PWA27アセット（新エントリー・選択モジュール含む）の一括保存",
+    "ネットワーク遮断相当：新画面・入力・選択・編集コードをキャッシュから返す",
+    "全相対import参照先が存在しPWA保存対象",
+    "重複DOM IDなし・外部通信不要・既存CSP維持"
+  ]
+}
+✔ stick-fight-doodle-3d-v13-phase6/test-results/phase45-pwa.mjs (65.668058ms)
+[
+  '1000px 5主要ボタン・4カテゴリ・単一シート・選択を戦場側に配置・閉じる/モード変更・神/一時停止・1000体UIを200msに間引く',
+  '1000px Challengeは敵TEAMと戦場設定を非表示、前モードの戦場タブを開かない',
+  '370px 5主要ボタン・4カテゴリ・単一シート・選択を戦場側に配置・閉じる/モード変更・神/一時停止・1000体UIを200msに間引く',
+  '370px Challengeは敵TEAMと戦場設定を非表示、前モードの戦場タブを開かない',
+  '静的構造：戦場を先に、設定は固定シート内スクロール。実ブラウザーのレイアウト測定は未実施'
+]
+(node:14) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ stick-fight-doodle-3d-v13-phase6/test-results/phase55-ui.mjs (9957.311801ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9968.735757

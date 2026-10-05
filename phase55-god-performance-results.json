@@ -1,0 +1,173 @@
+{
+  "method": "single ability CPU timings, 20 trials each, fresh fixed-seed battles; busy cosmetic effects; old/new HP/count/stats identical",
+  "results": [
+    {
+      "n": 600,
+      "ability": "shock",
+      "version": "before",
+      "mean": 0.2320766500000012,
+      "p95": 0.6662139999999965
+    },
+    {
+      "n": 600,
+      "ability": "shock",
+      "version": "after",
+      "mean": 0.14009764999999988,
+      "p95": 0.7359489999999909
+    },
+    {
+      "n": 600,
+      "ability": "heal",
+      "version": "before",
+      "mean": 0.13478625000000122,
+      "p95": 0.5179509999999965
+    },
+    {
+      "n": 600,
+      "ability": "heal",
+      "version": "after",
+      "mean": 0.08509084999999814,
+      "p95": 0.4282350000000008
+    },
+    {
+      "n": 600,
+      "ability": "lightning",
+      "version": "before",
+      "mean": 0.09809190000000001,
+      "p95": 0.3357159999999908
+    },
+    {
+      "n": 600,
+      "ability": "lightning",
+      "version": "after",
+      "mean": 0.0744447000000001,
+      "p95": 0.17797899999999345
+    },
+    {
+      "n": 600,
+      "ability": "reinforcement",
+      "version": "before",
+      "mean": 0.7219096500000035,
+      "p95": 2.394508000000002
+    },
+    {
+      "n": 600,
+      "ability": "reinforcement",
+      "version": "after",
+      "mean": 0.7537714999999992,
+      "p95": 3.433094000000011
+    },
+    {
+      "n": 1000,
+      "ability": "shock",
+      "version": "before",
+      "mean": 0.15538764999999444,
+      "p95": 0.2917799999999886
+    },
+    {
+      "n": 1000,
+      "ability": "shock",
+      "version": "after",
+      "mean": 0.11561174999999793,
+      "p95": 0.21038699999999722
+    },
+    {
+      "n": 1000,
+      "ability": "heal",
+      "version": "before",
+      "mean": 0.12177549999999968,
+      "p95": 0.3336830000000077
+    },
+    {
+      "n": 1000,
+      "ability": "heal",
+      "version": "after",
+      "mean": 0.08031964999999985,
+      "p95": 0.31051800000000185
+    },
+    {
+      "n": 1000,
+      "ability": "lightning",
+      "version": "before",
+      "mean": 0.15141874999999913,
+      "p95": 0.8760509999999897
+    },
+    {
+      "n": 1000,
+      "ability": "lightning",
+      "version": "after",
+      "mean": 0.062840300000002,
+      "p95": 0.08827299999998672
+    },
+    {
+      "n": 1000,
+      "ability": "reinforcement",
+      "version": "before",
+      "mean": 0.38971719999999976,
+      "p95": 0.8437109999999848
+    },
+    {
+      "n": 1000,
+      "ability": "reinforcement",
+      "version": "after",
+      "mean": 0.3715152999999972,
+      "p95": 0.8303520000000049
+    },
+    {
+      "n": 1500,
+      "ability": "shock",
+      "version": "before",
+      "mean": 0.14932249999999386,
+      "p95": 0.2530209999999897
+    },
+    {
+      "n": 1500,
+      "ability": "shock",
+      "version": "after",
+      "mean": 0.09835569999998484,
+      "p95": 0.23147900000003574
+    },
+    {
+      "n": 1500,
+      "ability": "heal",
+      "version": "before",
+      "mean": 0.18475324999999715,
+      "p95": 0.3393010000000345
+    },
+    {
+      "n": 1500,
+      "ability": "heal",
+      "version": "after",
+      "mean": 0.12937755000000095,
+      "p95": 0.15205899999995154
+    },
+    {
+      "n": 1500,
+      "ability": "lightning",
+      "version": "before",
+      "mean": 0.22197465000000136,
+      "p95": 0.3021349999999643
+    },
+    {
+      "n": 1500,
+      "ability": "lightning",
+      "version": "after",
+      "mean": 0.12602530000000342,
+      "p95": 0.15278000000000702
+    },
+    {
+      "n": 1500,
+      "ability": "reinforcement",
+      "version": "before",
+      "mean": 0.5980491500000056,
+      "p95": 1.2470089999999914
+    },
+    {
+      "n": 1500,
+      "ability": "reinforcement",
+      "version": "after",
+      "mean": 0.3973373999999893,
+      "p95": 0.9987950000000296
+    }
+  ]
+}
