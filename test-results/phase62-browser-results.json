@@ -1,0 +1,15 @@
+{
+  "browser": "153.0.8010.0",
+  "checks": [
+    "360x740: dock priority, selection toolbar and 44px main controls fit",
+    "370x506: dock priority, selection toolbar and 44px main controls fit",
+    "390x844: dock priority, selection toolbar and 44px main controls fit",
+    "context Move routes to existing move tool; rotate/delete and Undo preserve formation",
+    "spectator hides editing controls; pause phase; God guidance appears on first activation only",
+    "Defense native touch brush, empty hint clears, combat HUD/time/wave, no cost panel during battle",
+    "370x300 resized viewport with focused name input: sheet scroll/close/input/save reachable; keyboard approximation only",
+    "Attack label and cost remain distinct from Defense"
+  ],
+  "errors": [],
+  "limitations": "Headless Chromium / SwiftShader; synthetic CDP touch; keyboard approximated by viewport resize; not physical Android"
+}

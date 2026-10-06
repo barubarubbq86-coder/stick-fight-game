@@ -1,0 +1,2803 @@
+[
+  {
+    "scenario": "corners",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "corners",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "corners",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 1,
+    "contacts": {
+      "1-3": 1.633333333333335,
+      "0-2": 1.7333333333333354,
+      "2-3": 1.9666666666666694,
+      "0-1": 2.066666666666669,
+      "0-3": 3.899999999999996,
+      "1-2": 4.56666666666666
+    },
+    "firstExtinction": null,
+    "early": [
+      "1-3",
+      "0-2",
+      "2-3",
+      "0-1",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 42,
+    "contacts": {
+      "0-2": 1.6000000000000016,
+      "1-3": 1.633333333333335,
+      "2-3": 1.9666666666666694,
+      "0-1": 2.066666666666669,
+      "1-2": 4.133333333333328,
+      "0-3": 4.199999999999995
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "2-3",
+      "0-1",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 97,
+    "contacts": {
+      "1-3": 1.5666666666666682,
+      "0-2": 1.8666666666666691,
+      "2-3": 2.0000000000000027,
+      "0-1": 2.066666666666669,
+      "0-3": 4.433333333333327,
+      "1-2": 4.699999999999993
+    },
+    "firstExtinction": 29.366666666667285,
+    "early": [
+      "1-3",
+      "0-2",
+      "2-3",
+      "0-1",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 1,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.59999999999998,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": 29.433333333333955,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 42,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.566666666666647,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 97,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.59999999999998,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  }
+]
+✔ test-results/phase35-mix.mjs (4854.128693ms)
+{
+  "checks": [
+    "all combat values + metadata unchanged",
+    "shock hits both teams only within radius",
+    "shock radial launch and vertical impulse",
+    "immune god HP preserved but shock can move it",
+    "cooldown blocks repeat without damage/count",
+    "independent real-second cooldown resets",
+    "TEAM-only healing",
+    "all-team healing capped at max HP",
+    "healing aggregate HP agrees with unit HP",
+    "lightning uses current positions, all teams, immune HP",
+    "lightning effect emitted",
+    "area damage applied atomically before win decision",
+    "god kills counted separately from character MVP",
+    "post-result cast blocked and report frozen",
+    "mixed gigant reinforcement group uses existing addCharacter",
+    "reinforcement intervention units tracked",
+    "reinforcements do not overlap others",
+    "all god abilities prohibited via rules",
+    "per-ability limits/cooldown/disable through BattleRules",
+    "failed reinforcement rule validation changes neither units nor cooldown/counters",
+    "no-space group fails atomically",
+    "50/100/300 vs same: two-team seeded combat identical to Phase3",
+    "600-unit shock bounded CPU cost",
+    "mixed four-team combat and target claims remain valid"
+  ],
+  "benchmarks": [
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.12437278504672877,
+      "p95Ms": 0.4335059999999942,
+      "result": "TEAM A WIN",
+      "time": 57.06666666666599,
+      "events": 1013
+    },
+    {
+      "version": "v10",
+      "scenario": "50vs50",
+      "meanMs": 0.0776861617990653,
+      "p95Ms": 0.27994300000000294,
+      "result": "TEAM A WIN",
+      "time": 57.06666666666599,
+      "events": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.23459614477702959,
+      "p95Ms": 0.5599469999999656,
+      "result": "TEAM A WIN",
+      "time": 54.56666666666613,
+      "events": 2002
+    },
+    {
+      "version": "v10",
+      "scenario": "100vs100",
+      "meanMs": 0.15697418326206522,
+      "p95Ms": 0.4516129999999521,
+      "result": "TEAM A WIN",
+      "time": 54.56666666666613,
+      "events": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 0.9587058125359433,
+      "p95Ms": 2.561110000000099,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "events": 6019
+    },
+    {
+      "version": "v10",
+      "scenario": "300vs300",
+      "meanMs": 0.5065166774008033,
+      "p95Ms": 1.4463110000001507,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "events": 6019
+    },
+    {
+      "scenario": "shock 600 units",
+      "meanMs": 0.03961652000003596,
+      "p95Ms": 0.06883400000015172
+    },
+    {
+      "scenario": "four-team mixed 208",
+      "meanMs": 0.25004593222222005,
+      "p95Ms": 0.7488250000001244
+    }
+  ]
+}
+✔ test-results/phase4-god.mjs (3878.237699ms)
+{
+  "checks": [
+    "only cost/role added; all combat stats preserved",
+    "6 maps × 6 team presets × 4 teams = 144 placement cases",
+    "TEAM C preset exact count",
+    "only target TEAM replaced; terrain/multipliers/other armies and atomic undo preserved",
+    "custom team same-name update",
+    "custom saved formation recall across all TEAMs",
+    "B-origin custom formation mirrors to A",
+    "damage is actual HP loss, overkill/duplicate kill excluded",
+    "stats retained after corpse pruned",
+    "all-team attack credits exact kills and damage",
+    "team report survivors/kills",
+    "final report frozen after ending animation",
+    "source pruned before projectile resolves",
+    "posthumous projectile kill remains credited",
+    "reinforcement and MVP report",
+    "immune draw with no false MVP",
+    "follow smoothing uses live transform",
+    "free camera pose restored after follow",
+    "follow target death auto-releases",
+    "rule boundary: batch cost, allowed characters, team areas",
+    "Sandbox does not enforce cost",
+    "reinforcements obey injected cost rule",
+    "victory policy/time metadata delegated to rule",
+    "50/100/300 vs same: fixed-seed Phase2/3 identical winner, time, attacks, survivors; kills reconcile",
+    "four-way preset battle with gigant"
+  ],
+  "benchmarks": [
+    {
+      "version": "v8",
+      "scenario": "50vs50",
+      "meanMs": 0.13372429147196288,
+      "p95Ms": 0.47362699999999336,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.08284783060747707,
+      "p95Ms": 0.29359499999998206,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v8",
+      "scenario": "100vs100",
+      "meanMs": 0.2607294911423335,
+      "p95Ms": 0.6859389999999621,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.14355263103238008,
+      "p95Ms": 0.42525399999999536,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v8",
+      "scenario": "300vs300",
+      "meanMs": 0.9829244813111001,
+      "p95Ms": 2.72253499999988,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 0.5268563116733781,
+      "p95Ms": 1.4609820000000582,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    }
+  ]
+}
+✔ test-results/phase4-legacy-logic.mjs (4070.575941ms)
+{
+  "results": [
+    {
+      "scenario": "corners",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-3": 5.733333333333323
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        42,
+        42,
+        42,
+        42
+      ]
+    },
+    {
+      "scenario": "corners",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.799999999999989,
+        "1-3": 5.866666666666656,
+        "0-1": 9.166666666666645,
+        "2-3": 9.366666666666644,
+        "1-2": 11.699999999999969,
+        "0-3": 12.099999999999968
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1124,
+      "aliveAt20": [
+        43,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "scenario": "outer-corners",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 8.199999999999982,
+        "1-3": 8.199999999999982
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        48,
+        48,
+        49,
+        46
+      ]
+    },
+    {
+      "scenario": "outer-corners",
+      "version": "v10",
+      "firstContact": {
+        "1-3": 8.39999999999998,
+        "0-2": 8.39999999999998,
+        "2-3": 9.866666666666642,
+        "0-1": 10.299999999999974,
+        "1-2": 15.833333333333288,
+        "0-3": 16.199999999999964
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 842,
+      "aliveAt20": [
+        49,
+        49,
+        48,
+        50
+      ]
+    },
+    {
+      "scenario": "center",
+      "version": "v9",
+      "firstContact": {
+        "1-3": 1.4333333333333345,
+        "0-2": 1.5333333333333348,
+        "0-1": 1.9666666666666694,
+        "2-3": 2.0000000000000027,
+        "0-3": 14.033333333333294,
+        "1-2": 16.96666666666667
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1560,
+      "aliveAt20": [
+        26,
+        23,
+        21,
+        19
+      ]
+    },
+    {
+      "scenario": "center",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 1.6000000000000016,
+        "1-3": 1.633333333333335,
+        "2-3": 1.9666666666666694,
+        "0-1": 2.066666666666669,
+        "1-2": 4.133333333333328,
+        "0-3": 4.199999999999995
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 2412,
+      "aliveAt20": [
+        24,
+        28,
+        25,
+        23
+      ]
+    },
+    {
+      "scenario": "strong",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-3": 5.733333333333323
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        50,
+        41,
+        0,
+        42
+      ]
+    },
+    {
+      "scenario": "strong",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.799999999999989,
+        "1-3": 5.866666666666656,
+        "0-1": 9.166666666666645,
+        "2-3": 9.366666666666644,
+        "1-2": 11.699999999999969,
+        "0-3": 12.099999999999968
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1101,
+      "aliveAt20": [
+        50,
+        34,
+        21,
+        43
+      ]
+    },
+    {
+      "scenario": "three",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-2": 15.466666666666622,
+        "0-1": 15.899999999999954
+      },
+      "last5OpponentCounts": [
+        2,
+        2,
+        2
+      ],
+      "localMixSamples": 411,
+      "aliveAt20": [
+        30,
+        50,
+        36,
+        0
+      ]
+    },
+    {
+      "scenario": "three",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.933333333333322,
+        "0-1": 7.799999999999982,
+        "1-2": 10.133333333333308
+      },
+      "last5OpponentCounts": [
+        2,
+        2,
+        2
+      ],
+      "localMixSamples": 528,
+      "aliveAt20": [
+        17,
+        50,
+        43,
+        0
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "map": "plain",
+      "attacks": 983,
+      "result": "TEAM A WIN",
+      "time": 39.166666666667005,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "0-1",
+        "2-3",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "canyon",
+      "attacks": 968,
+      "result": "TEAM D WIN",
+      "time": 57.59999999999929,
+      "pairs": [
+        "1-3",
+        "0-2",
+        "1-2",
+        "2-3",
+        "0-1",
+        "0-3"
+      ]
+    },
+    {
+      "map": "arena",
+      "attacks": 1010,
+      "result": "TEAM A WIN",
+      "time": 42.166666666666835,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "2-3",
+        "0-1",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "castle",
+      "attacks": 881,
+      "result": "TEAM A WIN",
+      "time": 34.80000000000059,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "2-3",
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    },
+    {
+      "map": "hills",
+      "attacks": 961,
+      "result": "TEAM B WIN",
+      "time": 39.133333333333674,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "0-1",
+        "2-3",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "rocks",
+      "attacks": 981,
+      "result": "TEAM D WIN",
+      "time": 41.10000000000023,
+      "pairs": [
+        "1-3",
+        "0-2",
+        "2-3",
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    }
+  ]
+}
+✔ test-results/phase4-mix-detail.mjs (6101.795925ms)
+{
+  "checks": [
+    "PC 1体タップ選択",
+    "PC 選択直後のドラッグ移動・一回確定",
+    "PC UI Undo",
+    "PC 10体ドラッグ範囲選択",
+    "PC 10体移動・陣形維持・選択操作中カメラ不変",
+    "PC 50体ドラッグ範囲選択",
+    "PC 50体移動・陣形維持・選択操作中カメラ不変",
+    "PC TEAM全選択ボタン",
+    "PC 移動途中の2本指パン・ピンチで移動取消／選択保持",
+    "PC pointercancelで無変更",
+    "PC モード変更で移動取消",
+    "PC カメラ回転・選択保持",
+    "PC 選択解除・数表示",
+    "PC Shift追加選択",
+    "PC 明示的移動ボタン・地面タップでも陣形保持",
+    "PC 無効移動は無変更・Undo消費なし",
+    "PC 範囲選択途中の2本指で選択取消",
+    "PC Escape選択解除",
+    "PC 移動後の保存・読込と選択状態リセット",
+    "PC 戦闘開始で編集ジェスチャー分離",
+    "Android相当イベント 1体タップ選択",
+    "Android相当イベント 選択直後のドラッグ移動・一回確定",
+    "Android相当イベント UI Undo",
+    "Android相当イベント 10体ドラッグ範囲選択",
+    "Android相当イベント 10体移動・陣形維持・選択操作中カメラ不変",
+    "Android相当イベント 50体ドラッグ範囲選択",
+    "Android相当イベント 50体移動・陣形維持・選択操作中カメラ不変",
+    "Android相当イベント TEAM全選択ボタン",
+    "Android相当イベント 移動途中の2本指パン・ピンチで移動取消／選択保持",
+    "Android相当イベント pointercancelで無変更",
+    "Android相当イベント モード変更で移動取消",
+    "Android相当イベント カメラ回転・選択保持",
+    "Android相当イベント 選択解除・数表示",
+    "Android相当イベント Shift追加選択",
+    "Android相当イベント 明示的移動ボタン・地面タップでも陣形保持",
+    "Android相当イベント 無効移動は無変更・Undo消費なし",
+    "Android相当イベント 範囲選択途中の2本指で選択取消",
+    "Android相当イベント Escape選択解除",
+    "Android相当イベント 移動後の保存・読込と選択状態リセット",
+    "Android相当イベント 戦闘開始で編集ジェスチャー分離",
+    "300体選択ハイライト：既存インスタンス描画に1500パーツ追加・Draw Call増加0（WebGLアダプター）"
+  ]
+}
+(node:44) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase45-input.mjs (202.668566ms)
+{
+  "checks": [
+    "v12→v13更新・同じ公開サブパスだけ旧キャッシュ削除",
+    "PWA27アセット（新エントリー・選択モジュール含む）の一括保存",
+    "ネットワーク遮断相当：新画面・入力・選択・編集コードをキャッシュから返す",
+    "全相対import参照先が存在しPWA保存対象",
+    "重複DOM IDなし・外部通信不要・既存CSP維持"
+  ]
+}
+✔ test-results/phase45-pwa.mjs (62.283044ms)
+{
+  "checks": [
+    "1体の範囲選択・相対位置維持・一回Undo",
+    "10体の範囲選択・相対位置維持・一回Undo",
+    "50体の範囲選択・相対位置維持・一回Undo",
+    "300体の範囲選択・相対位置維持・一回Undo",
+    "TEAM A/B/C/D全選択",
+    "追加選択・トグル・解除・範囲追加",
+    "端・他兵士への無効移動は全体無変更・Undo消費なし",
+    "壁への移動は陣形を変えず拒否",
+    "プレビュー無変更・古い操作の拒否",
+    "集団45°回転・向き・中心距離・Undo",
+    "選択集団削除・残存ID整理・Undo",
+    "既存配置ルールを集団移動にも適用・コスト二重加算なし"
+  ]
+}
+✔ test-results/phase45-selection.mjs (83.058806ms)
+ノーマル中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+近接中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+遠距離中心 [
+  [ -27, 1, 'CHALLENGE WIN', 36 ],
+  [ -27, 42, 'CHALLENGE WIN', 36 ],
+  [ -27, 97, 'CHALLENGE WIN', 36 ],
+  [ -13, 1, 'CHALLENGE WIN', 36 ],
+  [ -13, 42, 'CHALLENGE WIN', 36 ],
+  [ -13, 97, 'CHALLENGE WIN', 36 ]
+]
+マッスル中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成軍 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成・槍と前衛 [
+  [ -27, 1, 'CHALLENGE WIN', 29 ],
+  [ -27, 42, 'CHALLENGE WIN', 29 ],
+  [ -27, 97, 'CHALLENGE WIN', 29 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成・マッスルと槍 [
+  [ -27, 1, 'CHALLENGE WIN', 8 ],
+  [ -27, 42, 'CHALLENGE WIN', 8 ],
+  [ -27, 97, 'CHALLENGE WIN', 8 ],
+  [ -13, 1, 'CHALLENGE WIN', 17 ],
+  [ -13, 42, 'CHALLENGE WIN', 17 ],
+  [ -13, 97, 'CHALLENGE WIN', 17 ]
+]
+少数ノーマル [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+火能力中心 [
+  [ -27, 1, 'CHALLENGE WIN', 5 ],
+  [ -27, 42, 'CHALLENGE WIN', 5 ],
+  [ -27, 97, 'CHALLENGE WIN', 5 ],
+  [ -13, 1, 'CHALLENGE WIN', 6 ],
+  [ -13, 42, 'CHALLENGE WIN', 6 ],
+  [ -13, 97, 'CHALLENGE WIN', 6 ]
+]
+二刀流中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+槍2つ中心 [
+  [ -27, 1, 'CHALLENGE WIN', 11 ],
+  [ -27, 42, 'CHALLENGE WIN', 11 ],
+  [ -27, 97, 'CHALLENGE WIN', 11 ],
+  [ -13, 1, 'CHALLENGE WIN', 16 ],
+  [ -13, 42, 'CHALLENGE WIN', 16 ],
+  [ -13, 97, 'CHALLENGE WIN', 16 ]
+]
+Challengeプリセット [
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 1,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 42,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 97,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 1,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 42,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 97,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 1,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 42,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 97,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  }
+]
+✔ test-results/phase5-balance.mjs (2449.819212ms)
+[
+  "過剰100体・禁止キャラ・敵編集・地形・倍率・配置エリア外移動を無変更で拒否",
+  "残り70で100体配置を原子的に拒否",
+  "自軍全消去・Undoで固定敵保持",
+  "Challenge用3チームプリセット・置換コスト・エリア検証",
+  "保存データ改変・戦闘増援・全神能力を拒否",
+  "日本語モード選択→固定敵16体・コスト常時表示",
+  "1000px 編成→実戦→結果→同編成再戦→編成復元を3周",
+  "1000px 敗北時の残存数・HP表示と編成復元",
+  "1000px 実ポインタ配置処理で超過拒否と短いフィードバック",
+  "1000px ブラシ5体単位で予算確認・不足スタンプ無変更・Undo",
+  "1000px タップ・範囲選択で敵を編集対象にしない",
+  "1000px Challenge保存・読込で編成と固定敵復元",
+  "1000px Sandboxの4陣営・ギガント・地形倍率・神増援が復帰／編成独立保持",
+  "日本語モード選択→固定敵16体・コスト常時表示",
+  "370px 編成→実戦→結果→同編成再戦→編成復元を3周",
+  "370px 敗北時の残存数・HP表示と編成復元",
+  "370px 実ポインタ配置処理で超過拒否と短いフィードバック",
+  "370px ブラシ5体単位で予算確認・不足スタンプ無変更・Undo",
+  "370px タップ・範囲選択で敵を編集対象にしない",
+  "370px Challenge保存・読込で編成と固定敵復元",
+  "370px Sandboxの4陣営・ギガント・地形倍率・神増援が復帰／編成独立保持"
+]
+(node:76) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase5-challenge.mjs (7427.621456ms)
+[
+  {
+    version: 'before',
+    count: 300,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 56.799999999999336,
+    alive: [ 0, 16, 0, 0 ],
+    events: 2989
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 56.799999999999336,
+    alive: [ 0, 16, 0, 0 ],
+    events: 2989
+  },
+  {
+    version: 'before',
+    count: 300,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 48.13333333333316,
+    alive: [ 0, 43, 0, 0 ],
+    events: 2903
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 48.13333333333316,
+    alive: [ 0, 43, 0, 0 ],
+    events: 2903
+  },
+  {
+    version: 'before',
+    count: 300,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 51.5666666666663,
+    alive: [ 0, 32, 0, 0 ],
+    events: 2928
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 51.5666666666663,
+    alive: [ 0, 32, 0, 0 ],
+    events: 2928
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 47.79999999999985,
+    alive: [ 0, 44, 0, 0 ],
+    events: 5879
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 47.79999999999985,
+    alive: [ 0, 44, 0, 0 ],
+    events: 5879
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 57.96666666666594,
+    alive: [ 0, 18, 0, 0 ],
+    events: 6019
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 57.96666666666594,
+    alive: [ 0, 18, 0, 0 ],
+    events: 6019
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 52.63333333333291,
+    alive: [ 0, 40, 0, 0 ],
+    events: 5944
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 52.63333333333291,
+    alive: [ 0, 40, 0, 0 ],
+    events: 5944
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 49.89999999999973,
+    alive: [ 0, 116, 0, 0 ],
+    events: 9666
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 49.89999999999973,
+    alive: [ 0, 116, 0, 0 ],
+    events: 9666
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 42,
+    result: 'TEAM A WIN',
+    time: 47.76666666666652,
+    alive: [ 89, 0, 0, 0 ],
+    events: 9774
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 42,
+    result: 'TEAM A WIN',
+    time: 47.76666666666652,
+    alive: [ 89, 0, 0, 0 ],
+    events: 9774
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 43.766666666666744,
+    alive: [ 0, 104, 0, 0 ],
+    events: 9710
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 43.766666666666744,
+    alive: [ 0, 104, 0, 0 ],
+    events: 9710
+  }
+]
+✔ test-results/phase55-outcomes.mjs (26052.682832ms)
+before 300 plain step 1.03 draw 1.75
+before 300 obstacles step 1.44 draw 1.54
+before 300 four step 0.95 draw 1.24
+before 300 ranged step 0.88 draw 1.41
+before 300 god step 0.94 draw 1.61
+before 600 plain step 2.29 draw 2.64
+before 600 obstacles step 3.13 draw 2.55
+before 600 four step 2.48 draw 2.33
+before 600 ranged step 2.00 draw 2.30
+before 600 god step 2.32 draw 2.79
+before 1000 plain step 4.24 draw 4.21
+before 1000 obstacles step 6.35 draw 4.30
+before 1000 four step 5.17 draw 3.42
+before 1000 ranged step 3.63 draw 3.50
+before 1000 god step 4.16 draw 4.20
+before 1500 plain step 7.40 draw 6.68
+before 1500 obstacles step 10.56 draw 6.76
+before 1500 four step 9.89 draw 5.31
+before 1500 ranged step 6.20 draw 5.60
+before 1500 god step 7.02 draw 6.00
+after 300 plain step 0.60 draw 0.92
+after 300 obstacles step 1.01 draw 0.86
+after 300 four step 0.58 draw 0.70
+after 300 ranged step 0.43 draw 0.65
+after 300 god step 0.47 draw 0.64
+after 600 plain step 1.14 draw 1.30
+after 600 obstacles step 2.07 draw 1.10
+after 600 four step 1.39 draw 0.92
+after 600 ranged step 0.99 draw 0.96
+after 600 god step 1.09 draw 1.09
+after 1000 plain step 2.17 draw 1.81
+after 1000 obstacles step 3.73 draw 1.78
+after 1000 four step 3.99 draw 1.91
+after 1000 ranged step 2.40 draw 1.63
+after 1000 god step 2.64 draw 1.86
+after 1500 plain step 3.78 draw 2.94
+after 1500 obstacles step 6.66 draw 2.78
+after 1500 four step 6.23 draw 2.19
+after 1500 ranged step 3.30 draw 2.32
+after 1500 god step 4.04 draw 2.75
+before {
+  rebuild: 18.05247700001928,
+  findEnemy: 505.96861900026124,
+  allySteering: 232.72069599891256,
+  updateAI: 805.1387089989439,
+  updateCharacter: 82.33075999880384,
+  separate: 274.94323200007057,
+  recordDamage: 0.4186419999532518
+}
+after {
+  rebuild: 10.106574999997974,
+  findEnemy: 204.04723399981594,
+  allySteering: 122.12189300003956,
+  updateAI: 384.2319820013581,
+  updateCharacter: 74.6788710007313,
+  separate: 126.9640729999519,
+  recordDamage: 0.34126900001137983
+}
+✔ test-results/phase55-performance.mjs (59698.437212ms)
+[
+  '1000px 5主要ボタン・4カテゴリ・単一シート・選択を戦場側に配置・閉じる/モード変更・神/一時停止・1000体UIを200msに間引く',
+  '1000px Challengeは敵TEAMと戦場設定を非表示、前モードの戦場タブを開かない',
+  '370px 5主要ボタン・4カテゴリ・単一シート・選択を戦場側に配置・閉じる/モード変更・神/一時停止・1000体UIを200msに間引く',
+  '370px Challengeは敵TEAMと戦場設定を非表示、前モードの戦場タブを開かない',
+  '静的構造：戦場を先に、設定は固定シート内スクロール。実ブラウザーのレイアウト測定は未実施'
+]
+(node:100) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase55-ui.mjs (10356.74717ms)
+{
+  "checks": [
+    "3防衛プリセット×3seed：3分完走・3ウェーブ・敵88体・複数勝ち編成",
+    "少数軍は拠点破壊で敗北。兵士全滅だけでは終わらず拠点HPで判定",
+    "予約時刻まで敵出現なし・タイミング跨ぎ一度だけ出現・購入/自由増援なし",
+    "拠点定義・地形・配置エリアの改変を拒否",
+    "durationとwave時刻はデータで短縮可能、時間勝利判定",
+    "1000px 防衛編成→戦闘→結果→同編成再戦→再編集を2周、旗/敵/ウェーブ全初期化",
+    "1000px 攻撃・防衛・Sandboxの編成・制約を独立保持",
+    "370px 防衛編成→戦闘→結果→同編成再戦→再編集を2周、旗/敵/ウェーブ全初期化",
+    "370px 攻撃・防衛・Sandboxの編成・制約を独立保持"
+  ],
+  "results": [
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4870,
+      "wave": 3,
+      "alive": [
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        14,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4685,
+      "wave": 3,
+      "alive": [
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        67,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        69,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        66,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        19,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル1",
+      "cost": 10,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 62.46666666666568,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        68,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル10",
+      "cost": 100,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 64.36666666666558,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        68,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル50",
+      "cost": 500,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 98.56666666666364,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        24,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル150",
+      "cost": 1500,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 3650,
+      "wave": 3,
+      "alive": [
+        92,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}
+(node:108) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase6-defense.mjs (24189.529536ms)
+[
+  '8 independently tracked performAttack calls produce 8 global projectiles/events; staggered simultaneous impacts each resolve once; every enemy hit once, allies excluded',
+  'retired global projectile reused as single-target: source/target/area/all overwrite, no residual global hit',
+  'dead target ignores subsequent hit while battle is still running (not relying on battle.result guard)',
+  'Infinity remains range metadata; position/HP finite; no God cast used'
+]
+✔ test-results/phase61-audit-combat.mjs (66.272949ms)
+Error: audit return constructor failure
+    at api.mode.rules.validateInitialBattle (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:12:263)
+    at new Battle (/workspace/scratch/7410f23822b9/phase62/simulation.js:65:13)
+    at openEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:95:35)
+    at Element.back [as onclick] (/workspace/scratch/7410f23822b9/phase62/game-v13.js:100:68)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:13:18
+Error: audit editor DOM failure
+    at el.append (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:16:123)
+    at openEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:97:512)
+    at Object.chooseMode (/workspace/scratch/7410f23822b9/phase62/game-v13.js:36:143)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:16:184
+Error: audit return constructor failure
+    at api.mode.rules.validateInitialBattle (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:12:263)
+    at new Battle (/workspace/scratch/7410f23822b9/phase62/simulation.js:65:13)
+    at openEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:95:35)
+    at Element.back [as onclick] (/workspace/scratch/7410f23822b9/phase62/game-v13.js:100:68)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:13:18
+Error: audit editor DOM failure
+    at el.append (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:16:123)
+    at openEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:97:512)
+    at Object.chooseMode (/workspace/scratch/7410f23822b9/phase62/game-v13.js:36:143)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:16:184
+Error: audit rollback preview constructor failure
+    at api.mode.rules.validateInitialBattle (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:21:374)
+    at new Battle (/workspace/scratch/7410f23822b9/phase62/simulation.js:65:13)
+    at refreshEditorPreview (/workspace/scratch/7410f23822b9/phase62/game-v13.js:87:15)
+    at refreshEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:83:47)
+    at brushAt (/workspace/scratch/7410f23822b9/phase62/game-v13.js:120:8)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:125:807)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:178:341)
+    at send (file:///workspace/scratch/7410f23822b9/phase62/test-results/ui-adapter.js:21:220)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:22:2
+Error: audit partial preview failure / 表示の復旧にも失敗：audit rollback preview constructor failure
+    at brushAt (/workspace/scratch/7410f23822b9/phase62/game-v13.js:120:62)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:125:807)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:178:341)
+    at send (file:///workspace/scratch/7410f23822b9/phase62/test-results/ui-adapter.js:21:220)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:22:2
+Error: audit rollback preview constructor failure
+    at api.mode.rules.validateInitialBattle (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:21:374)
+    at new Battle (/workspace/scratch/7410f23822b9/phase62/simulation.js:65:13)
+    at refreshEditorPreview (/workspace/scratch/7410f23822b9/phase62/game-v13.js:87:15)
+    at refreshEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:83:47)
+    at brushAt (/workspace/scratch/7410f23822b9/phase62/game-v13.js:120:8)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:125:807)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:178:341)
+    at send (file:///workspace/scratch/7410f23822b9/phase62/test-results/ui-adapter.js:21:220)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:22:2
+Error: audit partial preview failure / 表示の復旧にも失敗：audit rollback preview constructor failure
+    at brushAt (/workspace/scratch/7410f23822b9/phase62/game-v13.js:120:62)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:125:807)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:178:341)
+    at send (file:///workspace/scratch/7410f23822b9/phase62/test-results/ui-adapter.js:21:220)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:22:2
+Error: audit rollback preview constructor failure
+    at api.mode.rules.validateInitialBattle (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:21:374)
+    at new Battle (/workspace/scratch/7410f23822b9/phase62/simulation.js:65:13)
+    at refreshEditorPreview (/workspace/scratch/7410f23822b9/phase62/game-v13.js:87:15)
+    at refreshEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:83:47)
+    at brushAt (/workspace/scratch/7410f23822b9/phase62/game-v13.js:120:8)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:125:807)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:178:341)
+    at send (file:///workspace/scratch/7410f23822b9/phase62/test-results/ui-adapter.js:21:220)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:22:2
+Error: audit partial preview failure / 表示の復旧にも失敗：audit rollback preview constructor failure
+    at brushAt (/workspace/scratch/7410f23822b9/phase62/game-v13.js:120:62)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:125:807)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:178:341)
+    at send (file:///workspace/scratch/7410f23822b9/phase62/test-results/ui-adapter.js:21:220)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:22:2
+Error: audit rollback preview constructor failure
+    at api.mode.rules.validateInitialBattle (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:21:374)
+    at new Battle (/workspace/scratch/7410f23822b9/phase62/simulation.js:65:13)
+    at refreshEditorPreview (/workspace/scratch/7410f23822b9/phase62/game-v13.js:87:15)
+    at refreshEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:83:47)
+    at brushAt (/workspace/scratch/7410f23822b9/phase62/game-v13.js:120:8)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:125:807)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:178:341)
+    at send (file:///workspace/scratch/7410f23822b9/phase62/test-results/ui-adapter.js:21:220)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:22:2
+Error: audit partial preview failure / 表示の復旧にも失敗：audit rollback preview constructor failure
+    at brushAt (/workspace/scratch/7410f23822b9/phase62/game-v13.js:120:62)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:125:807)
+    at canvas.onpointermove (/workspace/scratch/7410f23822b9/phase62/game-v13.js:178:341)
+    at send (file:///workspace/scratch/7410f23822b9/phase62/test-results/ui-adapter.js:21:220)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:22:2
+Error: audit edit preview constructor failure
+    at api.mode.rules.validateInitialBattle (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:29:161)
+    at new Battle (/workspace/scratch/7410f23822b9/phase62/simulation.js:65:13)
+    at refreshEditorPreview (/workspace/scratch/7410f23822b9/phase62/game-v13.js:87:15)
+    at refreshEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:83:47)
+    at editAction (/workspace/scratch/7410f23822b9/phase62/game-v13.js:104:42)
+    at $.onclick (/workspace/scratch/7410f23822b9/phase62/game-v13.js:105:241)
+    at $.onclick (/workspace/scratch/7410f23822b9/phase62/game-v13.js:105:511)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:29:333
+Error: audit edit preview constructor failure
+    at api.mode.rules.validateInitialBattle (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:29:161)
+    at new Battle (/workspace/scratch/7410f23822b9/phase62/simulation.js:65:13)
+    at refreshEditorPreview (/workspace/scratch/7410f23822b9/phase62/game-v13.js:87:15)
+    at refreshEditor (/workspace/scratch/7410f23822b9/phase62/game-v13.js:83:47)
+    at editAction (/workspace/scratch/7410f23822b9/phase62/game-v13.js:104:42)
+    at $.onclick (/workspace/scratch/7410f23822b9/phase62/game-v13.js:105:23)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:29:365
+Error: audit start DOM failure
+    at Element.set [as hidden] (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:28:290)
+    at Object.beginBattle (/workspace/scratch/7410f23822b9/phase62/game-v13.js:99:573)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-audit-state.mjs:28:332
+[
+  '370px sandbox: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly',
+  '370px giant-outpost: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly',
+  '370px flag-defense: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly',
+  '1000px sandbox: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly',
+  '1000px giant-outpost: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly',
+  '1000px flag-defense: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly',
+  '370px return-to-editor constructor failure is atomic; same-mode recovery fresh flag/Wave; postcommit DOM failure visible and recoverable',
+  '1000px return-to-editor constructor failure is atomic; same-mode recovery fresh flag/Wave; postcommit DOM failure visible and recoverable',
+  'brush stamp 1, history 0, recoveryFails=false: records/IDs/complete history rollback, preview consistent or hidden until mode recovery',
+  'brush stamp 1, history 0, recoveryFails=true: records/IDs/complete history rollback, preview consistent or hidden until mode recovery',
+  'brush stamp 2, history 0, recoveryFails=false: records/IDs/complete history rollback, preview consistent or hidden until mode recovery',
+  'brush stamp 2, history 0, recoveryFails=true: records/IDs/complete history rollback, preview consistent or hidden until mode recovery',
+  'brush stamp 1, history 30, recoveryFails=false: records/IDs/complete history rollback, preview consistent or hidden until mode recovery',
+  'brush stamp 1, history 30, recoveryFails=true: records/IDs/complete history rollback, preview consistent or hidden until mode recovery',
+  'brush stamp 2, history 30, recoveryFails=false: records/IDs/complete history rollback, preview consistent or hidden until mode recovery',
+  'brush stamp 2, history 30, recoveryFails=true: records/IDs/complete history rollback, preview consistent or hidden until mode recovery',
+  'delete: failed presentation hidden, error visible, next mode recovers committed stage without duplicate action',
+  'undo: failed presentation hidden, error visible, next mode recovers committed stage without duplicate action',
+  'startDOM: failed presentation hidden, error visible, next mode recovers committed stage without duplicate action'
+]
+(node:124) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase61-audit-state.mjs (1243.636872ms)
+[
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    attempts: 50,
+    placed: 50,
+    constructor: {
+      n: 50,
+      mean: 0.16110400000000027,
+      max: 1.314661000000001,
+      over50: 0
+    },
+    refresh: {
+      n: 50,
+      mean: 0.3553769000000014,
+      max: 1.5805540000000065,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 50,
+      mean: 0.5031944199999989,
+      max: 1.894689999999997,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    attempts: 100,
+    placed: 60,
+    constructor: {
+      n: 60,
+      mean: 0.17333943333333318,
+      max: 0.7313079999999843,
+      over50: 0
+    },
+    refresh: {
+      n: 60,
+      mean: 0.3903073666666633,
+      max: 1.0855439999999987,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 100,
+      mean: 0.3775252100000017,
+      max: 1.3539110000000107,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    attempts: 300,
+    placed: 60,
+    constructor: {
+      n: 60,
+      mean: 0.16782563333332898,
+      max: 1.0979829999999993,
+      over50: 0
+    },
+    refresh: {
+      n: 60,
+      mean: 0.37900475000000144,
+      max: 1.272086999999999,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 300,
+      mean: 0.21470351666666848,
+      max: 1.9524370000000317,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    attempts: 50,
+    placed: 50,
+    constructor: {
+      n: 10,
+      mean: 0.18037540000000263,
+      max: 0.2496980000000235,
+      over50: 0
+    },
+    refresh: {
+      n: 10,
+      mean: 0.41451690000000097,
+      max: 0.5313850000000002,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 10,
+      mean: 0.7888875999999925,
+      max: 1.4586289999999735,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    attempts: 100,
+    placed: 60,
+    constructor: {
+      n: 12,
+      mean: 0.3021977500000048,
+      max: 1.6899290000000065,
+      over50: 0
+    },
+    refresh: {
+      n: 12,
+      mean: 0.5106844999999964,
+      max: 1.9189569999999776,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 20,
+      mean: 0.5357106999999985,
+      max: 2.055433999999991,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    attempts: 300,
+    placed: 60,
+    constructor: {
+      n: 12,
+      mean: 0.21025433333332444,
+      max: 0.3211270000000468,
+      over50: 0
+    },
+    refresh: {
+      n: 12,
+      mean: 0.4721800000000182,
+      max: 0.5640940000000683,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 60,
+      mean: 0.28313561666666565,
+      max: 1.6992040000000088,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    attempts: 50,
+    placed: 50,
+    constructor: {
+      n: 5,
+      mean: 0.25177120000003017,
+      max: 0.35611900000003516,
+      over50: 0
+    },
+    refresh: {
+      n: 5,
+      mean: 0.5610318000000234,
+      max: 0.710495999999921,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 5,
+      mean: 1.4017154000000118,
+      max: 1.9180959999999914,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    attempts: 100,
+    placed: 60,
+    constructor: {
+      n: 6,
+      mean: 0.19802666666663526,
+      max: 0.27637799999990875,
+      over50: 0
+    },
+    refresh: {
+      n: 6,
+      mean: 0.4599034999999958,
+      max: 0.583994999999959,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 10,
+      mean: 0.7541925999999876,
+      max: 1.573082999999997,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    attempts: 300,
+    placed: 60,
+    constructor: {
+      n: 6,
+      mean: 0.20375183333330446,
+      max: 0.26548200000002,
+      over50: 0
+    },
+    refresh: {
+      n: 6,
+      mean: 0.47836116666667294,
+      max: 0.5671689999999217,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 30,
+      mean: 0.40276633333333317,
+      max: 1.8539279999999962,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    attempts: 50,
+    placed: 50,
+    constructor: {
+      n: 50,
+      mean: 0.12249320000001035,
+      max: 0.24217700000008335,
+      over50: 0
+    },
+    refresh: {
+      n: 50,
+      mean: 0.32319600000000037,
+      max: 1.4885949999999184,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 50,
+      mean: 0.4446491400000036,
+      max: 1.6256929999999556,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    attempts: 100,
+    placed: 100,
+    constructor: {
+      n: 100,
+      mean: 0.17588755000000447,
+      max: 1.33251800000005,
+      over50: 0
+    },
+    refresh: {
+      n: 100,
+      mean: 0.3748174999999969,
+      max: 1.5829579999999623,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 100,
+      mean: 0.4837686899999983,
+      max: 1.6906010000000151,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    attempts: 300,
+    placed: 300,
+    constructor: {
+      n: 300,
+      mean: 0.3509054833333289,
+      max: 1.107588000000078,
+      over50: 0
+    },
+    refresh: {
+      n: 300,
+      mean: 0.6561953066666607,
+      max: 1.529266000000007,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 300,
+      mean: 0.8336681799999993,
+      max: 1.793076999999812,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    attempts: 50,
+    placed: 50,
+    constructor: {
+      n: 10,
+      mean: 0.19448469999999815,
+      max: 0.27885300000002644,
+      over50: 0
+    },
+    refresh: {
+      n: 10,
+      mean: 0.4354956000000357,
+      max: 0.5310240000001158,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 10,
+      mean: 0.7230311000000029,
+      max: 1.5858619999999064,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    attempts: 100,
+    placed: 100,
+    constructor: {
+      n: 20,
+      mean: 0.2268672499999866,
+      max: 0.4706830000000082,
+      over50: 0
+    },
+    refresh: {
+      n: 20,
+      mean: 0.47843564999999444,
+      max: 0.7216840000000957,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 20,
+      mean: 0.6982000499999799,
+      max: 1.4782090000001062,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    attempts: 300,
+    placed: 300,
+    constructor: {
+      n: 60,
+      mean: 0.39705651666666125,
+      max: 1.7550579999999627,
+      over50: 0
+    },
+    refresh: {
+      n: 60,
+      mean: 0.7644311833333215,
+      max: 2.2867940000001,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 60,
+      mean: 0.9645349666666827,
+      max: 2.4968619999999646,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    attempts: 50,
+    placed: 50,
+    constructor: {
+      n: 5,
+      mean: 0.2091106000000309,
+      max: 0.2807350000000497,
+      over50: 0
+    },
+    refresh: {
+      n: 5,
+      mean: 0.5169251999999688,
+      max: 0.6624540000000252,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 5,
+      mean: 1.2338598000000274,
+      max: 1.7857649999998557,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    attempts: 100,
+    placed: 100,
+    constructor: {
+      n: 10,
+      mean: 0.3167958999999655,
+      max: 0.6084309999998823,
+      over50: 0
+    },
+    refresh: {
+      n: 10,
+      mean: 0.6244176999999581,
+      max: 1.0323739999998907,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 10,
+      mean: 1.2414774999999736,
+      max: 1.6315519999998287,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    attempts: 300,
+    placed: 300,
+    constructor: {
+      n: 30,
+      mean: 0.39425686666665266,
+      max: 0.6598099999998794,
+      over50: 0
+    },
+    refresh: {
+      n: 30,
+      mean: 0.7594254333333538,
+      max: 1.1804179999999178,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 30,
+      mean: 1.4036664333333193,
+      max: 3.09795199999985,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    attempts: 50,
+    placed: 50,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 50,
+      mean: 0.12251401999997596,
+      max: 0.29923299999995834,
+      over50: 0
+    },
+    dom: {
+      n: 50,
+      mean: 0.10885246000000734,
+      max: 0.24317900000005466,
+      over50: 0
+    },
+    stamp: {
+      n: 50,
+      mean: 0.2446012599999858,
+      max: 1.2005789999998342,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    attempts: 100,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 60,
+      mean: 0.11623031666668264,
+      max: 0.3082569999999123,
+      over50: 0
+    },
+    dom: {
+      n: 60,
+      mean: 0.10305969999998675,
+      max: 0.22687299999984134,
+      over50: 0
+    },
+    stamp: {
+      n: 100,
+      mean: 0.17950910000001158,
+      max: 2.0763449999999466,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    attempts: 300,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 60,
+      mean: 0.12454161666664731,
+      max: 0.2743749999999636,
+      over50: 0
+    },
+    dom: {
+      n: 60,
+      mean: 0.10891150000001062,
+      max: 0.2235680000001139,
+      over50: 0
+    },
+    stamp: {
+      n: 300,
+      mean: 0.10551667000000786,
+      max: 2.5428620000000137,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    attempts: 50,
+    placed: 50,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 10,
+      mean: 0.1997805999999855,
+      max: 0.2920120000001134,
+      over50: 0
+    },
+    dom: {
+      n: 10,
+      mean: 0.16204239999999573,
+      max: 0.23055999999996857,
+      over50: 0
+    },
+    stamp: {
+      n: 10,
+      mean: 0.509314500000005,
+      max: 1.331136000000015,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    attempts: 100,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 12,
+      mean: 0.20759033333335233,
+      max: 0.34011499999996886,
+      over50: 0
+    },
+    dom: {
+      n: 12,
+      mean: 0.1751226666666715,
+      max: 0.3177010000001701,
+      over50: 0
+    },
+    stamp: {
+      n: 20,
+      mean: 0.3299191499999893,
+      max: 1.3355419999998048,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    attempts: 300,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 12,
+      mean: 0.21525766666671112,
+      max: 0.3416070000000673,
+      over50: 0
+    },
+    dom: {
+      n: 12,
+      mean: 0.17978974999997868,
+      max: 0.3192429999999149,
+      over50: 0
+    },
+    stamp: {
+      n: 60,
+      mean: 0.15424485000000915,
+      max: 1.320109999999886,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    attempts: 50,
+    placed: 50,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 5,
+      mean: 0.29903679999997623,
+      max: 0.4791049999998904,
+      over50: 0
+    },
+    dom: {
+      n: 5,
+      mean: 0.23846919999996316,
+      max: 0.3438699999999244,
+      over50: 0
+    },
+    stamp: { n: 5, mean: 1.0611693999999716, max: 1.737482, over50: 0 }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    attempts: 100,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 6,
+      mean: 0.3466216666666166,
+      max: 0.6179159999999229,
+      over50: 0
+    },
+    dom: {
+      n: 6,
+      mean: 0.2838365000000067,
+      max: 0.4935080000000198,
+      over50: 0
+    },
+    stamp: {
+      n: 10,
+      mean: 0.7236721999999872,
+      max: 2.1208319999998366,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    attempts: 300,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 6,
+      mean: 0.34301283333331867,
+      max: 0.5326270000000477,
+      over50: 0
+    },
+    dom: {
+      n: 6,
+      mean: 0.28609516666665513,
+      max: 0.47549000000003616,
+      over50: 0
+    },
+    stamp: {
+      n: 30,
+      mean: 0.2818905666666751,
+      max: 1.7793149999999969,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    attempts: 50,
+    placed: 50,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 50,
+      mean: 0.14303351999999905,
+      max: 0.39405699999997523,
+      over50: 0
+    },
+    dom: {
+      n: 50,
+      mean: 0.12713450000000193,
+      max: 0.3643019999999524,
+      over50: 0
+    },
+    stamp: {
+      n: 50,
+      mean: 0.2718071000000009,
+      max: 1.4923509999998714,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    attempts: 100,
+    placed: 100,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 100,
+      mean: 0.14006393000000117,
+      max: 0.2955379999998513,
+      over50: 0
+    },
+    dom: {
+      n: 100,
+      mean: 0.12646194999999807,
+      max: 0.25584799999978713,
+      over50: 0
+    },
+    stamp: {
+      n: 100,
+      mean: 0.2658792999999741,
+      max: 1.1259759999998096,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    attempts: 300,
+    placed: 300,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 300,
+      mean: 0.1651584866666705,
+      max: 4.57445800000005,
+      over50: 0
+    },
+    dom: {
+      n: 300,
+      mean: 0.14800827999997335,
+      max: 4.562530000000152,
+      over50: 0
+    },
+    stamp: {
+      n: 300,
+      mean: 0.3894894866666679,
+      max: 4.670463999999811,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    attempts: 50,
+    placed: 50,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 10,
+      mean: 0.21408239999996112,
+      max: 0.3517229999997653,
+      over50: 0
+    },
+    dom: {
+      n: 10,
+      mean: 0.1755829000000176,
+      max: 0.283078999999816,
+      over50: 0
+    },
+    stamp: {
+      n: 10,
+      mean: 0.5266427000000931,
+      max: 1.43887900000027,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    attempts: 100,
+    placed: 100,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 20,
+      mean: 0.20954035000004295,
+      max: 0.33415599999989354,
+      over50: 0
+    },
+    dom: {
+      n: 20,
+      mean: 0.17479635000001964,
+      max: 0.28353999999990265,
+      over50: 0
+    },
+    stamp: {
+      n: 20,
+      mean: 0.48807564999999614,
+      max: 1.4629260000001523,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    attempts: 300,
+    placed: 300,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 60,
+      mean: 0.23883224999998826,
+      max: 0.348508000000038,
+      over50: 0
+    },
+    dom: {
+      n: 60,
+      mean: 0.2075335500000089,
+      max: 0.31531700000005003,
+      over50: 0
+    },
+    stamp: {
+      n: 60,
+      mean: 0.5576799833333326,
+      max: 3.618334999999661,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    attempts: 50,
+    placed: 50,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 5,
+      mean: 0.2720220000000154,
+      max: 0.36875899999995454,
+      over50: 0
+    },
+    dom: {
+      n: 5,
+      mean: 0.21804840000013428,
+      max: 0.3274860000001354,
+      over50: 0
+    },
+    stamp: {
+      n: 5,
+      mean: 1.001400999999987,
+      max: 1.5154550000002018,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    attempts: 100,
+    placed: 100,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 10,
+      mean: 0.24053129999997508,
+      max: 0.39313499999980195,
+      over50: 0
+    },
+    dom: {
+      n: 10,
+      mean: 0.19141899999990528,
+      max: 0.29694999999992433,
+      over50: 0
+    },
+    stamp: {
+      n: 10,
+      mean: 1.129589200000055,
+      max: 3.4489540000004126,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    attempts: 300,
+    placed: 300,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 30,
+      mean: 0.28006823333330433,
+      max: 0.5445749999998952,
+      over50: 0
+    },
+    dom: {
+      n: 30,
+      mean: 0.23662133333336896,
+      max: 0.5050750000000335,
+      over50: 0
+    },
+    stamp: {
+      n: 30,
+      mean: 0.9651222666667005,
+      max: 1.819496000000072,
+      over50: 0
+    }
+  }
+]
+(node:132) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase61-brush.mjs (2482.765555ms)
+[
+  {
+    n: 300,
+    teams: 2,
+    ratio: 0.05,
+    deaths: 269,
+    maxFrame: 120,
+    time: 11.999999999999968
+  },
+  {
+    n: 300,
+    teams: 2,
+    ratio: 0.5,
+    deaths: 285,
+    maxFrame: 135,
+    time: 2.4000000000000012
+  },
+  {
+    n: 300,
+    teams: 2,
+    ratio: 0.95,
+    deaths: 299,
+    maxFrame: 149,
+    time: 2.333333333333335
+  },
+  {
+    n: 300,
+    teams: 4,
+    ratio: 0.05,
+    deaths: 241,
+    maxFrame: 105,
+    time: 9.999999999999975
+  },
+  {
+    n: 300,
+    teams: 4,
+    ratio: 0.5,
+    deaths: 295,
+    maxFrame: 129,
+    time: 2.533333333333334
+  },
+  {
+    n: 300,
+    teams: 4,
+    ratio: 0.95,
+    deaths: 225,
+    maxFrame: 150,
+    time: 1.4333333333333345
+  },
+  {
+    n: 600,
+    teams: 2,
+    ratio: 0.05,
+    deaths: 543,
+    maxFrame: 240,
+    time: 2.999999999999999
+  },
+  {
+    n: 600,
+    teams: 2,
+    ratio: 0.5,
+    deaths: 570,
+    maxFrame: 270,
+    time: 2.233333333333335
+  },
+  {
+    n: 600,
+    teams: 2,
+    ratio: 0.95,
+    deaths: 597,
+    maxFrame: 297,
+    time: 2.233333333333335
+  },
+  {
+    n: 600,
+    teams: 4,
+    ratio: 0.05,
+    deaths: 516,
+    maxFrame: 300,
+    time: 11.999999999999968
+  },
+  {
+    n: 600,
+    teams: 4,
+    ratio: 0.5,
+    deaths: 585,
+    maxFrame: 531,
+    time: 1.5333333333333348
+  },
+  {
+    n: 600,
+    teams: 4,
+    ratio: 0.95,
+    deaths: 599,
+    maxFrame: 447,
+    time: 1.4333333333333345
+  },
+  {
+    n: 1000,
+    teams: 2,
+    ratio: 0.05,
+    deaths: 905,
+    maxFrame: 398,
+    time: 2.8999999999999995
+  },
+  {
+    n: 1000,
+    teams: 2,
+    ratio: 0.5,
+    deaths: 950,
+    maxFrame: 897,
+    time: 2.1666666666666687
+  },
+  {
+    n: 1000,
+    teams: 2,
+    ratio: 0.95,
+    deaths: 995,
+    maxFrame: 495,
+    time: 2.1666666666666687
+  },
+  {
+    n: 1000,
+    teams: 4,
+    ratio: 0.05,
+    deaths: 957,
+    maxFrame: 300,
+    time: 2.9333333333333327
+  },
+  {
+    n: 1000,
+    teams: 4,
+    ratio: 0.5,
+    deaths: 975,
+    maxFrame: 679,
+    time: 1.466666666666668
+  },
+  {
+    n: 1000,
+    teams: 4,
+    ratio: 0.95,
+    deaths: 998,
+    maxFrame: 992,
+    time: 1.4333333333333345
+  },
+  {
+    n: 1500,
+    teams: 2,
+    ratio: 0.05,
+    deaths: 1358,
+    maxFrame: 607,
+    time: 2.4666666666666677
+  },
+  {
+    n: 1500,
+    teams: 2,
+    ratio: 0.5,
+    deaths: 1425,
+    maxFrame: 677,
+    time: 2.1000000000000023
+  },
+  {
+    n: 1500,
+    teams: 2,
+    ratio: 0.95,
+    deaths: 1493,
+    maxFrame: 743,
+    time: 2.033333333333336
+  },
+  {
+    n: 1500,
+    teams: 4,
+    ratio: 0.05,
+    deaths: 1423,
+    maxFrame: 503,
+    time: 11.999999999999968
+  },
+  {
+    n: 1500,
+    teams: 4,
+    ratio: 0.5,
+    deaths: 1472,
+    maxFrame: 758,
+    time: 1.466666666666668
+  },
+  {
+    n: 1500,
+    teams: 4,
+    ratio: 0.95,
+    deaths: 1497,
+    maxFrame: 1494,
+    time: 1.4333333333333345
+  }
+]
+✔ test-results/phase61-mass.mjs (4458.114605ms)
+Error: injected one-shot render failure
+    at api.renderer.draw (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-recovery.mjs:10:145)
+    at frameTick (/workspace/scratch/7410f23822b9/phase62/game-v13.js:189:675)
+    at Object.frame (/workspace/scratch/7410f23822b9/phase62/game-v13.js:188:75)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-recovery.mjs:10:241
+Error: injected transition preparation failure
+    at sandbox.snapshot (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-recovery.mjs:11:30)
+    at Object.chooseMode (/workspace/scratch/7410f23822b9/phase62/game-v13.js:33:56)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-recovery.mjs:11:85
+Error: injected one-shot render failure
+    at api.renderer.draw (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-recovery.mjs:10:145)
+    at frameTick (/workspace/scratch/7410f23822b9/phase62/game-v13.js:189:675)
+    at Object.frame (/workspace/scratch/7410f23822b9/phase62/game-v13.js:188:75)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-recovery.mjs:10:241
+Error: injected transition preparation failure
+    at sandbox.snapshot (file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-recovery.mjs:11:30)
+    at Object.chooseMode (/workspace/scratch/7410f23822b9/phase62/game-v13.js:33:56)
+    at file:///workspace/scratch/7410f23822b9/phase62/test-results/phase61-recovery.mjs:11:85
+[
+  'baseline reproduced: draw exception schedules no next RAF; failed Sandbox refresh leaves Defense battle/objective paired with Sandbox mode',
+  '370px: render exception keeps RAF; failed transition stays coherent; subsequent Sandbox fully resets; selected deletion, all four team clears and Undo; Defense start/result/retry/edit; enemy deletion rejected',
+  '1000px: render exception keeps RAF; failed transition stays coherent; subsequent Sandbox fully resets; selected deletion, all four team clears and Undo; Defense start/result/retry/edit; enemy deletion rejected'
+]
+(node:148) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase61-recovery.mjs (5202.854286ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 162893.81905

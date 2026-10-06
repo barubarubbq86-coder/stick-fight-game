@@ -1,6 +1,6 @@
 {
   "method": "Node VM service-worker/cache simulation, no actual browser install",
-  "key": "stick-fight-%2Ffight%2F-3d-v13-phase61",
+  "key": "stick-fight-%2Ffight%2F-3d-v13-phase62",
   "assetCount": 27,
   "checks": [
     "v12→v13更新・同じ公開サブパスだけ旧キャッシュ削除",
