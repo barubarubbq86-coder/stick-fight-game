@@ -1,0 +1,8 @@
+{
+  "checks": [
+    "8 independently tracked performAttack calls produce 8 global projectiles/events; staggered simultaneous impacts each resolve once; every enemy hit once, allies excluded",
+    "retired global projectile reused as single-target: source/target/area/all overwrite, no residual global hit",
+    "dead target ignores subsequent hit while battle is still running (not relying on battle.result guard)",
+    "Infinity remains range metadata; position/HP finite; no God cast used"
+  ]
+}

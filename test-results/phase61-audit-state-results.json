@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "370px sandbox: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly",
+    "370px giant-outpost: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly",
+    "370px flag-defense: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly",
+    "1000px sandbox: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly",
+    "1000px giant-outpost: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly",
+    "1000px flag-defense: same-mode choice 3x preserves editor/stage/Undo; deletion → same mode → Undo restores exactly",
+    "370px return-to-editor constructor failure is atomic; same-mode recovery fresh flag/Wave; postcommit DOM failure visible and recoverable",
+    "1000px return-to-editor constructor failure is atomic; same-mode recovery fresh flag/Wave; postcommit DOM failure visible and recoverable",
+    "brush stamp 1, history 0, recoveryFails=false: records/IDs/complete history rollback, preview consistent or hidden until mode recovery",
+    "brush stamp 1, history 0, recoveryFails=true: records/IDs/complete history rollback, preview consistent or hidden until mode recovery",
+    "brush stamp 2, history 0, recoveryFails=false: records/IDs/complete history rollback, preview consistent or hidden until mode recovery",
+    "brush stamp 2, history 0, recoveryFails=true: records/IDs/complete history rollback, preview consistent or hidden until mode recovery",
+    "brush stamp 1, history 30, recoveryFails=false: records/IDs/complete history rollback, preview consistent or hidden until mode recovery",
+    "brush stamp 1, history 30, recoveryFails=true: records/IDs/complete history rollback, preview consistent or hidden until mode recovery",
+    "brush stamp 2, history 30, recoveryFails=false: records/IDs/complete history rollback, preview consistent or hidden until mode recovery",
+    "brush stamp 2, history 30, recoveryFails=true: records/IDs/complete history rollback, preview consistent or hidden until mode recovery",
+    "delete: failed presentation hidden, error visible, next mode recovers committed stage without duplicate action",
+    "undo: failed presentation hidden, error visible, next mode recovers committed stage without duplicate action",
+    "startDOM: failed presentation hidden, error visible, next mode recovers committed stage without duplicate action"
+  ]
+}

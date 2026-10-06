@@ -1,0 +1,940 @@
+[
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    attempts: 50,
+    placed: 49,
+    constructor: {
+      n: 49,
+      mean: 0.13767234693877564,
+      max: 0.6285290000000003,
+      over50: 0
+    },
+    refresh: {
+      n: 49,
+      mean: 0.31138812244897857,
+      max: 0.7637919999999951,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 49,
+      mean: 0.42226000000000213,
+      max: 1.2441969999999998,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    attempts: 100,
+    placed: 60,
+    constructor: {
+      n: 60,
+      mean: 0.13428116666666767,
+      max: 0.5060939999999903,
+      over50: 0
+    },
+    refresh: {
+      n: 60,
+      mean: 0.30004345000000066,
+      max: 0.7027099999999962,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 99,
+      mean: 0.29369329292929297,
+      max: 1.3026849999999968,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    attempts: 300,
+    placed: 60,
+    constructor: {
+      n: 60,
+      mean: 0.12908838333333345,
+      max: 0.2229159999999979,
+      over50: 0
+    },
+    refresh: {
+      n: 60,
+      mean: 0.30679963333333876,
+      max: 1.1858980000000088,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 299,
+      mean: 0.186361856187292,
+      max: 3.160177000000033,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    attempts: 50,
+    placed: 45,
+    constructor: {
+      n: 9,
+      mean: 0.16683488888889997,
+      max: 0.2567470000000185,
+      over50: 0
+    },
+    refresh: {
+      n: 9,
+      mean: 0.37935333333333826,
+      max: 0.4440389999999752,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 9,
+      mean: 0.7113028888889011,
+      max: 1.3692950000000224,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    attempts: 100,
+    placed: 60,
+    constructor: {
+      n: 12,
+      mean: 0.18467441666665727,
+      max: 0.2603030000000217,
+      over50: 0
+    },
+    refresh: {
+      n: 12,
+      mean: 0.40296116666667103,
+      max: 0.5446810000000255,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 19,
+      mean: 0.46597657894737293,
+      max: 1.329686000000038,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    attempts: 300,
+    placed: 60,
+    constructor: {
+      n: 12,
+      mean: 0.19558741666667365,
+      max: 0.28519099999999753,
+      over50: 0
+    },
+    refresh: {
+      n: 12,
+      mean: 0.4158238333333297,
+      max: 0.5417470000000435,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 59,
+      mean: 0.25673193220339147,
+      max: 1.4023950000000127,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    attempts: 50,
+    placed: 40,
+    constructor: {
+      n: 4,
+      mean: 0.18709949999998798,
+      max: 0.2137119999999868,
+      over50: 0
+    },
+    refresh: {
+      n: 4,
+      mean: 0.4631264999999871,
+      max: 0.5562799999999584,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 4,
+      mean: 1.1626737499999962,
+      max: 1.670458999999994,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    attempts: 100,
+    placed: 60,
+    constructor: {
+      n: 6,
+      mean: 0.18640283333335597,
+      max: 0.2505580000000691,
+      over50: 0
+    },
+    refresh: {
+      n: 6,
+      mean: 0.4636308333332977,
+      max: 0.5755079999998998,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 9,
+      mean: 0.8357482222222138,
+      max: 1.577949999999987,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    attempts: 300,
+    placed: 60,
+    constructor: {
+      n: 6,
+      mean: 0.20756450000000845,
+      max: 0.26067299999999705,
+      over50: 0
+    },
+    refresh: {
+      n: 6,
+      mean: 0.5171085000000252,
+      max: 0.6510020000000623,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 29,
+      mean: 0.39407099999999085,
+      max: 1.7020069999999805,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    attempts: 50,
+    placed: 49,
+    constructor: {
+      n: 49,
+      mean: 0.11801175510203514,
+      max: 0.232550999999944,
+      over50: 0
+    },
+    refresh: {
+      n: 49,
+      mean: 0.2743590204081603,
+      max: 0.4638790000000199,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 49,
+      mean: 0.3803771836734708,
+      max: 1.2177869999999302,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    attempts: 100,
+    placed: 99,
+    constructor: {
+      n: 99,
+      mean: 0.1490970404040455,
+      max: 0.25031799999999294,
+      over50: 0
+    },
+    refresh: {
+      n: 99,
+      mean: 0.35138226262627154,
+      max: 1.63852200000008,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 99,
+      mean: 0.45346465656564877,
+      max: 1.7234700000000203,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    attempts: 300,
+    placed: 299,
+    constructor: {
+      n: 299,
+      mean: 0.33686009030100345,
+      max: 0.7652349999999615,
+      over50: 0
+    },
+    refresh: {
+      n: 299,
+      mean: 0.6358711471571927,
+      max: 2.603377000000023,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 299,
+      mean: 0.8054743745819412,
+      max: 2.778991999999903,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    attempts: 50,
+    placed: 45,
+    constructor: {
+      n: 9,
+      mean: 0.15721066666664127,
+      max: 0.22522000000003572,
+      over50: 0
+    },
+    refresh: {
+      n: 9,
+      mean: 0.36994022222221346,
+      max: 0.4285859999999957,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 9,
+      mean: 0.6393823333332622,
+      max: 1.4132320000001073,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    attempts: 100,
+    placed: 95,
+    constructor: {
+      n: 19,
+      mean: 0.21627621052632667,
+      max: 0.42120500000009997,
+      over50: 0
+    },
+    refresh: {
+      n: 19,
+      mean: 0.549100842105262,
+      max: 2.3786280000001625,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 19,
+      mean: 0.7680215263157821,
+      max: 2.5533009999999194,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    attempts: 300,
+    placed: 295,
+    constructor: {
+      n: 59,
+      mean: 0.3770895762711577,
+      max: 1.9105319999998756,
+      over50: 0
+    },
+    refresh: {
+      n: 59,
+      mean: 0.7273264237288165,
+      max: 2.5083240000001297,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 59,
+      mean: 0.9157669152542339,
+      max: 2.75951299999997,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    attempts: 50,
+    placed: 40,
+    constructor: {
+      n: 4,
+      mean: 0.1758752500000469,
+      max: 0.19959100000005492,
+      over50: 0
+    },
+    refresh: {
+      n: 4,
+      mean: 0.4327005000000099,
+      max: 0.5512619999999515,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 4,
+      mean: 1.0985045000000468,
+      max: 1.6638090000001284,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    attempts: 100,
+    placed: 90,
+    constructor: {
+      n: 9,
+      mean: 0.24660288888890136,
+      max: 0.4325330000001486,
+      over50: 0
+    },
+    refresh: {
+      n: 9,
+      mean: 0.5188081111111589,
+      max: 0.7054539999999179,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 9,
+      mean: 1.1335454444444824,
+      max: 1.530529000000115,
+      over50: 0
+    }
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    attempts: 300,
+    placed: 290,
+    constructor: {
+      n: 29,
+      mean: 0.3883108275862202,
+      max: 0.688188000000082,
+      over50: 0
+    },
+    refresh: {
+      n: 29,
+      mean: 0.7705015172413886,
+      max: 1.2113870000000588,
+      over50: 0
+    },
+    dom: { n: 0, mean: 0, max: 0, over50: 0 },
+    stamp: {
+      n: 29,
+      mean: 1.4398646896551688,
+      max: 3.5103149999999914,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    attempts: 50,
+    placed: 49,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 49,
+      mean: 0.11545936734695048,
+      max: 0.25539499999990767,
+      over50: 0
+    },
+    dom: {
+      n: 49,
+      mean: 0.10264020408160887,
+      max: 0.20834400000012465,
+      over50: 0
+    },
+    stamp: {
+      n: 49,
+      mean: 0.2323010816326503,
+      max: 1.0749109999999291,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    attempts: 100,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 60,
+      mean: 0.11319738333333286,
+      max: 0.2558160000000953,
+      over50: 0
+    },
+    dom: {
+      n: 60,
+      mean: 0.09980168333332813,
+      max: 0.21244000000001506,
+      over50: 0
+    },
+    stamp: {
+      n: 99,
+      mean: 0.1591292929292833,
+      max: 1.094201000000112,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    attempts: 300,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 60,
+      mean: 0.114989433333335,
+      max: 0.25387300000011237,
+      over50: 0
+    },
+    dom: {
+      n: 60,
+      mean: 0.10193498333333081,
+      max: 0.2074329999998099,
+      over50: 0
+    },
+    stamp: {
+      n: 299,
+      mean: 0.09476897658862717,
+      max: 1.1407010000000355,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    attempts: 50,
+    placed: 45,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 9,
+      mean: 0.2045775555555388,
+      max: 0.34384899999986374,
+      over50: 0
+    },
+    dom: {
+      n: 9,
+      mean: 0.16922088888890763,
+      max: 0.24878499999999804,
+      over50: 0
+    },
+    stamp: {
+      n: 9,
+      mean: 0.5163645555555578,
+      max: 1.5232079999998405,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    attempts: 100,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 12,
+      mean: 0.182075333333349,
+      max: 0.28573100000016893,
+      over50: 0
+    },
+    dom: {
+      n: 12,
+      mean: 0.15232483333335267,
+      max: 0.22462799999993877,
+      over50: 0
+    },
+    stamp: {
+      n: 19,
+      mean: 0.3058276315789379,
+      max: 1.233871999999792,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    attempts: 300,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 12,
+      mean: 0.19136025000000245,
+      max: 0.3933830000000853,
+      over50: 0
+    },
+    dom: {
+      n: 12,
+      mean: 0.1571487499999383,
+      max: 0.3005129999999099,
+      over50: 0
+    },
+    stamp: {
+      n: 59,
+      mean: 0.15406557627116177,
+      max: 1.4753849999999602,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    attempts: 50,
+    placed: 40,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 4,
+      mean: 0.25787624999998116,
+      max: 0.41292299999986426,
+      over50: 0
+    },
+    dom: {
+      n: 4,
+      mean: 0.19905024999997067,
+      max: 0.30468999999993684,
+      over50: 0
+    },
+    stamp: {
+      n: 4,
+      mean: 1.0129479999999376,
+      max: 1.5164769999998953,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    attempts: 100,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 6,
+      mean: 0.26858516666667737,
+      max: 0.38835599999993065,
+      over50: 0
+    },
+    dom: {
+      n: 6,
+      mean: 0.217521333333328,
+      max: 0.32065399999987676,
+      over50: 0
+    },
+    stamp: {
+      n: 9,
+      mean: 0.6516386666666626,
+      max: 1.4807540000001609,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    attempts: 300,
+    placed: 60,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 6,
+      mean: 0.30925983333338536,
+      max: 0.5365690000000995,
+      over50: 0
+    },
+    dom: {
+      n: 6,
+      mean: 0.23315166666668574,
+      max: 0.33683799999994335,
+      over50: 0
+    },
+    stamp: {
+      n: 29,
+      mean: 0.25749986206894926,
+      max: 1.6519419999999627,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    attempts: 50,
+    placed: 49,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 49,
+      mean: 0.11933687755101476,
+      max: 0.3073340000000826,
+      over50: 0
+    },
+    dom: {
+      n: 49,
+      mean: 0.10564091836735018,
+      max: 0.2799119999999675,
+      over50: 0
+    },
+    stamp: {
+      n: 49,
+      mean: 0.2319929387755082,
+      max: 1.0560330000000704,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    attempts: 100,
+    placed: 99,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 99,
+      mean: 0.12783855555556495,
+      max: 0.40562100000011014,
+      over50: 0
+    },
+    dom: {
+      n: 99,
+      mean: 0.11598973737372806,
+      max: 0.3923819999999978,
+      over50: 0
+    },
+    stamp: {
+      n: 99,
+      mean: 0.24065538383837234,
+      max: 1.1124979999999596,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    attempts: 300,
+    placed: 299,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 299,
+      mean: 0.1425573110367863,
+      max: 0.5829389999998966,
+      over50: 0
+    },
+    dom: {
+      n: 299,
+      mean: 0.12526015384614644,
+      max: 0.5655730000000858,
+      over50: 0
+    },
+    stamp: {
+      n: 299,
+      mean: 0.36629846488294804,
+      max: 1.8496010000001206,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    attempts: 50,
+    placed: 45,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 9,
+      mean: 0.1974222222222074,
+      max: 0.30833499999994274,
+      over50: 0
+    },
+    dom: {
+      n: 9,
+      mean: 0.1568155555555677,
+      max: 0.21734799999990173,
+      over50: 0
+    },
+    stamp: {
+      n: 9,
+      mean: 0.485100444444394,
+      max: 1.2497349999998733,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    attempts: 100,
+    placed: 95,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 19,
+      mean: 0.1623142105263708,
+      max: 0.3285449999998491,
+      over50: 0
+    },
+    dom: {
+      n: 19,
+      mean: 0.13478957894724436,
+      max: 0.26439899999968475,
+      over50: 0
+    },
+    stamp: {
+      n: 19,
+      mean: 0.3830499999999598,
+      max: 1.3164560000000165,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    attempts: 300,
+    placed: 295,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 59,
+      mean: 0.21137301694914457,
+      max: 0.295716000000084,
+      over50: 0
+    },
+    dom: {
+      n: 59,
+      mean: 0.18595488135593707,
+      max: 0.273953999999776,
+      over50: 0
+    },
+    stamp: {
+      n: 59,
+      mean: 0.44096683050846397,
+      max: 1.2262390000000778,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    attempts: 50,
+    placed: 40,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 4,
+      mean: 0.24459400000000642,
+      max: 0.3815260000001217,
+      over50: 0
+    },
+    dom: {
+      n: 4,
+      mean: 0.187753250000128,
+      max: 0.2788810000001831,
+      over50: 0
+    },
+    stamp: {
+      n: 4,
+      mean: 0.9200277500000311,
+      max: 1.4712589999999182,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    attempts: 100,
+    placed: 90,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 9,
+      mean: 0.23113644444442294,
+      max: 0.3965480000001662,
+      over50: 0
+    },
+    dom: {
+      n: 9,
+      mean: 0.18697666666669951,
+      max: 0.2872330000000147,
+      over50: 0
+    },
+    stamp: {
+      n: 9,
+      mean: 0.856372777777728,
+      max: 1.5379100000000108,
+      over50: 0
+    }
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    attempts: 300,
+    placed: 290,
+    constructor: { n: 0, mean: 0, max: 0, over50: 0 },
+    refresh: {
+      n: 29,
+      mean: 0.253150758620685,
+      max: 0.39448499999980413,
+      over50: 0
+    },
+    dom: {
+      n: 29,
+      mean: 0.20900868965518699,
+      max: 0.2978400000001784,
+      over50: 0
+    },
+    stamp: {
+      n: 29,
+      mean: 0.9627691724137925,
+      max: 1.5455409999999574,
+      over50: 0
+    }
+  }
+]
+(node:15) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

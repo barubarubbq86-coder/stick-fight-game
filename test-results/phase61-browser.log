@@ -1,0 +1,367 @@
+[
+  '370px native CDP touch brush → start → actual simulation result → retry → edit',
+  '370px visible UI: mode switch, selection → delete, Undo, team delete, settings inner scroll',
+  'two-finger pan/pinch retains editor units',
+  'injected draw exception → visible settings → mode selection → Defense restored'
+] [
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    n: 50,
+    placed: 50,
+    max: 5.199999999953434,
+    constructors: 50,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    n: 100,
+    placed: 60,
+    max: 8.599999999976717,
+    constructors: 60,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 1,
+    n: 300,
+    placed: 60,
+    max: 2.8999999999068677,
+    constructors: 60,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    n: 50,
+    placed: 50,
+    max: 2.299999999930151,
+    constructors: 10,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    n: 100,
+    placed: 60,
+    max: 2.200000000069849,
+    constructors: 12,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 5,
+    n: 300,
+    placed: 60,
+    max: 2,
+    constructors: 12,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    n: 50,
+    placed: 50,
+    max: 2.200000000069849,
+    constructors: 5,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    n: 100,
+    placed: 60,
+    max: 2.200000000069849,
+    constructors: 6,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'official',
+    size: 10,
+    n: 300,
+    placed: 60,
+    max: 2.699999999953434,
+    constructors: 6,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    n: 50,
+    placed: 50,
+    max: 2.299999999930151,
+    constructors: 50,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    n: 100,
+    placed: 100,
+    max: 8.599999999976717,
+    constructors: 100,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 1,
+    n: 300,
+    placed: 300,
+    max: 13.599999999976717,
+    constructors: 300,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    n: 50,
+    placed: 50,
+    max: 4,
+    constructors: 10,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    n: 100,
+    placed: 100,
+    max: 6,
+    constructors: 20,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 5,
+    n: 300,
+    placed: 300,
+    max: 12,
+    constructors: 60,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    n: 50,
+    placed: 50,
+    max: 3.3999999999068677,
+    constructors: 5,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    n: 100,
+    placed: 100,
+    max: 3.0999999998603016,
+    constructors: 10,
+    longtasks: 0
+  },
+  {
+    build: 'base',
+    budget: 'stress',
+    size: 10,
+    n: 300,
+    placed: 300,
+    max: 3.3999999999068677,
+    constructors: 30,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    n: 50,
+    placed: 50,
+    max: 5.5,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    n: 100,
+    placed: 60,
+    max: 4.399999999906868,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 1,
+    n: 300,
+    placed: 60,
+    max: 2.5,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    n: 50,
+    placed: 50,
+    max: 2.0999999998603016,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    n: 100,
+    placed: 60,
+    max: 2.0999999998603016,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 5,
+    n: 300,
+    placed: 60,
+    max: 1.8999999999068677,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    n: 50,
+    placed: 50,
+    max: 2.3999999999068677,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    n: 100,
+    placed: 60,
+    max: 3.9000000001396984,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'official',
+    size: 10,
+    n: 300,
+    placed: 60,
+    max: 2.5,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    n: 50,
+    placed: 50,
+    max: 2.800000000046566,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    n: 100,
+    placed: 100,
+    max: 9.800000000046566,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 1,
+    n: 300,
+    placed: 300,
+    max: 18.4000000001397,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    n: 50,
+    placed: 50,
+    max: 8.199999999953434,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    n: 100,
+    placed: 100,
+    max: 2.800000000046566,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 5,
+    n: 300,
+    placed: 300,
+    max: 15.600000000093132,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    n: 50,
+    placed: 50,
+    max: 3.0999999998603016,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    n: 100,
+    placed: 100,
+    max: 5.099999999860302,
+    constructors: 0,
+    longtasks: 0
+  },
+  {
+    build: 'stable',
+    budget: 'stress',
+    size: 10,
+    n: 300,
+    placed: 300,
+    max: 3,
+    constructors: 0,
+    longtasks: 0
+  }
+]

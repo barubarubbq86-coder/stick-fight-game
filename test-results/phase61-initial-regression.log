@@ -1,0 +1,1508 @@
+[
+  {
+    "scenario": "corners",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "corners",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "corners",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 1,
+    "contacts": {
+      "1-3": 1.633333333333335,
+      "0-2": 1.7333333333333354,
+      "2-3": 1.9666666666666694,
+      "0-1": 2.066666666666669,
+      "0-3": 3.899999999999996,
+      "1-2": 4.56666666666666
+    },
+    "firstExtinction": null,
+    "early": [
+      "1-3",
+      "0-2",
+      "2-3",
+      "0-1",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 42,
+    "contacts": {
+      "0-2": 1.6000000000000016,
+      "1-3": 1.633333333333335,
+      "2-3": 1.9666666666666694,
+      "0-1": 2.066666666666669,
+      "1-2": 4.133333333333328,
+      "0-3": 4.199999999999995
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "2-3",
+      "0-1",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "center",
+    "seed": 97,
+    "contacts": {
+      "1-3": 1.5666666666666682,
+      "0-2": 1.8666666666666691,
+      "2-3": 2.0000000000000027,
+      "0-1": 2.066666666666669,
+      "0-3": 4.433333333333327,
+      "1-2": 4.699999999999993
+    },
+    "firstExtinction": 29.366666666667285,
+    "early": [
+      "1-3",
+      "0-2",
+      "2-3",
+      "0-1",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "strong",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.799999999999989,
+      "1-3": 5.866666666666656,
+      "0-1": 9.166666666666645,
+      "2-3": 9.366666666666644,
+      "1-2": 11.699999999999969,
+      "0-3": 12.099999999999968
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "1-2",
+      "0-3"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 1,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 42,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "three",
+    "seed": 97,
+    "contacts": {
+      "0-2": 5.933333333333322,
+      "0-1": 7.799999999999982,
+      "1-2": 10.133333333333308
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "0-1",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 1,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.59999999999998,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": 29.433333333333955,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 42,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.566666666666647,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  },
+  {
+    "scenario": "guard",
+    "seed": 97,
+    "contacts": {
+      "0-2": 2.7333333333333334,
+      "1-3": 2.9333333333333327,
+      "0-1": 8.233333333333315,
+      "2-3": 8.233333333333315,
+      "0-3": 8.59999999999998,
+      "1-2": 8.833333333333313
+    },
+    "firstExtinction": null,
+    "early": [
+      "0-2",
+      "1-3",
+      "0-1",
+      "2-3",
+      "0-3",
+      "1-2"
+    ]
+  }
+]
+✔ test-results/phase35-mix.mjs (4399.613525ms)
+{
+  "checks": [
+    "all combat values + metadata unchanged",
+    "shock hits both teams only within radius",
+    "shock radial launch and vertical impulse",
+    "immune god HP preserved but shock can move it",
+    "cooldown blocks repeat without damage/count",
+    "independent real-second cooldown resets",
+    "TEAM-only healing",
+    "all-team healing capped at max HP",
+    "healing aggregate HP agrees with unit HP",
+    "lightning uses current positions, all teams, immune HP",
+    "lightning effect emitted",
+    "area damage applied atomically before win decision",
+    "god kills counted separately from character MVP",
+    "post-result cast blocked and report frozen",
+    "mixed gigant reinforcement group uses existing addCharacter",
+    "reinforcement intervention units tracked",
+    "reinforcements do not overlap others",
+    "all god abilities prohibited via rules",
+    "per-ability limits/cooldown/disable through BattleRules",
+    "failed reinforcement rule validation changes neither units nor cooldown/counters",
+    "no-space group fails atomically",
+    "50/100/300 vs same: two-team seeded combat identical to Phase3",
+    "600-unit shock bounded CPU cost",
+    "mixed four-team combat and target claims remain valid"
+  ],
+  "benchmarks": [
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.10610811682243013,
+      "p95Ms": 0.3319309999999973,
+      "result": "TEAM A WIN",
+      "time": 57.06666666666599,
+      "events": 1013
+    },
+    {
+      "version": "v10",
+      "scenario": "50vs50",
+      "meanMs": 0.07228755957943872,
+      "p95Ms": 0.244008000000008,
+      "result": "TEAM A WIN",
+      "time": 57.06666666666599,
+      "events": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.2180163408674385,
+      "p95Ms": 0.563539999999989,
+      "result": "TEAM A WIN",
+      "time": 54.56666666666613,
+      "events": 2002
+    },
+    {
+      "version": "v10",
+      "scenario": "100vs100",
+      "meanMs": 0.12993438912645067,
+      "p95Ms": 0.36721399999998994,
+      "result": "TEAM A WIN",
+      "time": 54.56666666666613,
+      "events": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 0.9287791288096584,
+      "p95Ms": 2.5445290000000114,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "events": 6019
+    },
+    {
+      "version": "v10",
+      "scenario": "300vs300",
+      "meanMs": 0.4818537337550322,
+      "p95Ms": 1.2690750000001572,
+      "result": "TEAM B WIN",
+      "time": 57.96666666666594,
+      "events": 6019
+    },
+    {
+      "scenario": "shock 600 units",
+      "meanMs": 0.041853079999982584,
+      "p95Ms": 0.09936999999990803
+    },
+    {
+      "scenario": "four-team mixed 208",
+      "meanMs": 0.23693351222221534,
+      "p95Ms": 0.6824099999998907
+    }
+  ]
+}
+✔ test-results/phase4-god.mjs (3634.940069ms)
+{
+  "checks": [
+    "only cost/role added; all combat stats preserved",
+    "6 maps × 6 team presets × 4 teams = 144 placement cases",
+    "TEAM C preset exact count",
+    "only target TEAM replaced; terrain/multipliers/other armies and atomic undo preserved",
+    "custom team same-name update",
+    "custom saved formation recall across all TEAMs",
+    "B-origin custom formation mirrors to A",
+    "damage is actual HP loss, overkill/duplicate kill excluded",
+    "stats retained after corpse pruned",
+    "all-team attack credits exact kills and damage",
+    "team report survivors/kills",
+    "final report frozen after ending animation",
+    "source pruned before projectile resolves",
+    "posthumous projectile kill remains credited",
+    "reinforcement and MVP report",
+    "immune draw with no false MVP",
+    "follow smoothing uses live transform",
+    "free camera pose restored after follow",
+    "follow target death auto-releases",
+    "rule boundary: batch cost, allowed characters, team areas",
+    "Sandbox does not enforce cost",
+    "reinforcements obey injected cost rule",
+    "victory policy/time metadata delegated to rule",
+    "50/100/300 vs same: fixed-seed Phase2/3 identical winner, time, attacks, survivors; kills reconcile",
+    "four-way preset battle with gigant"
+  ],
+  "benchmarks": [
+    {
+      "version": "v8",
+      "scenario": "50vs50",
+      "meanMs": 0.10250233352803738,
+      "p95Ms": 0.3105979999999988,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v9",
+      "scenario": "50vs50",
+      "meanMs": 0.06301002920560768,
+      "p95Ms": 0.19833899999997584,
+      "simTime": 57.06666666666599,
+      "result": "TEAM A WIN",
+      "attacks": 1013
+    },
+    {
+      "version": "v8",
+      "scenario": "100vs100",
+      "meanMs": 0.20974686010995616,
+      "p95Ms": 0.5105210000000397,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v9",
+      "scenario": "100vs100",
+      "meanMs": 0.12500825473426883,
+      "p95Ms": 0.313953999999967,
+      "simTime": 54.56666666666613,
+      "result": "TEAM A WIN",
+      "attacks": 2002
+    },
+    {
+      "version": "v8",
+      "scenario": "300vs300",
+      "meanMs": 0.8662092535940188,
+      "p95Ms": 2.0983859999998913,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    },
+    {
+      "version": "v9",
+      "scenario": "300vs300",
+      "meanMs": 0.49701565382403395,
+      "p95Ms": 1.3253389999999854,
+      "simTime": 57.96666666666594,
+      "result": "TEAM B WIN",
+      "attacks": 6019
+    }
+  ]
+}
+✔ test-results/phase4-legacy-logic.mjs (3581.169959ms)
+{
+  "results": [
+    {
+      "scenario": "corners",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-3": 5.733333333333323
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        42,
+        42,
+        42,
+        42
+      ]
+    },
+    {
+      "scenario": "corners",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.799999999999989,
+        "1-3": 5.866666666666656,
+        "0-1": 9.166666666666645,
+        "2-3": 9.366666666666644,
+        "1-2": 11.699999999999969,
+        "0-3": 12.099999999999968
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1124,
+      "aliveAt20": [
+        43,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "scenario": "outer-corners",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 8.199999999999982,
+        "1-3": 8.199999999999982
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        48,
+        48,
+        49,
+        46
+      ]
+    },
+    {
+      "scenario": "outer-corners",
+      "version": "v10",
+      "firstContact": {
+        "1-3": 8.39999999999998,
+        "0-2": 8.39999999999998,
+        "2-3": 9.866666666666642,
+        "0-1": 10.299999999999974,
+        "1-2": 15.833333333333288,
+        "0-3": 16.199999999999964
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 842,
+      "aliveAt20": [
+        49,
+        49,
+        48,
+        50
+      ]
+    },
+    {
+      "scenario": "center",
+      "version": "v9",
+      "firstContact": {
+        "1-3": 1.4333333333333345,
+        "0-2": 1.5333333333333348,
+        "0-1": 1.9666666666666694,
+        "2-3": 2.0000000000000027,
+        "0-3": 14.033333333333294,
+        "1-2": 16.96666666666667
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1560,
+      "aliveAt20": [
+        26,
+        23,
+        21,
+        19
+      ]
+    },
+    {
+      "scenario": "center",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 1.6000000000000016,
+        "1-3": 1.633333333333335,
+        "2-3": 1.9666666666666694,
+        "0-1": 2.066666666666669,
+        "1-2": 4.133333333333328,
+        "0-3": 4.199999999999995
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 2412,
+      "aliveAt20": [
+        24,
+        28,
+        25,
+        23
+      ]
+    },
+    {
+      "scenario": "strong",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-3": 5.733333333333323
+      },
+      "last5OpponentCounts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "localMixSamples": 0,
+      "aliveAt20": [
+        50,
+        41,
+        0,
+        42
+      ]
+    },
+    {
+      "scenario": "strong",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.799999999999989,
+        "1-3": 5.866666666666656,
+        "0-1": 9.166666666666645,
+        "2-3": 9.366666666666644,
+        "1-2": 11.699999999999969,
+        "0-3": 12.099999999999968
+      },
+      "last5OpponentCounts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "localMixSamples": 1101,
+      "aliveAt20": [
+        50,
+        34,
+        21,
+        43
+      ]
+    },
+    {
+      "scenario": "three",
+      "version": "v9",
+      "firstContact": {
+        "0-2": 5.666666666666656,
+        "1-2": 15.466666666666622,
+        "0-1": 15.899999999999954
+      },
+      "last5OpponentCounts": [
+        2,
+        2,
+        2
+      ],
+      "localMixSamples": 411,
+      "aliveAt20": [
+        30,
+        50,
+        36,
+        0
+      ]
+    },
+    {
+      "scenario": "three",
+      "version": "v10",
+      "firstContact": {
+        "0-2": 5.933333333333322,
+        "0-1": 7.799999999999982,
+        "1-2": 10.133333333333308
+      },
+      "last5OpponentCounts": [
+        2,
+        2,
+        2
+      ],
+      "localMixSamples": 528,
+      "aliveAt20": [
+        17,
+        50,
+        43,
+        0
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "map": "plain",
+      "attacks": 983,
+      "result": "TEAM A WIN",
+      "time": 39.166666666667005,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "0-1",
+        "2-3",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "canyon",
+      "attacks": 968,
+      "result": "TEAM D WIN",
+      "time": 57.59999999999929,
+      "pairs": [
+        "1-3",
+        "0-2",
+        "1-2",
+        "2-3",
+        "0-1",
+        "0-3"
+      ]
+    },
+    {
+      "map": "arena",
+      "attacks": 1010,
+      "result": "TEAM A WIN",
+      "time": 42.166666666666835,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "2-3",
+        "0-1",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "castle",
+      "attacks": 881,
+      "result": "TEAM A WIN",
+      "time": 34.80000000000059,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "2-3",
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    },
+    {
+      "map": "hills",
+      "attacks": 961,
+      "result": "TEAM B WIN",
+      "time": 39.133333333333674,
+      "pairs": [
+        "0-2",
+        "1-3",
+        "0-1",
+        "2-3",
+        "0-3",
+        "1-2"
+      ]
+    },
+    {
+      "map": "rocks",
+      "attacks": 981,
+      "result": "TEAM D WIN",
+      "time": 41.10000000000023,
+      "pairs": [
+        "1-3",
+        "0-2",
+        "2-3",
+        "0-1",
+        "1-2",
+        "0-3"
+      ]
+    }
+  ]
+}
+✔ test-results/phase4-mix-detail.mjs (5591.468511ms)
+{
+  "checks": [
+    "PC 1体タップ選択",
+    "PC 選択直後のドラッグ移動・一回確定",
+    "PC UI Undo",
+    "PC 10体ドラッグ範囲選択",
+    "PC 10体移動・陣形維持・選択操作中カメラ不変",
+    "PC 50体ドラッグ範囲選択",
+    "PC 50体移動・陣形維持・選択操作中カメラ不変",
+    "PC TEAM全選択ボタン",
+    "PC 移動途中の2本指パン・ピンチで移動取消／選択保持",
+    "PC pointercancelで無変更",
+    "PC モード変更で移動取消",
+    "PC カメラ回転・選択保持",
+    "PC 選択解除・数表示",
+    "PC Shift追加選択",
+    "PC 明示的移動ボタン・地面タップでも陣形保持",
+    "PC 無効移動は無変更・Undo消費なし",
+    "PC 範囲選択途中の2本指で選択取消",
+    "PC Escape選択解除",
+    "PC 移動後の保存・読込と選択状態リセット",
+    "PC 戦闘開始で編集ジェスチャー分離",
+    "Android相当イベント 1体タップ選択",
+    "Android相当イベント 選択直後のドラッグ移動・一回確定",
+    "Android相当イベント UI Undo",
+    "Android相当イベント 10体ドラッグ範囲選択",
+    "Android相当イベント 10体移動・陣形維持・選択操作中カメラ不変",
+    "Android相当イベント 50体ドラッグ範囲選択",
+    "Android相当イベント 50体移動・陣形維持・選択操作中カメラ不変",
+    "Android相当イベント TEAM全選択ボタン",
+    "Android相当イベント 移動途中の2本指パン・ピンチで移動取消／選択保持",
+    "Android相当イベント pointercancelで無変更",
+    "Android相当イベント モード変更で移動取消",
+    "Android相当イベント カメラ回転・選択保持",
+    "Android相当イベント 選択解除・数表示",
+    "Android相当イベント Shift追加選択",
+    "Android相当イベント 明示的移動ボタン・地面タップでも陣形保持",
+    "Android相当イベント 無効移動は無変更・Undo消費なし",
+    "Android相当イベント 範囲選択途中の2本指で選択取消",
+    "Android相当イベント Escape選択解除",
+    "Android相当イベント 移動後の保存・読込と選択状態リセット",
+    "Android相当イベント 戦闘開始で編集ジェスチャー分離",
+    "300体選択ハイライト：既存インスタンス描画に1500パーツ追加・Draw Call増加0（WebGLアダプター）"
+  ]
+}
+(node:47) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase45-input.mjs (185.296646ms)
+{
+  "checks": [
+    "v12→v13更新・同じ公開サブパスだけ旧キャッシュ削除",
+    "PWA27アセット（新エントリー・選択モジュール含む）の一括保存",
+    "ネットワーク遮断相当：新画面・入力・選択・編集コードをキャッシュから返す",
+    "全相対import参照先が存在しPWA保存対象",
+    "重複DOM IDなし・外部通信不要・既存CSP維持"
+  ]
+}
+✔ test-results/phase45-pwa.mjs (54.444806ms)
+{
+  "checks": [
+    "1体の範囲選択・相対位置維持・一回Undo",
+    "10体の範囲選択・相対位置維持・一回Undo",
+    "50体の範囲選択・相対位置維持・一回Undo",
+    "300体の範囲選択・相対位置維持・一回Undo",
+    "TEAM A/B/C/D全選択",
+    "追加選択・トグル・解除・範囲追加",
+    "端・他兵士への無効移動は全体無変更・Undo消費なし",
+    "壁への移動は陣形を変えず拒否",
+    "プレビュー無変更・古い操作の拒否",
+    "集団45°回転・向き・中心距離・Undo",
+    "選択集団削除・残存ID整理・Undo",
+    "既存配置ルールを集団移動にも適用・コスト二重加算なし"
+  ]
+}
+✔ test-results/phase45-selection.mjs (69.384461ms)
+ノーマル中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+近接中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+遠距離中心 [
+  [ -27, 1, 'CHALLENGE WIN', 36 ],
+  [ -27, 42, 'CHALLENGE WIN', 36 ],
+  [ -27, 97, 'CHALLENGE WIN', 36 ],
+  [ -13, 1, 'CHALLENGE WIN', 36 ],
+  [ -13, 42, 'CHALLENGE WIN', 36 ],
+  [ -13, 97, 'CHALLENGE WIN', 36 ]
+]
+マッスル中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成軍 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成・槍と前衛 [
+  [ -27, 1, 'CHALLENGE WIN', 29 ],
+  [ -27, 42, 'CHALLENGE WIN', 29 ],
+  [ -27, 97, 'CHALLENGE WIN', 29 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+混成・マッスルと槍 [
+  [ -27, 1, 'CHALLENGE WIN', 8 ],
+  [ -27, 42, 'CHALLENGE WIN', 8 ],
+  [ -27, 97, 'CHALLENGE WIN', 8 ],
+  [ -13, 1, 'CHALLENGE WIN', 17 ],
+  [ -13, 42, 'CHALLENGE WIN', 17 ],
+  [ -13, 97, 'CHALLENGE WIN', 17 ]
+]
+少数ノーマル [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+火能力中心 [
+  [ -27, 1, 'CHALLENGE WIN', 5 ],
+  [ -27, 42, 'CHALLENGE WIN', 5 ],
+  [ -27, 97, 'CHALLENGE WIN', 5 ],
+  [ -13, 1, 'CHALLENGE WIN', 6 ],
+  [ -13, 42, 'CHALLENGE WIN', 6 ],
+  [ -13, 97, 'CHALLENGE WIN', 6 ]
+]
+二刀流中心 [
+  [ -27, 1, 'CHALLENGE LOSE', 0 ],
+  [ -27, 42, 'CHALLENGE LOSE', 0 ],
+  [ -27, 97, 'CHALLENGE LOSE', 0 ],
+  [ -13, 1, 'CHALLENGE LOSE', 0 ],
+  [ -13, 42, 'CHALLENGE LOSE', 0 ],
+  [ -13, 97, 'CHALLENGE LOSE', 0 ]
+]
+槍2つ中心 [
+  [ -27, 1, 'CHALLENGE WIN', 11 ],
+  [ -27, 42, 'CHALLENGE WIN', 11 ],
+  [ -27, 97, 'CHALLENGE WIN', 11 ],
+  [ -13, 1, 'CHALLENGE WIN', 16 ],
+  [ -13, 42, 'CHALLENGE WIN', 16 ],
+  [ -13, 97, 'CHALLENGE WIN', 16 ]
+]
+Challengeプリセット [
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 1,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 42,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '⚖️ 前衛と槍の軍',
+    seed: 97,
+    result: 'CHALLENGE LOSE',
+    alive: [ 0, 16, 0, 0 ],
+    time: 22.2
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 1,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 42,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '🔱 槍を守る軍',
+    seed: 97,
+    result: 'CHALLENGE WIN',
+    alive: [ 23, 0, 0, 0 ],
+    time: 24.8
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 1,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 42,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  },
+  {
+    name: '💪 マッスルと護衛',
+    seed: 97,
+    result: 'CHALLENGE WIN',
+    alive: [ 20, 0, 0, 0 ],
+    time: 26.57
+  }
+]
+✔ test-results/phase5-balance.mjs (2254.589181ms)
+[
+  "過剰100体・禁止キャラ・敵編集・地形・倍率・配置エリア外移動を無変更で拒否",
+  "残り70で100体配置を原子的に拒否",
+  "自軍全消去・Undoで固定敵保持",
+  "Challenge用3チームプリセット・置換コスト・エリア検証",
+  "保存データ改変・戦闘増援・全神能力を拒否",
+  "日本語モード選択→固定敵16体・コスト常時表示",
+  "1000px 編成→実戦→結果→同編成再戦→編成復元を3周",
+  "1000px 敗北時の残存数・HP表示と編成復元",
+  "1000px 実ポインタ配置処理で超過拒否と短いフィードバック",
+  "1000px ブラシ5体単位で予算確認・不足スタンプ無変更・Undo",
+  "1000px タップ・範囲選択で敵を編集対象にしない",
+  "1000px Challenge保存・読込で編成と固定敵復元",
+  "1000px Sandboxの4陣営・ギガント・地形倍率・神増援が復帰／編成独立保持",
+  "日本語モード選択→固定敵16体・コスト常時表示",
+  "370px 編成→実戦→結果→同編成再戦→編成復元を3周",
+  "370px 敗北時の残存数・HP表示と編成復元",
+  "370px 実ポインタ配置処理で超過拒否と短いフィードバック",
+  "370px ブラシ5体単位で予算確認・不足スタンプ無変更・Undo",
+  "370px タップ・範囲選択で敵を編集対象にしない",
+  "370px Challenge保存・読込で編成と固定敵復元",
+  "370px Sandboxの4陣営・ギガント・地形倍率・神増援が復帰／編成独立保持"
+]
+(node:79) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase5-challenge.mjs (7456.844995ms)
+[
+  {
+    version: 'before',
+    count: 300,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 56.799999999999336,
+    alive: [ 0, 16, 0, 0 ],
+    events: 2989
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 56.799999999999336,
+    alive: [ 0, 16, 0, 0 ],
+    events: 2989
+  },
+  {
+    version: 'before',
+    count: 300,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 48.13333333333316,
+    alive: [ 0, 43, 0, 0 ],
+    events: 2903
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 48.13333333333316,
+    alive: [ 0, 43, 0, 0 ],
+    events: 2903
+  },
+  {
+    version: 'before',
+    count: 300,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 51.5666666666663,
+    alive: [ 0, 32, 0, 0 ],
+    events: 2928
+  },
+  {
+    version: 'after',
+    count: 300,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 51.5666666666663,
+    alive: [ 0, 32, 0, 0 ],
+    events: 2928
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 47.79999999999985,
+    alive: [ 0, 44, 0, 0 ],
+    events: 5879
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 47.79999999999985,
+    alive: [ 0, 44, 0, 0 ],
+    events: 5879
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 57.96666666666594,
+    alive: [ 0, 18, 0, 0 ],
+    events: 6019
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 42,
+    result: 'TEAM B WIN',
+    time: 57.96666666666594,
+    alive: [ 0, 18, 0, 0 ],
+    events: 6019
+  },
+  {
+    version: 'before',
+    count: 600,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 52.63333333333291,
+    alive: [ 0, 40, 0, 0 ],
+    events: 5944
+  },
+  {
+    version: 'after',
+    count: 600,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 52.63333333333291,
+    alive: [ 0, 40, 0, 0 ],
+    events: 5944
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 49.89999999999973,
+    alive: [ 0, 116, 0, 0 ],
+    events: 9666
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 1,
+    result: 'TEAM B WIN',
+    time: 49.89999999999973,
+    alive: [ 0, 116, 0, 0 ],
+    events: 9666
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 42,
+    result: 'TEAM A WIN',
+    time: 47.76666666666652,
+    alive: [ 89, 0, 0, 0 ],
+    events: 9774
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 42,
+    result: 'TEAM A WIN',
+    time: 47.76666666666652,
+    alive: [ 89, 0, 0, 0 ],
+    events: 9774
+  },
+  {
+    version: 'before',
+    count: 1000,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 43.766666666666744,
+    alive: [ 0, 104, 0, 0 ],
+    events: 9710
+  },
+  {
+    version: 'after',
+    count: 1000,
+    seed: 97,
+    result: 'TEAM B WIN',
+    time: 43.766666666666744,
+    alive: [ 0, 104, 0, 0 ],
+    events: 9710
+  }
+]
+✔ test-results/phase55-outcomes.mjs (24453.052706ms)
+before 300 plain step 0.99 draw 1.68
+before 300 obstacles step 1.37 draw 1.38
+before 300 four step 0.89 draw 1.17
+before 300 ranged step 0.71 draw 1.15
+before 300 god step 0.82 draw 1.40
+before 600 plain step 2.04 draw 2.72
+before 600 obstacles step 3.11 draw 2.49
+before 600 four step 2.22 draw 2.13
+before 600 ranged step 1.83 draw 2.11
+before 600 god step 1.98 draw 2.48
+before 1000 plain step 3.92 draw 4.15
+before 1000 obstacles step 5.76 draw 4.31
+before 1000 four step 5.14 draw 3.39
+before 1000 ranged step 3.51 draw 3.53
+before 1000 god step 3.99 draw 4.14
+before 1500 plain step 6.89 draw 5.94
+before 1500 obstacles step 9.08 draw 5.86
+before 1500 four step 8.72 draw 5.00
+before 1500 ranged step 5.53 draw 5.26
+before 1500 god step 6.61 draw 5.86
+after 300 plain step 0.55 draw 0.72
+after 300 obstacles step 0.95 draw 0.70
+after 300 four step 0.60 draw 0.56
+after 300 ranged step 0.37 draw 0.57
+after 300 god step 0.45 draw 0.68
+after 600 plain step 1.12 draw 1.21
+after 600 obstacles step 2.02 draw 1.15
+after 600 four step 1.41 draw 0.96
+after 600 ranged step 0.98 draw 0.99
+after 600 god step 1.09 draw 1.14
+after 1000 plain step 2.13 draw 1.67
+after 1000 obstacles step 3.68 draw 1.63
+after 1000 four step 3.06 draw 1.41
+after 1000 ranged step 1.91 draw 1.49
+after 1000 god step 2.16 draw 1.61
+after 1500 plain step 3.68 draw 2.48
+after 1500 obstacles step 6.18 draw 2.45
+after 1500 four step 5.65 draw 2.06
+after 1500 ranged step 3.21 draw 2.29
+after 1500 god step 3.67 draw 2.45
+before {
+  rebuild: 17.49197299998923,
+  findEnemy: 399.68822999994154,
+  allySteering: 214.96911099917634,
+  updateAI: 675.4253520005659,
+  updateCharacter: 75.66823199870123,
+  separate: 256.57822799997666,
+  recordDamage: 0.34276300000055926
+}
+after {
+  rebuild: 8.940432000039436,
+  findEnemy: 193.50092200006475,
+  allySteering: 115.06120100092085,
+  updateAI: 362.18565199908335,
+  updateCharacter: 71.15756199735188,
+  separate: 119.95586900008493,
+  recordDamage: 0.2701499999675434
+}
+✔ test-results/phase55-performance.mjs (54158.158153ms)
+[
+  '1000px 5主要ボタン・4カテゴリ・単一シート・選択を戦場側に配置・閉じる/モード変更・神/一時停止・1000体UIを200msに間引く',
+  '1000px Challengeは敵TEAMと戦場設定を非表示、前モードの戦場タブを開かない',
+  '370px 5主要ボタン・4カテゴリ・単一シート・選択を戦場側に配置・閉じる/モード変更・神/一時停止・1000体UIを200msに間引く',
+  '370px Challengeは敵TEAMと戦場設定を非表示、前モードの戦場タブを開かない',
+  '静的構造：戦場を先に、設定は固定シート内スクロール。実ブラウザーのレイアウト測定は未実施'
+]
+(node:103) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase55-ui.mjs (9706.387928ms)
+{
+  "checks": [
+    "3防衛プリセット×3seed：3分完走・3ウェーブ・敵88体・複数勝ち編成",
+    "少数軍は拠点破壊で敗北。兵士全滅だけでは終わらず拠点HPで判定",
+    "予約時刻まで敵出現なし・タイミング跨ぎ一度だけ出現・購入/自由増援なし",
+    "拠点定義・地形・配置エリアの改変を拒否",
+    "durationとwave時刻はデータで短縮可能、時間勝利判定",
+    "1000px 防衛編成→戦闘→結果→同編成再戦→再編集を2周、旗/敵/ウェーブ全初期化",
+    "1000px 攻撃・防衛・Sandboxの編成・制約を独立保持",
+    "370px 防衛編成→戦闘→結果→同編成再戦→再編集を2周、旗/敵/ウェーブ全初期化",
+    "370px 攻撃・防衛・Sandboxの編成・制約を独立保持"
+  ],
+  "results": [
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4870,
+      "wave": 3,
+      "alive": [
+        21,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        14,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "⚖️ 防衛混成軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4685,
+      "wave": 3,
+      "alive": [
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        67,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        69,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "🔱 槍の防衛軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 5000,
+      "wave": 3,
+      "alive": [
+        66,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 1,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        20,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 42,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        19,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "💪 マッスル防衛軍",
+      "cost": 1500,
+      "seed": 97,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 4440,
+      "wave": 3,
+      "alive": [
+        16,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル1",
+      "cost": 10,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 62.46666666666568,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        68,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル10",
+      "cost": 100,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 64.36666666666558,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        68,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル50",
+      "cost": 500,
+      "result": "CHALLENGE LOSE",
+      "elapsed": 98.56666666666364,
+      "hp": 0,
+      "wave": 2,
+      "alive": [
+        0,
+        24,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "ノーマル150",
+      "cost": 1500,
+      "result": "CHALLENGE WIN",
+      "elapsed": 179.99999999999235,
+      "hp": 3650,
+      "wave": 3,
+      "alive": [
+        92,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}
+(node:111) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ test-results/phase6-defense.mjs (20655.26148ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 136211.385469

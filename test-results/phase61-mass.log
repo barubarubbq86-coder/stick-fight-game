@@ -1,0 +1,194 @@
+[
+  {
+    n: 300,
+    teams: 2,
+    ratio: 0.05,
+    deaths: 150,
+    maxFrame: 150,
+    time: 2.4333333333333345
+  },
+  {
+    n: 300,
+    teams: 2,
+    ratio: 0.5,
+    deaths: 150,
+    maxFrame: 150,
+    time: 2.2666666666666684
+  },
+  {
+    n: 300,
+    teams: 2,
+    ratio: 0.95,
+    deaths: 150,
+    maxFrame: 150,
+    time: 2.1000000000000023
+  },
+  {
+    n: 300,
+    teams: 4,
+    ratio: 0.05,
+    deaths: 225,
+    maxFrame: 147,
+    time: 3.166666666666665
+  },
+  {
+    n: 300,
+    teams: 4,
+    ratio: 0.5,
+    deaths: 225,
+    maxFrame: 151,
+    time: 1.466666666666668
+  },
+  {
+    n: 300,
+    teams: 4,
+    ratio: 0.95,
+    deaths: 225,
+    maxFrame: 150,
+    time: 1.4333333333333345
+  },
+  {
+    n: 600,
+    teams: 2,
+    ratio: 0.05,
+    deaths: 300,
+    maxFrame: 300,
+    time: 2.366666666666668
+  },
+  {
+    n: 600,
+    teams: 2,
+    ratio: 0.5,
+    deaths: 300,
+    maxFrame: 300,
+    time: 2.033333333333336
+  },
+  {
+    n: 600,
+    teams: 2,
+    ratio: 0.95,
+    deaths: 300,
+    maxFrame: 300,
+    time: 2.0000000000000027
+  },
+  {
+    n: 600,
+    teams: 4,
+    ratio: 0.05,
+    deaths: 450,
+    maxFrame: 284,
+    time: 2.3000000000000016
+  },
+  {
+    n: 600,
+    teams: 4,
+    ratio: 0.5,
+    deaths: 450,
+    maxFrame: 300,
+    time: 1.4333333333333345
+  },
+  {
+    n: 600,
+    teams: 4,
+    ratio: 0.95,
+    deaths: 450,
+    maxFrame: 450,
+    time: 1.400000000000001
+  },
+  {
+    n: 1000,
+    teams: 2,
+    ratio: 0.05,
+    deaths: 500,
+    maxFrame: 500,
+    time: 2.366666666666668
+  },
+  {
+    n: 1000,
+    teams: 2,
+    ratio: 0.5,
+    deaths: 500,
+    maxFrame: 500,
+    time: 1.8666666666666691
+  },
+  {
+    n: 1000,
+    teams: 2,
+    ratio: 0.95,
+    deaths: 500,
+    maxFrame: 500,
+    time: 1.9666666666666694
+  },
+  {
+    n: 1000,
+    teams: 4,
+    ratio: 0.05,
+    deaths: 750,
+    maxFrame: 485,
+    time: 1.5333333333333348
+  },
+  {
+    n: 1000,
+    teams: 4,
+    ratio: 0.5,
+    deaths: 750,
+    maxFrame: 750,
+    time: 1.400000000000001
+  },
+  {
+    n: 1000,
+    teams: 4,
+    ratio: 0.95,
+    deaths: 750,
+    maxFrame: 750,
+    time: 1.400000000000001
+  },
+  {
+    n: 1500,
+    teams: 2,
+    ratio: 0.05,
+    deaths: 750,
+    maxFrame: 750,
+    time: 1.9666666666666694
+  },
+  {
+    n: 1500,
+    teams: 2,
+    ratio: 0.5,
+    deaths: 750,
+    maxFrame: 750,
+    time: 1.9000000000000026
+  },
+  {
+    n: 1500,
+    teams: 2,
+    ratio: 0.95,
+    deaths: 750,
+    maxFrame: 750,
+    time: 1.933333333333336
+  },
+  {
+    n: 1500,
+    teams: 4,
+    ratio: 0.05,
+    deaths: 1125,
+    maxFrame: 1104,
+    time: 1.5333333333333348
+  },
+  {
+    n: 1500,
+    teams: 4,
+    ratio: 0.5,
+    deaths: 1125,
+    maxFrame: 1125,
+    time: 1.400000000000001
+  },
+  {
+    n: 1500,
+    teams: 4,
+    ratio: 0.95,
+    deaths: 1125,
+    maxFrame: 1125,
+    time: 1.400000000000001
+  }
+]

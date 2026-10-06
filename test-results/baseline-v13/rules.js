@@ -39,5 +39,5 @@ export function assertPlacementAllowed(rules,stage,team,records){if(rules.unrest
  if(rules.costLimit!==null&&totalCost>rules.costLimit)throw Error('コストが足りません');
  for(const u of records)if(!rules.canPlace({...u,team,totalCost}))throw Error(rules.definition?rules.canEditTeam(team)?rules.allowedCharacters&&!records.every(r=>rules.allowedCharacters.has(r.type))?'このキャラは使用できません':'青い自軍配置エリアに置いてください':'敵軍は固定されています。TEAM Aを編成してください。':'現在のルールではこの配置を使用できません。');
 }
-// timeLimit is configuration; each mode defines its outcome through evaluate/victoryCondition.
-// Attack Challenge uses elimination; Defense Challenge evaluates flag HP and its duration.
+// timeLimit is a configuration field: future modes must define timeout outcomes
+// through evaluate/victoryCondition. Challenge implements elimination; defense and timeout modes are not shipped.

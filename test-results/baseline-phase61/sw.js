@@ -1,6 +1,6 @@
 // Each repository subpath owns its cache. A version switches the complete asset set together.
 const PREFIX='stick-fight-'+encodeURIComponent(new URL(self.registration.scope).pathname)+'-';
-const CACHE=PREFIX+'3d-v13-phase61-audit1';
+const CACHE=PREFIX+'3d-v13-phase61';
 const FILES=['./','./index.html','./style.css','./game-v13.js','./data.js','./teams.js','./placement.js','./presets.js','./team-presets.js','./camera-rig.js','./battle-stats.js','./rules.js','./challenges.js','./challenge-mode.js','./defense.js','./multifront.js','./god-abilities.js','./interventions.js','./editor.js','./selection.js','./terrain.js','./simulation.js','./render3d.js','./manifest.json','./icon.svg','./icon-192.png','./icon-512.png'];
 const URLS=new Set(FILES.map(p=>new URL(p,self.location.href).href));
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting())));

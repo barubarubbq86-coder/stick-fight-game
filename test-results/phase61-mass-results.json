@@ -1,0 +1,3541 @@
+{
+  "method": "seed 61, total count, 30Hz, up to 12 simulation seconds; god abilities not used",
+  "results": [
+    {
+      "count": 300,
+      "teams": 2,
+      "ratio": 0.05,
+      "result": null,
+      "time": 11.999999999999968,
+      "totalDeaths": 269,
+      "massDeathFrames": [
+        {
+          "frame": 81,
+          "time": 2.7,
+          "projectilesBefore": 12,
+          "attacks": [
+            {
+              "attacker": 268,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 148,
+          "deaths": 120,
+          "projectilesAfter": 11,
+          "teamHpDelta": [
+            -4220,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 83,
+          "time": 2.7666666666666666,
+          "projectilesBefore": 10,
+          "attacks": [
+            {
+              "attacker": 119,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 148,
+          "deaths": 120,
+          "projectilesAfter": 9,
+          "teamHpDelta": [
+            0,
+            -4220,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 81,
+        "time": 2.7,
+        "projectilesBefore": 12,
+        "attacks": [
+          {
+            "attacker": 268,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 148,
+        "deaths": 120,
+        "projectilesAfter": 11,
+        "teamHpDelta": [
+          -4220,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 300,
+      "teams": 2,
+      "ratio": 0.5,
+      "result": "TEAM A WIN",
+      "time": 2.4000000000000012,
+      "totalDeaths": 285,
+      "massDeathFrames": [
+        {
+          "frame": 64,
+          "time": 2.1333333333333355,
+          "projectilesBefore": 91,
+          "attacks": [
+            {
+              "attacker": 123,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 70,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 300,
+          "deaths": 135,
+          "projectilesAfter": 89,
+          "teamHpDelta": [
+            0,
+            -8925,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 67,
+          "time": 2.233333333333335,
+          "projectilesBefore": 87,
+          "attacks": [
+            {
+              "attacker": 258,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 100,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 164,
+          "deaths": 134,
+          "projectilesAfter": 85,
+          "teamHpDelta": [
+            -3645,
+            -525,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 64,
+        "time": 2.1333333333333355,
+        "projectilesBefore": 91,
+        "attacks": [
+          {
+            "attacker": 123,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 70,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 300,
+        "deaths": 135,
+        "projectilesAfter": 89,
+        "teamHpDelta": [
+          0,
+          -8925,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 300,
+      "teams": 2,
+      "ratio": 0.95,
+      "result": "TEAM B WIN",
+      "time": 2.333333333333335,
+      "totalDeaths": 299,
+      "massDeathFrames": [
+        {
+          "frame": 62,
+          "time": 2.066666666666669,
+          "projectilesBefore": 136,
+          "attacks": [
+            {
+              "attacker": 208,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 150,
+          "deaths": 149,
+          "projectilesAfter": 138,
+          "teamHpDelta": [
+            -3065,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 68,
+          "time": 2.2666666666666684,
+          "projectilesBefore": 140,
+          "attacks": [
+            {
+              "attacker": 123,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 262,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 100,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 300,
+          "deaths": 149,
+          "projectilesAfter": 137,
+          "teamHpDelta": [
+            -35,
+            -8280,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 62,
+        "time": 2.066666666666669,
+        "projectilesBefore": 136,
+        "attacks": [
+          {
+            "attacker": 208,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 150,
+        "deaths": 149,
+        "projectilesAfter": 138,
+        "teamHpDelta": [
+          -3065,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 300,
+      "teams": 4,
+      "ratio": 0.05,
+      "result": "TEAM D WIN",
+      "time": 9.999999999999975,
+      "totalDeaths": 241,
+      "massDeathFrames": [
+        {
+          "frame": 51,
+          "time": 1.700000000000002,
+          "projectilesBefore": 5,
+          "attacks": [
+            {
+              "attacker": 161,
+              "team": 2,
+              "weapon": "punch",
+              "kind": "punch",
+              "all": false,
+              "damage": [
+                10
+              ]
+            },
+            {
+              "attacker": 236,
+              "team": 3,
+              "weapon": "punch",
+              "kind": "punch",
+              "all": false,
+              "damage": [
+                10
+              ]
+            },
+            {
+              "attacker": 284,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 204,
+          "deaths": 105,
+          "projectilesAfter": 3,
+          "teamHpDelta": [
+            -1750,
+            -1915,
+            -2490,
+            0
+          ]
+        },
+        {
+          "frame": 84,
+          "time": 2.8,
+          "projectilesBefore": 2,
+          "attacks": [
+            {
+              "attacker": 285,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 89,
+          "deaths": 55,
+          "projectilesAfter": 1,
+          "teamHpDelta": [
+            -385,
+            -345,
+            -1960,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 51,
+        "time": 1.700000000000002,
+        "projectilesBefore": 5,
+        "attacks": [
+          {
+            "attacker": 161,
+            "team": 2,
+            "weapon": "punch",
+            "kind": "punch",
+            "all": false,
+            "damage": [
+              10
+            ]
+          },
+          {
+            "attacker": 236,
+            "team": 3,
+            "weapon": "punch",
+            "kind": "punch",
+            "all": false,
+            "damage": [
+              10
+            ]
+          },
+          {
+            "attacker": 284,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 204,
+        "deaths": 105,
+        "projectilesAfter": 3,
+        "teamHpDelta": [
+          -1750,
+          -1915,
+          -2490,
+          0
+        ]
+      }
+    },
+    {
+      "count": 300,
+      "teams": 4,
+      "ratio": 0.5,
+      "result": "TEAM D WIN",
+      "time": 2.533333333333334,
+      "totalDeaths": 295,
+      "massDeathFrames": [
+        {
+          "frame": 42,
+          "time": 1.400000000000001,
+          "projectilesBefore": 12,
+          "attacks": [
+            {
+              "attacker": 283,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 203,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 293,
+          "deaths": 129,
+          "projectilesAfter": 10,
+          "teamHpDelta": [
+            -1870,
+            -1820,
+            -2620,
+            -2330
+          ]
+        },
+        {
+          "frame": 43,
+          "time": 1.4333333333333345,
+          "projectilesBefore": 10,
+          "attacks": [
+            {
+              "attacker": 208,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 76,
+          "deaths": 55,
+          "projectilesAfter": 9,
+          "teamHpDelta": [
+            -245,
+            -245,
+            0,
+            -1505
+          ]
+        },
+        {
+          "frame": 47,
+          "time": 1.5666666666666682,
+          "projectilesBefore": 9,
+          "attacks": [
+            {
+              "attacker": 266,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 88,
+          "deaths": 67,
+          "projectilesAfter": 10,
+          "teamHpDelta": [
+            -245,
+            -245,
+            -1805,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 42,
+        "time": 1.400000000000001,
+        "projectilesBefore": 12,
+        "attacks": [
+          {
+            "attacker": 283,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 203,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 293,
+        "deaths": 129,
+        "projectilesAfter": 10,
+        "teamHpDelta": [
+          -1870,
+          -1820,
+          -2620,
+          -2330
+        ]
+      }
+    },
+    {
+      "count": 300,
+      "teams": 4,
+      "ratio": 0.95,
+      "result": "TEAM D WIN",
+      "time": 1.4333333333333345,
+      "totalDeaths": 225,
+      "massDeathFrames": [
+        {
+          "frame": 41,
+          "time": 1.3666666666666676,
+          "projectilesBefore": 32,
+          "attacks": [
+            {
+              "attacker": 256,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 253,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 193,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 672,
+          "deaths": 150,
+          "projectilesAfter": 35,
+          "teamHpDelta": [
+            -6745,
+            -6710,
+            -5250,
+            -2625
+          ]
+        },
+        {
+          "frame": 42,
+          "time": 1.400000000000001,
+          "projectilesBefore": 35,
+          "attacks": [
+            {
+              "attacker": 283,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 221,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 203,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 170,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 95,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 75,
+          "deaths": 75,
+          "projectilesAfter": 30,
+          "teamHpDelta": [
+            0,
+            0,
+            -1530,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 41,
+        "time": 1.3666666666666676,
+        "projectilesBefore": 32,
+        "attacks": [
+          {
+            "attacker": 256,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 253,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 193,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 672,
+        "deaths": 150,
+        "projectilesAfter": 35,
+        "teamHpDelta": [
+          -6745,
+          -6710,
+          -5250,
+          -2625
+        ]
+      }
+    },
+    {
+      "count": 600,
+      "teams": 2,
+      "ratio": 0.05,
+      "result": "TEAM B WIN",
+      "time": 2.999999999999999,
+      "totalDeaths": 543,
+      "massDeathFrames": [
+        {
+          "frame": 75,
+          "time": 2.500000000000001,
+          "projectilesBefore": 26,
+          "attacks": [
+            {
+              "attacker": 533,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 297,
+          "deaths": 240,
+          "projectilesAfter": 25,
+          "teamHpDelta": [
+            -8485,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 78,
+          "time": 2.6000000000000005,
+          "projectilesBefore": 21,
+          "attacks": [
+            {
+              "attacker": 231,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 293,
+          "deaths": 236,
+          "projectilesAfter": 20,
+          "teamHpDelta": [
+            0,
+            -8375,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 75,
+        "time": 2.500000000000001,
+        "projectilesBefore": 26,
+        "attacks": [
+          {
+            "attacker": 533,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 297,
+        "deaths": 240,
+        "projectilesAfter": 25,
+        "teamHpDelta": [
+          -8485,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 600,
+      "teams": 2,
+      "ratio": 0.5,
+      "result": "TEAM A WIN",
+      "time": 2.233333333333335,
+      "totalDeaths": 570,
+      "massDeathFrames": [
+        {
+          "frame": 60,
+          "time": 2.0000000000000027,
+          "projectilesBefore": 142,
+          "attacks": [
+            {
+              "attacker": 191,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 186,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 600,
+          "deaths": 270,
+          "projectilesAfter": 140,
+          "teamHpDelta": [
+            0,
+            -17850,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 65,
+          "time": 2.1666666666666687,
+          "projectilesBefore": 153,
+          "attacks": [
+            {
+              "attacker": 545,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 202,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 331,
+          "deaths": 270,
+          "projectilesAfter": 150,
+          "teamHpDelta": [
+            -7385,
+            -1050,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 60,
+        "time": 2.0000000000000027,
+        "projectilesBefore": 142,
+        "attacks": [
+          {
+            "attacker": 191,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 186,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 600,
+        "deaths": 270,
+        "projectilesAfter": 140,
+        "teamHpDelta": [
+          0,
+          -17850,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 600,
+      "teams": 2,
+      "ratio": 0.95,
+      "result": "TEAM B WIN",
+      "time": 2.233333333333335,
+      "totalDeaths": 597,
+      "massDeathFrames": [
+        {
+          "frame": 59,
+          "time": 1.9666666666666694,
+          "projectilesBefore": 252,
+          "attacks": [
+            {
+              "attacker": 410,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 299,
+          "deaths": 296,
+          "projectilesAfter": 251,
+          "teamHpDelta": [
+            -6115,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 60,
+          "time": 2.0000000000000027,
+          "projectilesBefore": 251,
+          "attacks": [
+            {
+              "attacker": 178,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 191,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 186,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 603,
+          "deaths": 297,
+          "projectilesAfter": 248,
+          "teamHpDelta": [
+            0,
+            -16740,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 60,
+        "time": 2.0000000000000027,
+        "projectilesBefore": 251,
+        "attacks": [
+          {
+            "attacker": 178,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 191,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 186,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 603,
+        "deaths": 297,
+        "projectilesAfter": 248,
+        "teamHpDelta": [
+          0,
+          -16740,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 600,
+      "teams": 4,
+      "ratio": 0.05,
+      "result": null,
+      "time": 11.999999999999968,
+      "totalDeaths": 516,
+      "massDeathFrames": [
+        {
+          "frame": 51,
+          "time": 1.700000000000002,
+          "projectilesBefore": 8,
+          "attacks": [
+            {
+              "attacker": 419,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 404,
+          "deaths": 122,
+          "projectilesAfter": 6,
+          "teamHpDelta": [
+            -4430,
+            -3410,
+            0,
+            -5095
+          ]
+        },
+        {
+          "frame": 52,
+          "time": 1.7333333333333354,
+          "projectilesBefore": 6,
+          "attacks": [
+            {
+              "attacker": 114,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 568,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 468,
+          "deaths": 300,
+          "projectilesAfter": 3,
+          "teamHpDelta": [
+            -3420,
+            -1960,
+            -4670,
+            -3830
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 52,
+        "time": 1.7333333333333354,
+        "projectilesBefore": 6,
+        "attacks": [
+          {
+            "attacker": 114,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 568,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 468,
+        "deaths": 300,
+        "projectilesAfter": 3,
+        "teamHpDelta": [
+          -3420,
+          -1960,
+          -4670,
+          -3830
+        ]
+      }
+    },
+    {
+      "count": 600,
+      "teams": 4,
+      "ratio": 0.5,
+      "result": "TEAM C WIN",
+      "time": 1.5333333333333348,
+      "totalDeaths": 585,
+      "massDeathFrames": [
+        {
+          "frame": 42,
+          "time": 1.400000000000001,
+          "projectilesBefore": 44,
+          "attacks": [
+            {
+              "attacker": 519,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 382,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 245,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 221,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 538,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 1388,
+          "deaths": 531,
+          "projectilesAfter": 42,
+          "teamHpDelta": [
+            -9400,
+            -8895,
+            -14555,
+            -9250
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 42,
+        "time": 1.400000000000001,
+        "projectilesBefore": 44,
+        "attacks": [
+          {
+            "attacker": 519,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 382,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 245,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 221,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 538,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 1388,
+        "deaths": 531,
+        "projectilesAfter": 42,
+        "teamHpDelta": [
+          -9400,
+          -8895,
+          -14555,
+          -9250
+        ]
+      }
+    },
+    {
+      "count": 600,
+      "teams": 4,
+      "ratio": 0.95,
+      "result": "TEAM C WIN",
+      "time": 1.4333333333333345,
+      "totalDeaths": 599,
+      "massDeathFrames": [
+        {
+          "frame": 41,
+          "time": 1.3666666666666676,
+          "projectilesBefore": 76,
+          "attacks": [
+            {
+              "attacker": 447,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 423,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 336,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 317,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 310,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 307,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 586,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 1499,
+          "deaths": 447,
+          "projectilesAfter": 77,
+          "teamHpDelta": [
+            -13565,
+            -13390,
+            -5250,
+            -13640
+          ]
+        },
+        {
+          "frame": 42,
+          "time": 1.400000000000001,
+          "projectilesBefore": 77,
+          "attacks": [
+            {
+              "attacker": 538,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 519,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 485,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 459,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 440,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 382,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 312,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 245,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 221,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 200,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 309,
+          "deaths": 152,
+          "projectilesAfter": 67,
+          "teamHpDelta": [
+            -55,
+            -55,
+            -8385,
+            -90
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 41,
+        "time": 1.3666666666666676,
+        "projectilesBefore": 76,
+        "attacks": [
+          {
+            "attacker": 447,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 423,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 336,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 317,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 310,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 307,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 586,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 1499,
+        "deaths": 447,
+        "projectilesAfter": 77,
+        "teamHpDelta": [
+          -13565,
+          -13390,
+          -5250,
+          -13640
+        ]
+      }
+    },
+    {
+      "count": 1000,
+      "teams": 2,
+      "ratio": 0.05,
+      "result": "TEAM B WIN",
+      "time": 2.8999999999999995,
+      "totalDeaths": 905,
+      "massDeathFrames": [
+        {
+          "frame": 69,
+          "time": 2.3000000000000016,
+          "projectilesBefore": 30,
+          "attacks": [
+            {
+              "attacker": 891,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 493,
+          "deaths": 398,
+          "projectilesAfter": 26,
+          "teamHpDelta": [
+            -14055,
+            -30,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 74,
+          "time": 2.4666666666666677,
+          "projectilesBefore": 21,
+          "attacks": [
+            {
+              "attacker": 382,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 491,
+          "deaths": 395,
+          "projectilesAfter": 19,
+          "teamHpDelta": [
+            -35,
+            -13985,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 69,
+        "time": 2.3000000000000016,
+        "projectilesBefore": 30,
+        "attacks": [
+          {
+            "attacker": 891,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 493,
+        "deaths": 398,
+        "projectilesAfter": 26,
+        "teamHpDelta": [
+          -14055,
+          -30,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 1000,
+      "teams": 2,
+      "ratio": 0.5,
+      "result": "TEAM B WIN",
+      "time": 2.1666666666666687,
+      "totalDeaths": 950,
+      "massDeathFrames": [
+        {
+          "frame": 58,
+          "time": 1.933333333333336,
+          "projectilesBefore": 185,
+          "attacks": [
+            {
+              "attacker": 835,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 410,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 997,
+          "deaths": 897,
+          "projectilesAfter": 182,
+          "teamHpDelta": [
+            -12220,
+            -12210,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 58,
+        "time": 1.933333333333336,
+        "projectilesBefore": 185,
+        "attacks": [
+          {
+            "attacker": 835,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 410,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 997,
+        "deaths": 897,
+        "projectilesAfter": 182,
+        "teamHpDelta": [
+          -12220,
+          -12210,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 1000,
+      "teams": 2,
+      "ratio": 0.95,
+      "result": "TEAM B WIN",
+      "time": 2.1666666666666687,
+      "totalDeaths": 995,
+      "massDeathFrames": [
+        {
+          "frame": 58,
+          "time": 1.933333333333336,
+          "projectilesBefore": 410,
+          "attacks": [
+            {
+              "attacker": 410,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 208,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 572,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 1005,
+          "deaths": 495,
+          "projectilesAfter": 414,
+          "teamHpDelta": [
+            -17500,
+            -10400,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 59,
+          "time": 1.9666666666666694,
+          "projectilesBefore": 414,
+          "attacks": [
+            {
+              "attacker": 980,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 557,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 1000,
+          "deaths": 495,
+          "projectilesAfter": 412,
+          "teamHpDelta": [
+            -27725,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 58,
+        "time": 1.933333333333336,
+        "projectilesBefore": 410,
+        "attacks": [
+          {
+            "attacker": 410,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 208,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 572,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 1005,
+        "deaths": 495,
+        "projectilesAfter": 414,
+        "teamHpDelta": [
+          -17500,
+          -10400,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 1000,
+      "teams": 4,
+      "ratio": 0.05,
+      "result": "TEAM A WIN",
+      "time": 2.9333333333333327,
+      "totalDeaths": 957,
+      "massDeathFrames": [
+        {
+          "frame": 54,
+          "time": 1.8000000000000023,
+          "projectilesBefore": 26,
+          "attacks": [
+            {
+              "attacker": 445,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 700,
+          "deaths": 244,
+          "projectilesAfter": 22,
+          "teamHpDelta": [
+            -7775,
+            -10,
+            -6415,
+            -7840
+          ]
+        },
+        {
+          "frame": 58,
+          "time": 1.933333333333336,
+          "projectilesBefore": 16,
+          "attacks": [
+            {
+              "attacker": 192,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 441,
+          "deaths": 300,
+          "projectilesAfter": 13,
+          "teamHpDelta": [
+            0,
+            -5530,
+            -1645,
+            -5735
+          ]
+        },
+        {
+          "frame": 59,
+          "time": 1.9666666666666694,
+          "projectilesBefore": 13,
+          "attacks": [
+            {
+              "attacker": 222,
+              "team": 0,
+              "weapon": "muscle",
+              "kind": "muscle",
+              "all": false,
+              "damage": [
+                50
+              ]
+            },
+            {
+              "attacker": 700,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 697,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 441,
+          "deaths": 162,
+          "projectilesAfter": 10,
+          "teamHpDelta": [
+            -7540,
+            -3200,
+            -50,
+            -3290
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 58,
+        "time": 1.933333333333336,
+        "projectilesBefore": 16,
+        "attacks": [
+          {
+            "attacker": 192,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 441,
+        "deaths": 300,
+        "projectilesAfter": 13,
+        "teamHpDelta": [
+          0,
+          -5530,
+          -1645,
+          -5735
+        ]
+      }
+    },
+    {
+      "count": 1000,
+      "teams": 4,
+      "ratio": 0.5,
+      "result": "TEAM D WIN",
+      "time": 1.466666666666668,
+      "totalDeaths": 975,
+      "massDeathFrames": [
+        {
+          "frame": 41,
+          "time": 1.3666666666666676,
+          "projectilesBefore": 74,
+          "attacks": [
+            {
+              "attacker": 529,
+              "team": 2,
+              "weapon": "hammer",
+              "kind": "hammer",
+              "all": false,
+              "damage": [
+                30
+              ]
+            },
+            {
+              "attacker": 926,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 636,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 377,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 969,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 2648,
+          "deaths": 679,
+          "projectilesAfter": 75,
+          "teamHpDelta": [
+            -23350,
+            -21715,
+            -21720,
+            -17260
+          ]
+        },
+        {
+          "frame": 42,
+          "time": 1.400000000000001,
+          "projectilesBefore": 75,
+          "attacks": [
+            {
+              "attacker": 951,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 894,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 857,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 687,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 464,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 177,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 653,
+          "deaths": 245,
+          "projectilesAfter": 67,
+          "teamHpDelta": [
+            -3800,
+            -4280,
+            -4220,
+            -7485
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 41,
+        "time": 1.3666666666666676,
+        "projectilesBefore": 74,
+        "attacks": [
+          {
+            "attacker": 529,
+            "team": 2,
+            "weapon": "hammer",
+            "kind": "hammer",
+            "all": false,
+            "damage": [
+              30
+            ]
+          },
+          {
+            "attacker": 926,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 636,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 377,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 969,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 2648,
+        "deaths": 679,
+        "projectilesAfter": 75,
+        "teamHpDelta": [
+          -23350,
+          -21715,
+          -21720,
+          -17260
+        ]
+      }
+    },
+    {
+      "count": 1000,
+      "teams": 4,
+      "ratio": 0.95,
+      "result": "TEAM D WIN",
+      "time": 1.4333333333333345,
+      "totalDeaths": 998,
+      "massDeathFrames": [
+        {
+          "frame": 41,
+          "time": 1.3666666666666676,
+          "projectilesBefore": 112,
+          "attacks": [
+            {
+              "attacker": 969,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 926,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 736,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 718,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 636,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 377,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 323,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 988,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 2989,
+          "deaths": 992,
+          "projectilesAfter": 123,
+          "teamHpDelta": [
+            -22795,
+            -22615,
+            -21550,
+            -22705
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 41,
+        "time": 1.3666666666666676,
+        "projectilesBefore": 112,
+        "attacks": [
+          {
+            "attacker": 969,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 926,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 736,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 718,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 636,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 377,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 323,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 988,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 2989,
+        "deaths": 992,
+        "projectilesAfter": 123,
+        "teamHpDelta": [
+          -22795,
+          -22615,
+          -21550,
+          -22705
+        ]
+      }
+    },
+    {
+      "count": 1500,
+      "teams": 2,
+      "ratio": 0.05,
+      "result": "TEAM A WIN",
+      "time": 2.4666666666666677,
+      "totalDeaths": 1358,
+      "massDeathFrames": [
+        {
+          "frame": 64,
+          "time": 2.1333333333333355,
+          "projectilesBefore": 56,
+          "attacks": [
+            {
+              "attacker": 596,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 741,
+          "deaths": 599,
+          "projectilesAfter": 56,
+          "teamHpDelta": [
+            0,
+            -21150,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 71,
+          "time": 2.366666666666668,
+          "projectilesBefore": 42,
+          "attacks": [
+            {
+              "attacker": 1343,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1342,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 1487,
+          "deaths": 607,
+          "projectilesAfter": 40,
+          "teamHpDelta": [
+            -47210,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 71,
+        "time": 2.366666666666668,
+        "projectilesBefore": 42,
+        "attacks": [
+          {
+            "attacker": 1343,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1342,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 1487,
+        "deaths": 607,
+        "projectilesAfter": 40,
+        "teamHpDelta": [
+          -47210,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 1500,
+      "teams": 2,
+      "ratio": 0.5,
+      "result": "TEAM B WIN",
+      "time": 2.1000000000000023,
+      "totalDeaths": 1425,
+      "massDeathFrames": [
+        {
+          "frame": 55,
+          "time": 1.8333333333333357,
+          "projectilesBefore": 251,
+          "attacks": [
+            {
+              "attacker": 349,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1371,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 1499,
+          "deaths": 677,
+          "projectilesAfter": 249,
+          "teamHpDelta": [
+            -18345,
+            -26235,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 58,
+          "time": 1.933333333333336,
+          "projectilesBefore": 248,
+          "attacks": [
+            {
+              "attacker": 410,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1146,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1242,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 897,
+          "deaths": 672,
+          "projectilesAfter": 245,
+          "teamHpDelta": [
+            -5250,
+            -18285,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 55,
+        "time": 1.8333333333333357,
+        "projectilesBefore": 251,
+        "attacks": [
+          {
+            "attacker": 349,
+            "team": 0,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1371,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 1499,
+        "deaths": 677,
+        "projectilesAfter": 249,
+        "teamHpDelta": [
+          -18345,
+          -26235,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 1500,
+      "teams": 2,
+      "ratio": 0.95,
+      "result": "TEAM B WIN",
+      "time": 2.033333333333336,
+      "totalDeaths": 1493,
+      "massDeathFrames": [
+        {
+          "frame": 57,
+          "time": 1.9000000000000026,
+          "projectilesBefore": 498,
+          "attacks": [
+            {
+              "attacker": 1487,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 932,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 1500,
+          "deaths": 743,
+          "projectilesAfter": 496,
+          "teamHpDelta": [
+            -41585,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 58,
+          "time": 1.933333333333336,
+          "projectilesBefore": 496,
+          "attacks": [
+            {
+              "attacker": 410,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 208,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 757,
+          "deaths": 743,
+          "projectilesAfter": 494,
+          "teamHpDelta": [
+            0,
+            -15580,
+            0,
+            0
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 57,
+        "time": 1.9000000000000026,
+        "projectilesBefore": 498,
+        "attacks": [
+          {
+            "attacker": 1487,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 932,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 1500,
+        "deaths": 743,
+        "projectilesAfter": 496,
+        "teamHpDelta": [
+          -41585,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "count": 1500,
+      "teams": 4,
+      "ratio": 0.05,
+      "result": null,
+      "time": 11.999999999999968,
+      "totalDeaths": 1423,
+      "massDeathFrames": [
+        {
+          "frame": 46,
+          "time": 1.5333333333333348,
+          "projectilesBefore": 24,
+          "attacks": [
+            {
+              "attacker": 1420,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 954,
+          "deaths": 503,
+          "projectilesAfter": 20,
+          "teamHpDelta": [
+            -11490,
+            -8630,
+            -8845,
+            0
+          ]
+        },
+        {
+          "frame": 47,
+          "time": 1.5666666666666682,
+          "projectilesBefore": 20,
+          "attacks": [
+            {
+              "attacker": 1410,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 452,
+          "deaths": 238,
+          "projectilesAfter": 17,
+          "teamHpDelta": [
+            -8900,
+            -2450,
+            -2485,
+            -35
+          ]
+        },
+        {
+          "frame": 49,
+          "time": 1.633333333333335,
+          "projectilesBefore": 15,
+          "attacks": [
+            {
+              "attacker": 1421,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 661,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 639,
+          "deaths": 227,
+          "projectilesAfter": 11,
+          "teamHpDelta": [
+            -4965,
+            -2310,
+            -4930,
+            -8125
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 46,
+        "time": 1.5333333333333348,
+        "projectilesBefore": 24,
+        "attacks": [
+          {
+            "attacker": 1420,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 954,
+        "deaths": 503,
+        "projectilesAfter": 20,
+        "teamHpDelta": [
+          -11490,
+          -8630,
+          -8845,
+          0
+        ]
+      }
+    },
+    {
+      "count": 1500,
+      "teams": 4,
+      "ratio": 0.5,
+      "result": "TEAM C WIN",
+      "time": 1.466666666666668,
+      "totalDeaths": 1472,
+      "massDeathFrames": [
+        {
+          "frame": 41,
+          "time": 1.3666666666666676,
+          "projectilesBefore": 113,
+          "attacks": [
+            {
+              "attacker": 818,
+              "team": 2,
+              "weapon": "hammer",
+              "kind": "hammer",
+              "all": false,
+              "damage": [
+                30
+              ]
+            },
+            {
+              "attacker": 1107,
+              "team": 2,
+              "weapon": "muscle",
+              "kind": "muscle",
+              "all": false,
+              "damage": [
+                50
+              ]
+            },
+            {
+              "attacker": 1141,
+              "team": 3,
+              "weapon": "punch",
+              "kind": "punch",
+              "all": false,
+              "damage": [
+                10
+              ]
+            },
+            {
+              "attacker": 1188,
+              "team": 3,
+              "weapon": "hammer",
+              "kind": "hammer",
+              "all": false,
+              "damage": [
+                30
+              ]
+            },
+            {
+              "attacker": 1396,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1059,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 961,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1432,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 3694,
+          "deaths": 758,
+          "projectilesAfter": 121,
+          "teamHpDelta": [
+            -34815,
+            -33975,
+            -25265,
+            -24520
+          ]
+        },
+        {
+          "frame": 42,
+          "time": 1.400000000000001,
+          "projectilesBefore": 121,
+          "attacks": [
+            {
+              "attacker": 572,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 557,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 186,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 177,
+              "team": 0,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1415,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 1132,
+          "deaths": 586,
+          "projectilesAfter": 114,
+          "teamHpDelta": [
+            -3820,
+            -3730,
+            -13495,
+            -11690
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 41,
+        "time": 1.3666666666666676,
+        "projectilesBefore": 113,
+        "attacks": [
+          {
+            "attacker": 818,
+            "team": 2,
+            "weapon": "hammer",
+            "kind": "hammer",
+            "all": false,
+            "damage": [
+              30
+            ]
+          },
+          {
+            "attacker": 1107,
+            "team": 2,
+            "weapon": "muscle",
+            "kind": "muscle",
+            "all": false,
+            "damage": [
+              50
+            ]
+          },
+          {
+            "attacker": 1141,
+            "team": 3,
+            "weapon": "punch",
+            "kind": "punch",
+            "all": false,
+            "damage": [
+              10
+            ]
+          },
+          {
+            "attacker": 1188,
+            "team": 3,
+            "weapon": "hammer",
+            "kind": "hammer",
+            "all": false,
+            "damage": [
+              30
+            ]
+          },
+          {
+            "attacker": 1396,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1059,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 961,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1432,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 3694,
+        "deaths": 758,
+        "projectilesAfter": 121,
+        "teamHpDelta": [
+          -34815,
+          -33975,
+          -25265,
+          -24520
+        ]
+      }
+    },
+    {
+      "count": 1500,
+      "teams": 4,
+      "ratio": 0.95,
+      "result": "TEAM D WIN",
+      "time": 1.4333333333333345,
+      "totalDeaths": 1497,
+      "massDeathFrames": [
+        {
+          "frame": 41,
+          "time": 1.3666666666666676,
+          "projectilesBefore": 183,
+          "attacks": [
+            {
+              "attacker": 761,
+              "team": 2,
+              "weapon": "sword",
+              "kind": "sword",
+              "all": false,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1469,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1432,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1396,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1262,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1156,
+              "team": 3,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 1059,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 961,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 925,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 887,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 882,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 775,
+              "team": 2,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            },
+            {
+              "attacker": 584,
+              "team": 1,
+              "weapon": "allSpear",
+              "kind": "spear",
+              "all": true,
+              "damage": [
+                35
+              ]
+            }
+          ],
+          "damageEvents": 4534,
+          "deaths": 1494,
+          "projectilesAfter": 190,
+          "teamHpDelta": [
+            -34380,
+            -33665,
+            -34230,
+            -34290
+          ]
+        }
+      ],
+      "maxDeathFrame": {
+        "frame": 41,
+        "time": 1.3666666666666676,
+        "projectilesBefore": 183,
+        "attacks": [
+          {
+            "attacker": 761,
+            "team": 2,
+            "weapon": "sword",
+            "kind": "sword",
+            "all": false,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1469,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1432,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1396,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1262,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1156,
+            "team": 3,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 1059,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 961,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 925,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 887,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 882,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 775,
+            "team": 2,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          },
+          {
+            "attacker": 584,
+            "team": 1,
+            "weapon": "allSpear",
+            "kind": "spear",
+            "all": true,
+            "damage": [
+              35
+            ]
+          }
+        ],
+        "damageEvents": 4534,
+        "deaths": 1494,
+        "projectilesAfter": 190,
+        "teamHpDelta": [
+          -34380,
+          -33665,
+          -34230,
+          -34290
+        ]
+      }
+    }
+  ]
+}

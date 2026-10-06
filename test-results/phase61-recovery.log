@@ -1,0 +1,16 @@
+Error: injected one-shot render failure
+    at api.renderer.draw (file:///workspace/scratch/7410f23822b9/stable/test-results/phase61-recovery.mjs:7:145)
+    at frameTick (/workspace/scratch/7410f23822b9/stable/game-v13.js:170:675)
+    at Object.frame (/workspace/scratch/7410f23822b9/stable/game-v13.js:169:75)
+    at file:///workspace/scratch/7410f23822b9/stable/test-results/phase61-recovery.mjs:7:241
+Error: injected one-shot render failure
+    at api.renderer.draw (file:///workspace/scratch/7410f23822b9/stable/test-results/phase61-recovery.mjs:7:145)
+    at frameTick (/workspace/scratch/7410f23822b9/stable/game-v13.js:170:675)
+    at Object.frame (/workspace/scratch/7410f23822b9/stable/game-v13.js:169:75)
+    at file:///workspace/scratch/7410f23822b9/stable/test-results/phase61-recovery.mjs:7:241
+[
+  '370px: render exception keeps RAF; failed transition stays coherent; subsequent Sandbox fully resets; selected deletion, all four team clears and Undo; Defense start/result/retry/edit; enemy deletion rejected',
+  '1000px: render exception keeps RAF; failed transition stays coherent; subsequent Sandbox fully resets; selected deletion, all four team clears and Undo; Defense start/result/retry/edit; enemy deletion rejected'
+]
+(node:7) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

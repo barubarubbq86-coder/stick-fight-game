@@ -1,0 +1,14 @@
+{
+  "browser": "153.0.8010.0",
+  "checks": [
+    "real Service Worker: v13 phase6 → phase61, same /fight/ scope; old cache removed, new controls loaded",
+    "real offline reload: all application assets served by Service Worker; Defense preset, flag, waves and combat advance offline",
+    "large selected/team deletion asks confirmation; Cancel keeps selection and army",
+    "370x506: selected delete, canvas and five dock buttons remain on screen; no horizontal overflow"
+  ],
+  "caches": [
+    "stick-fight-%2Ffight%2F-3d-v13-phase61"
+  ],
+  "errors": [],
+  "limitations": "Headless desktop Chromium, software GPU. Android hardware, physical touch and PWA installation not tested."
+}

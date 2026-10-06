@@ -1,0 +1,12 @@
+{
+  "browser": "153.0.8010.0",
+  "checks": [
+    "sandbox: visible same-mode reselect preserves formation and Undo",
+    "giant-outpost: visible same-mode reselect preserves formation and Undo",
+    "flag-defense: visible same-mode reselect preserves formation and Undo",
+    "return constructor exception: visible recovery chooser; same Defense restores formation, flag5000/Wave0",
+    "postcommit DOM exception: error visible; Sandbox reselect clears Defense runtime/rules/HUD"
+  ],
+  "errors": [],
+  "method": "370x740 mobile/touch context; visible mode UI, test-only injected failures; not physical Android"
+}

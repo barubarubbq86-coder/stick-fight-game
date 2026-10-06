@@ -1,0 +1,6 @@
+[
+  'real Service Worker: v13 phase6 → phase61, same /fight/ scope; old cache removed, new controls loaded',
+  'real offline reload: all application assets served by Service Worker; Defense preset, flag, waves and combat advance offline',
+  'large selected/team deletion asks confirmation; Cancel keeps selection and army',
+  '370x506: selected delete, canvas and five dock buttons remain on screen; no horizontal overflow'
+]

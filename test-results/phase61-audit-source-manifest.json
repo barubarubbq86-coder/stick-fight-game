@@ -1,0 +1,178 @@
+{
+  "inputs": {
+    "\u8cbc\u308a\u4ed8\u3051\u305fMarkdown(1).md": "1d6071f1971b61d145fa8a0f724eb428b9c59fa73218d3db263d27cd2765d510",
+    "PHASE61-TEST-REPORT.md": "8bcad162a1d6f5f8a8301ba99a769238338c314bbc957e2ce65c5a4d758c5abc",
+    "stick-fight-doodle-3d-v13-phase6(2).zip": "eacf60873d318aee07f82e77d3872abf1b64a1726c3823478a7f4c98f4b8b9f1",
+    "stick-fight-doodle-3d-v13-phase61-stability.zip": "8a7ed3fb80264607719e32f09700b52afd905185ed34e285388da29243acb69b"
+  },
+  "files": [
+    {
+      "file": "battle-stats.js",
+      "inputSha256": "87398507a5662ebd9470bed37aef058b1364db35b0808b33ee85b11716f6a491",
+      "finalSha256": "87398507a5662ebd9470bed37aef058b1364db35b0808b33ee85b11716f6a491",
+      "changed": false
+    },
+    {
+      "file": "camera-rig.js",
+      "inputSha256": "2426b825702c8eaac85b1eed9c5825a69a06df90fe3e104c8900f94990ab6a1b",
+      "finalSha256": "2426b825702c8eaac85b1eed9c5825a69a06df90fe3e104c8900f94990ab6a1b",
+      "changed": false
+    },
+    {
+      "file": "challenge-mode.js",
+      "inputSha256": "7c29025204956fab875d90f343544fc3bf6bd5fd1090795ff7ada99b38e82b4a",
+      "finalSha256": "7c29025204956fab875d90f343544fc3bf6bd5fd1090795ff7ada99b38e82b4a",
+      "changed": false
+    },
+    {
+      "file": "challenges.js",
+      "inputSha256": "2161a0ffe6541ba539f547a877683e663fea393d09ad5cc0720435da7508b70f",
+      "finalSha256": "2161a0ffe6541ba539f547a877683e663fea393d09ad5cc0720435da7508b70f",
+      "changed": false
+    },
+    {
+      "file": "data.js",
+      "inputSha256": "1f4d1154d0a0e6a68c501b058ab3efa84ce49e022586a558a840a4cb281cd294",
+      "finalSha256": "1f4d1154d0a0e6a68c501b058ab3efa84ce49e022586a558a840a4cb281cd294",
+      "changed": false
+    },
+    {
+      "file": "defense.js",
+      "inputSha256": "747590557927782aa601a392cfd52cb8a4528d489b99a1c44257f3c7d40e8934",
+      "finalSha256": "747590557927782aa601a392cfd52cb8a4528d489b99a1c44257f3c7d40e8934",
+      "changed": false
+    },
+    {
+      "file": "editor.js",
+      "inputSha256": "32819c99ec49d495dfeb71a1f6ecc9fc1556b4dea8c5345749c282eb7ace856c",
+      "finalSha256": "32819c99ec49d495dfeb71a1f6ecc9fc1556b4dea8c5345749c282eb7ace856c",
+      "changed": false
+    },
+    {
+      "file": "game-v13.js",
+      "inputSha256": "8cf721974a96b023abdcf6dd5ec6189287e487bab3f2cd09d902d1fdb4ec513d",
+      "finalSha256": "f17f2dedba1f2b2ff578a7db2ecb62467f5a61bec530cf56aa84768f0edeaee9",
+      "changed": true
+    },
+    {
+      "file": "god-abilities.js",
+      "inputSha256": "e6516ed516dc5c03112be1268c3b073d51e3741448b731c663fe4ebe64d542e4",
+      "finalSha256": "e6516ed516dc5c03112be1268c3b073d51e3741448b731c663fe4ebe64d542e4",
+      "changed": false
+    },
+    {
+      "file": "icon-192.png",
+      "inputSha256": "912a24798ed1f68291f8e61ecd0f380bf612a254dd0224dd1cb7c95950fc6e8a",
+      "finalSha256": "912a24798ed1f68291f8e61ecd0f380bf612a254dd0224dd1cb7c95950fc6e8a",
+      "changed": false
+    },
+    {
+      "file": "icon-512.png",
+      "inputSha256": "4c70668dbd04c5b0f0b0970068f258cf936578d201fc6cc2d3b92ddcb5d9437c",
+      "finalSha256": "4c70668dbd04c5b0f0b0970068f258cf936578d201fc6cc2d3b92ddcb5d9437c",
+      "changed": false
+    },
+    {
+      "file": "icon.svg",
+      "inputSha256": "bb46942ea59b7adb0e518b0d39255b2b8c09c87623a51bd1b5c97bd5b7f7c0e1",
+      "finalSha256": "bb46942ea59b7adb0e518b0d39255b2b8c09c87623a51bd1b5c97bd5b7f7c0e1",
+      "changed": false
+    },
+    {
+      "file": "index.html",
+      "inputSha256": "c07b641a1b45716c57b305c581dc2df18cba548b1b14813ecd5fd320189ba5cf",
+      "finalSha256": "7000b14aad929e766d498fad9228f4e6f819d1a7f670a6a70af3a419c76adc2f",
+      "changed": true
+    },
+    {
+      "file": "interventions.js",
+      "inputSha256": "3dab7fc8d00861c271b95a348407bea80ed4e02cad53e7a6badebc2bc788112f",
+      "finalSha256": "3dab7fc8d00861c271b95a348407bea80ed4e02cad53e7a6badebc2bc788112f",
+      "changed": false
+    },
+    {
+      "file": "manifest.json",
+      "inputSha256": "457d563f5ec794ad4f745dcb2d594dbaad68ac94dc672844820e313fc7dabb1e",
+      "finalSha256": "457d563f5ec794ad4f745dcb2d594dbaad68ac94dc672844820e313fc7dabb1e",
+      "changed": false
+    },
+    {
+      "file": "multifront.js",
+      "inputSha256": "24668b6a52c48e0dfb6f34b1ef248aa8bd712bddd0ec25c0f0cf5bd622a8453d",
+      "finalSha256": "24668b6a52c48e0dfb6f34b1ef248aa8bd712bddd0ec25c0f0cf5bd622a8453d",
+      "changed": false
+    },
+    {
+      "file": "package.json",
+      "inputSha256": "6dc1b06d6b093e9cccb20bee06a93836eee0420ae26803ca2ce4065d82f070d1",
+      "finalSha256": "6dc1b06d6b093e9cccb20bee06a93836eee0420ae26803ca2ce4065d82f070d1",
+      "changed": false
+    },
+    {
+      "file": "placement.js",
+      "inputSha256": "d4a667675414cac6e238c5bdf731b2bd440beef942533d5af379c83e834c1147",
+      "finalSha256": "d4a667675414cac6e238c5bdf731b2bd440beef942533d5af379c83e834c1147",
+      "changed": false
+    },
+    {
+      "file": "presets.js",
+      "inputSha256": "e279232a552b5785917df51ad8c184941dffd7f81487327a0ce6352aebd43a44",
+      "finalSha256": "e279232a552b5785917df51ad8c184941dffd7f81487327a0ce6352aebd43a44",
+      "changed": false
+    },
+    {
+      "file": "render3d.js",
+      "inputSha256": "723f20b0ac568604c45684a8ab8b7a9ee1c7e34792f7b849bfb612ac4dc80df7",
+      "finalSha256": "723f20b0ac568604c45684a8ab8b7a9ee1c7e34792f7b849bfb612ac4dc80df7",
+      "changed": false
+    },
+    {
+      "file": "rules.js",
+      "inputSha256": "ce99588f20b55ce7c7907e6cade400946f321f0816c9b1ce0a46f6186ad51e77",
+      "finalSha256": "ce99588f20b55ce7c7907e6cade400946f321f0816c9b1ce0a46f6186ad51e77",
+      "changed": false
+    },
+    {
+      "file": "selection.js",
+      "inputSha256": "cf288be81b0f5eba58e19317b0309a576b551f55062eb25dae369072b62c1024",
+      "finalSha256": "cf288be81b0f5eba58e19317b0309a576b551f55062eb25dae369072b62c1024",
+      "changed": false
+    },
+    {
+      "file": "simulation.js",
+      "inputSha256": "543f9b763cb9c132ce68b907f0da0e01fe8cb5c2295f7cf4861b1715417a928b",
+      "finalSha256": "543f9b763cb9c132ce68b907f0da0e01fe8cb5c2295f7cf4861b1715417a928b",
+      "changed": false
+    },
+    {
+      "file": "style.css",
+      "inputSha256": "d3ef8112d3ba00c8efc9a5d0fb79bc7d47957a2fefda1119fc4983d9671f4f65",
+      "finalSha256": "d3ef8112d3ba00c8efc9a5d0fb79bc7d47957a2fefda1119fc4983d9671f4f65",
+      "changed": false
+    },
+    {
+      "file": "sw.js",
+      "inputSha256": "692b1cbe3971cb7ef29575301a11c7c5fffb1285a43fe6c0618465fd28c8d80f",
+      "finalSha256": "0de0de3c79b29162b5032c256978f4b2301132f8e9041e5c825ab6bcec984d9c",
+      "changed": true
+    },
+    {
+      "file": "team-presets.js",
+      "inputSha256": "62bac3818affa7493a87074c70e3fe2e083247a1012da97335307a5a019e9d7b",
+      "finalSha256": "62bac3818affa7493a87074c70e3fe2e083247a1012da97335307a5a019e9d7b",
+      "changed": false
+    },
+    {
+      "file": "teams.js",
+      "inputSha256": "e43bce8c94ed62565da6811147efad0ae746da69c7bd9df5d6e3916961679ef1",
+      "finalSha256": "e43bce8c94ed62565da6811147efad0ae746da69c7bd9df5d6e3916961679ef1",
+      "changed": false
+    },
+    {
+      "file": "terrain.js",
+      "inputSha256": "732f5fc9af3a549928209fdc11744958a3d48335ddcfd96ba0c95165dcc1ec09",
+      "finalSha256": "732f5fc9af3a549928209fdc11744958a3d48335ddcfd96ba0c95165dcc1ec09",
+      "changed": false
+    }
+  ]
+}

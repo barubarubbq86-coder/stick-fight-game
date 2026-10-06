@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sandbox",
+    "beforeUnits": 5,
+    "afterUnits": 50,
+    "historyBefore": 2,
+    "historyAfter": 0,
+    "same": false
+  },
+  {
+    "id": "giant-outpost",
+    "beforeUnits": 5,
+    "afterUnits": 0,
+    "historyBefore": 2,
+    "historyAfter": 0,
+    "same": false
+  },
+  {
+    "id": "flag-defense",
+    "beforeUnits": 5,
+    "afterUnits": 0,
+    "historyBefore": 2,
+    "historyAfter": 0,
+    "same": false
+  }
+]

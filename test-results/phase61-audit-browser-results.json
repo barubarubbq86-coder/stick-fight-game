@@ -1,0 +1,588 @@
+{
+  "browser": "153.0.8010.0",
+  "method": "actual headless Chromium / SwiftShader software WebGL2, 370x740, CDP native touch; not Android device",
+  "checks": [
+    "370px native CDP touch brush → start → actual simulation result → retry → edit",
+    "370px visible UI: mode switch, selection → delete, Undo, team delete, settings inner scroll",
+    "two-finger pan/pinch retains editor units",
+    "injected draw exception → visible settings → mode selection → Defense restored"
+  ],
+  "results": [
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 1,
+      "attempts": 50,
+      "placed": 50,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 50,
+        "mean": 1.575999999991618,
+        "max": 3.400000000023283,
+        "over50": 0
+      },
+      "dom": {
+        "n": 50,
+        "mean": 1.527999999988824,
+        "max": 3.300000000046566,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 50,
+        "mean": 3.178000000009779,
+        "max": 8.400000000023283,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 1,
+      "attempts": 100,
+      "placed": 60,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 60,
+        "mean": 0.8816666666554132,
+        "max": 1.5,
+        "over50": 0
+      },
+      "dom": {
+        "n": 60,
+        "mean": 0.8399999999868063,
+        "max": 1.5,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 100,
+        "mean": 1.5350000000023283,
+        "max": 2.900000000023283,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 1,
+      "attempts": 300,
+      "placed": 60,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 60,
+        "mean": 0.8100000000034925,
+        "max": 1.1000000000931323,
+        "over50": 0
+      },
+      "dom": {
+        "n": 60,
+        "mean": 0.7783333333306169,
+        "max": 1.1000000000931323,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 300,
+        "mean": 0.7353333333390765,
+        "max": 2.900000000023283,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 5,
+      "attempts": 50,
+      "placed": 50,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 10,
+        "mean": 1.24000000001397,
+        "max": 3.700000000069849,
+        "over50": 0
+      },
+      "dom": {
+        "n": 10,
+        "mean": 1.1600000000093131,
+        "max": 3.599999999976717,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 10,
+        "mean": 4.959999999997672,
+        "max": 14.599999999976717,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 5,
+      "attempts": 100,
+      "placed": 60,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 12,
+        "mean": 0.875,
+        "max": 1.1000000000931323,
+        "over50": 0
+      },
+      "dom": {
+        "n": 12,
+        "mean": 0.8416666666744277,
+        "max": 1.1000000000931323,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 20,
+        "mean": 1.754999999998836,
+        "max": 4.200000000069849,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 5,
+      "attempts": 300,
+      "placed": 60,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 12,
+        "mean": 1.2166666666744277,
+        "max": 1.900000000023283,
+        "over50": 0
+      },
+      "dom": {
+        "n": 12,
+        "mean": 1.1583333333546761,
+        "max": 1.8000000000465661,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 60,
+        "mean": 1.4549999999910748,
+        "max": 7.599999999976717,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 10,
+      "attempts": 50,
+      "placed": 50,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 5,
+        "mean": 1,
+        "max": 1.2999999999301508,
+        "over50": 0
+      },
+      "dom": {
+        "n": 5,
+        "mean": 0.9000000000232831,
+        "max": 1.099999999976717,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 5,
+        "mean": 6,
+        "max": 14,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 10,
+      "attempts": 100,
+      "placed": 60,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 6,
+        "mean": 0.7666666666627862,
+        "max": 0.9000000000232831,
+        "over50": 0
+      },
+      "dom": {
+        "n": 6,
+        "mean": 0.7499999999805974,
+        "max": 0.9000000000232831,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 10,
+        "mean": 3.1100000000093133,
+        "max": 10,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "official",
+      "size": 10,
+      "attempts": 300,
+      "placed": 60,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 6,
+        "mean": 1.0333333333643775,
+        "max": 1.1000000000931323,
+        "over50": 0
+      },
+      "dom": {
+        "n": 6,
+        "mean": 1.0000000000388052,
+        "max": 1.1000000000931323,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 30,
+        "mean": 1.1466666666674428,
+        "max": 5.699999999953434,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 1,
+      "attempts": 50,
+      "placed": 50,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 50,
+        "mean": 1.1539999999990687,
+        "max": 1.8000000000465661,
+        "over50": 0
+      },
+      "dom": {
+        "n": 50,
+        "mean": 1.0840000000083818,
+        "max": 1.8000000000465661,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 50,
+        "mean": 3.8139999999920837,
+        "max": 12.79999999993015,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 1,
+      "attempts": 100,
+      "placed": 100,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 100,
+        "mean": 1.752999999995809,
+        "max": 5.699999999953434,
+        "over50": 0
+      },
+      "dom": {
+        "n": 100,
+        "mean": 1.689999999993015,
+        "max": 5.699999999953434,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 100,
+        "mean": 3.5399999999988356,
+        "max": 7.600000000093132,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 1,
+      "attempts": 300,
+      "placed": 300,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 300,
+        "mean": 1.8939999999994568,
+        "max": 6.5,
+        "over50": 0
+      },
+      "dom": {
+        "n": 300,
+        "mean": 1.832666666667598,
+        "max": 6.400000000023283,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 300,
+        "mean": 3.6343333333327124,
+        "max": 11.5,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 5,
+      "attempts": 50,
+      "placed": 50,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 10,
+        "mean": 1.670000000030268,
+        "max": 4.200000000069849,
+        "over50": 0
+      },
+      "dom": {
+        "n": 10,
+        "mean": 1.620000000030268,
+        "max": 4.200000000069849,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 10,
+        "mean": 2.9599999999860303,
+        "max": 5.400000000023283,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 5,
+      "attempts": 100,
+      "placed": 100,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 20,
+        "mean": 1.175,
+        "max": 1.8000000000465661,
+        "over50": 0
+      },
+      "dom": {
+        "n": 20,
+        "mean": 1.1400000000081492,
+        "max": 1.7000000000698492,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 20,
+        "mean": 2.199999999994179,
+        "max": 2.700000000069849,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 5,
+      "attempts": 300,
+      "placed": 300,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 60,
+        "mean": 1.364999999998448,
+        "max": 2.599999999976717,
+        "over50": 0
+      },
+      "dom": {
+        "n": 60,
+        "mean": 1.3116666666697712,
+        "max": 2.599999999976717,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 60,
+        "mean": 2.464999999990687,
+        "max": 4.199999999953434,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 10,
+      "attempts": 50,
+      "placed": 50,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 5,
+        "mean": 1.799999999976717,
+        "max": 3.400000000023283,
+        "over50": 0
+      },
+      "dom": {
+        "n": 5,
+        "mean": 1.75999999998603,
+        "max": 3.300000000046566,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 5,
+        "mean": 2.8600000000093133,
+        "max": 4.199999999953434,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 10,
+      "attempts": 100,
+      "placed": 100,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 10,
+        "mean": 1.5600000000093133,
+        "max": 5.199999999953434,
+        "over50": 0
+      },
+      "dom": {
+        "n": 10,
+        "mean": 1.5400000000139697,
+        "max": 5.099999999976717,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 10,
+        "mean": 2.7099999999860303,
+        "max": 6.5,
+        "over50": 0
+      },
+      "longtasks": []
+    },
+    {
+      "build": "stable",
+      "budget": "stress",
+      "size": 10,
+      "attempts": 300,
+      "placed": 300,
+      "constructor": {
+        "n": 0,
+        "mean": 0,
+        "max": 0,
+        "over50": 0
+      },
+      "refresh": {
+        "n": 30,
+        "mean": 1.2666666666589057,
+        "max": 3.200000000069849,
+        "over50": 0
+      },
+      "dom": {
+        "n": 30,
+        "mean": 1.1999999999961195,
+        "max": 3,
+        "over50": 0
+      },
+      "stamp": {
+        "n": 30,
+        "mean": 2.4933333333348857,
+        "max": 4.200000000069849,
+        "over50": 0
+      },
+      "longtasks": []
+    }
+  ]
+}
